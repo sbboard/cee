@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: "topic",
+  name: "pageNav",
   methods: {
     changePage(newPage) {
       this.$store.commit("setPage", newPage);

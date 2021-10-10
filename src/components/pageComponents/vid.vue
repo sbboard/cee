@@ -1,8 +1,8 @@
-<template>enriching</template>
+<template>video</template>
 
 <script>
 export default {
-  name: "Enriching",
+  name: "vid",
   computed: {
     json() {
       return this.$store.getters.getJSON;

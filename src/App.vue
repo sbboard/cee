@@ -28,7 +28,7 @@
 
         <!-- pages -->
         <template v-if="json[currentIndex].type == 'page'">
-
+          <page></page>
         </template>
       </main>
     </div>
@@ -38,9 +38,10 @@
 <script>
 import jsonFile from "./app.json";
 import topic from "./components/topic.vue";
+import page from "./components/page.vue";
 
 export default {
-  components: { topic },
+  components: { topic, page },
   name: "CEE Homepage",
   methods: {
     changeIndex(index) {
