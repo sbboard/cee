@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "index": 0,
+      "title": "Planning",
+      "type": "topic",
+      "quote": "There is a good deal of evidence that learning is enhanced when teachers pay attention to the knowledge and beliefs that learners bring to a learning task, use this knowledge as a starting point for new instruction, and monitor students' changing conceptions as instruction proceeds.",
+      "citation": "National Research Council (1999).<br />How People Learn: Brain, Mind, Experience, and School.<br />Bransford, J., Brown, A., and Cocking, R. (eds.).<br />Washington, D.C.: National Academy of Sciences Press.",
+      "more": "Planning in a classroom ecosystem helps teachers create a curriculum that is both goal oriented and responsive to children's interests and learning needs. Maintaining a balance between achieving learning goals and leaving room for children's thoughts and ideas requires formal, flexible and project planning. When we include children in the planning process we honor their capabilities and potential and help create an environment that optimizes learning."
+    },
+    {
+      "index": 1,
+      "title": "Formal Planning",
+      "type": "page",
+      "definition": "Formal planning begins before the school year starts and continues throughout the year. Through formal planning teachers examine state and national science education standards and identify the big ideas and concepts they will address with children.",
+      "benefits": "The big ideas and concepts in science serve as a guide to help create the physical classroom space and plan learning experiences that will spark children's curiosity and prompt inquiry.",
+      "examples": "With the National Science Education Standards as their foundation, teachers decide on the big ideas, concepts and supporting concepts they will use to guide their science instruction. For example, a big idea is \"consistency and change\"; a concept is \"matter comes in different forms\"; a supporting concept is \"how temperature affects the different states of matter.\" On a weekly basis teachers plan experiences around these ideas and concepts. These might include conducting experiments with liquids, solids and gases; collecting and sorting materials; and using the senses to observe and record findings.",
+      "video": {},
+      "enrich": {},
+      "lense": {},
+      "challenges": {}
+    }
+  ]
+}

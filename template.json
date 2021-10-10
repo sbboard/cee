@@ -1,0 +1,24 @@
+{
+  "pages": [
+    {
+      "index": null,
+      "title": null,
+      "type:": "topic",
+      "quote": null,
+      "citation": null,
+      "more": null
+    },
+    {
+      "index": null,
+      "title": null,
+      "type": "page",
+      "definition": null,
+      "benefits": null,
+      "examples": null,
+      "video": {},
+      "enrich": {},
+      "lense": {},
+      "challenges": {}
+    }
+  ]
+}
