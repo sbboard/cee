@@ -1,4 +1,14 @@
-<template>enriching</template>
+<template>
+  <div id="enrich">
+    <h2>What should I keep in mind?</h2>
+    <p>{{ json[currentIndex].enrich.intro }}</p>
+    <ul>
+      <li v-for="i in json[currentIndex].enrich.list" :key="i.text">
+        {{ i.text }}
+      </li>
+    </ul>
+  </div>
+</template>
 
 <script>
 export default {

@@ -3,6 +3,7 @@
     {
       "index": 0,
       "title": "Planning",
+      "colorScheme": "red",
       "type": "topic",
       "quote": "There is a good deal of evidence that learning is enhanced when teachers pay attention to the knowledge and beliefs that learners bring to a learning task, use this knowledge as a starting point for new instruction, and monitor students' changing conceptions as instruction proceeds.",
       "citation": "National Research Council (1999).<br />How People Learn: Brain, Mind, Experience, and School.<br />Bransford, J., Brown, A., and Cocking, R. (eds.).<br />Washington, D.C.: National Academy of Sciences Press.",
@@ -11,14 +12,49 @@
     {
       "index": 1,
       "title": "Formal Planning",
+      "colorScheme": "red",
       "type": "page",
       "definition": "Formal planning begins before the school year starts and continues throughout the year. Through formal planning teachers examine state and national science education standards and identify the big ideas and concepts they will address with children.",
       "benefits": "The big ideas and concepts in science serve as a guide to help create the physical classroom space and plan learning experiences that will spark children's curiosity and prompt inquiry.",
       "examples": "With the National Science Education Standards as their foundation, teachers decide on the big ideas, concepts and supporting concepts they will use to guide their science instruction. For example, a big idea is \"consistency and change\"; a concept is \"matter comes in different forms\"; a supporting concept is \"how temperature affects the different states of matter.\" On a weekly basis teachers plan experiences around these ideas and concepts. These might include conducting experiments with liquids, solids and gases; collecting and sorting materials; and using the senses to observe and record findings.",
-      "video": {},
-      "enrich": {},
-      "lense": {},
-      "challenges": {}
+      "video": {
+        "title": "Lunchtime Planning",
+        "file": "video_12.mp4",
+        "thumbnail": "example.jpg",
+        "description": "All the K-1 teachers meet to discuss experiences students will need to acquire an understanding of different forces (i.e. gravity, friction, push, pull, etc.) and how these forces cause motion.",
+        "AoS": "Physical Sicence",
+        "topic": "Force and Motion",
+        "bigIdea": "Cause and Effect",
+        "concept": "Force causes motion",
+        "gradeLvl": "K-1 Science",
+        "standards": "The motion of objects can be observed and measured. As a basis for understanding this concept:<ol><li>Students know the position of an object can be described by locating it in relation to another object or to the background.</li><li>Students know an object's motion can be described by recording the change in position of the object over time.</li><li>Students know the way to change how something is moving is by giving it a push or a pull. The size of change is related to the strength, or the amount of force, of the push or pull.</li><li>Students know tools and machines are used to apply pushes and pulls (forces) to make things move.</li><li>Students know objects fall to the ground unless something holds them up.</li></ol>"
+      },
+      "enrich": {
+        "intro": "Before developing Formal Planning, consider that children will get the most out of this Component when it has the following properties:",
+        "list": [
+          {
+            "text": "It is seen as a continual process",
+            "more": null,
+            "moreImg": null
+          },
+          {
+            "text": "It begins with teachers identifying the concepts and big ideas",
+            "more": "After looking at state and national science education standards, teachers discuss and record the big ideas and concepts they will teach throughout the year. To prevent jumping from unit to unit and to help facilitate in-depth learning, teachers also spend time planning how to connect these concepts and big ideas.",
+            "moreImg": "for_eco_2.jpg"
+          },
+          {
+            "text": "It provides teachers with a framework of concepts and big ideas",
+            "more": "Days are set aside either before the school year begins or within the first month of school to write up the science curriculum based on state and national science education standards. Teachers begin by identifying the concepts and big ideas and then plan learning experiences around them. They also determine how students will show what they know.",
+            "moreImg": null
+          }
+        ]
+      },
+      "lense": {
+        "sameAsVideo": true
+      },
+      "challenges": {
+        "theText": "<b>My days are already so full, how can I fit in time to plan with other teachers?</b><br/>It is often necessary to look for creative ways to make time for planning. You might turn a weekly lunchtime into a potluck gathering where a group of teachers share a meal and discuss the curriculum. You might schedule PE or extracurricular activities at the same time as your teaching partner and use that time to meet. Some teachers meet while classroom aides are supervising children outside. Others fit in brief 15-minute discussions on several different days each week.<br/>Too often in schools we devote more time to discussing day-to-day nuts and bolts than we do planning curriculum goals. Trading some of the time ordinarily spent on procedures and using it instead for discussions of big ideas and concepts helps shift the focus to children's learning.<br/><b>How can teachers cover everything in the curriculum if they use this approach?</b><br/>The classroom-ecosystem approach stresses depth over breadth. Therefore you should work in the beginning of the year to carefully select the areas you will spend more time on than others. Examine the curriculum and the science education standards and try to determine which concepts and big ideas will be most meaningful for children. Work with other teachers to eliminate the redundancies that rarely deepen understanding.<br/>When teachers feel pressed to cover everything in the standards, the result is a watered down or disconnected program. If you approach the curriculum in terms of big ideas and concepts rather than topics and themes or isolated facts, you'll be better able to help children make connections and gain in-depth knowledge.<br/><b>Should a teacher ever say \"no\" to an idea or investigation that emerges from the student/s?</b><br/>Yes. A teacher's response to a student's idea or investigation should depend on his or her learning goal for the students. What might they learn from the idea? Does it fit with the science concepts and big ideas? Are there cost or safety concerns that might weigh against implementing this particular idea or investigation?<br/>The fact that students are motivated to come up with ideas and ask questions indicates that the teacher is making science relevant and exciting. One way to determine whether ideas or investigations should be pursued is to ask which of the learning goals they will achieve.<br/><b>How much do teachers need to know about science to teach this way?</b><br/>The stronger the teacher's knowledge of the content area the better he or she can help children build their own understanding. A strong knowledge base can also help teachers be sure of where they want to lead children in terms of the learning goals.<br/>To increase their knowledge, teachers can read books, work with colleagues, use teacher guides or carefully selected internet sites, ask experts to come to the classroom, or attend professional development seminars.<br/>Teachers who use the classroom-ecosystem approach need to see themselves as learners with the children, but they also must stay one step ahead, keeping in mind the concepts. Still, that doesn't mean they need to know it all. In the course of investigations children will come up with challenging questions. Teachers must know where to look for information and be willing to take the time to find it. A very important part of the classroom-ecosystem approach is this dynamic of constant learning on the part of both the teacher and the child."
+      }
     }
   ]
 }

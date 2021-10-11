@@ -1,4 +1,14 @@
-<template>video</template>
+<template>
+  <div id="vidPage">
+    <h2>
+      {{ json[currentIndex].video.title }}
+    </h2>
+    <div>
+      <img :src="`./img/${json[currentIndex].video.thumbnail}`" />
+      <p>{{ json[currentIndex].video.description }}</p>
+    </div>
+  </div>
+</template>
 
 <script>
 export default {

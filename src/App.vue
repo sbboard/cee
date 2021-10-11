@@ -69,7 +69,7 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
+<style lang="sass">
 #app
   border: 5px solid black
   position: relative

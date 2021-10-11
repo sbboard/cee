@@ -1,4 +1,8 @@
-<template>challenges</template>
+<template>
+  <div id="challenges">
+    <p v-html="json[currentIndex].challenges.theText"></p>
+  </div>
+</template>
 
 <script>
 export default {
