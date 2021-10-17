@@ -1,10 +1,10 @@
 <template>
-  <div v-if="currentPage == null">
-    <blockquote>{{ json[currentIndex].quote }}</blockquote>
+  <div id="topic" v-if="currentPage == null">
+    <blockquote>"{{ json[currentIndex].quote }}"</blockquote>
     <figcaption v-html="json[currentIndex].citation"></figcaption>
     <div @click="changePage('more')">More</div>
   </div>
-  <div v-if="currentPage == 'more'">
+  <div id="moreBtn" v-if="currentPage == 'more'">
     {{ json[currentIndex].more }}
     <div @click="changePage(null)">Back</div>
   </div>
@@ -33,4 +33,21 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+#topic
+  height: 100%
+  display: flex
+  justify-content: center
+  align-items: center
+  flex-direction: column
+  blockquote
+    font-size: 2em
+    width: 75%
+  figcaption
+    text-align: right
+    width: 75%;
+    margin-top: 1em
+  #moreBtn
+    position: absolute
+    bottom: 0
+    right: 0
 </style>

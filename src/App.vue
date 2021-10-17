@@ -1,8 +1,8 @@
 <template>
-  <div id="app">
+  <div id="home">
     <header>
       <div id="logo">cee</div>
-      <div id="sectionName" class="topRight" v-if="currentPage == null">
+      <div id="sectionName" class="topRight" :class="`${json[currentIndex].colorScheme}Color`" v-if="currentPage == null">
         {{ json[currentIndex].title }}
       </div>
       <div class="topRight" v-else>
@@ -17,7 +17,7 @@
           <template v-for="i in json" :key="i.index">
             <li
               v-if="i.index != null"
-              :class="{ head: i.type == 'topic' }"
+              :class="[{ head: i.type == 'topic' }, `${i.colorScheme}Color`]"
               @click="changeIndex(i.index)"
             >
               {{ i.title }}
@@ -25,7 +25,7 @@
           </template>
         </ul>
       </nav>
-      <main>
+      <main :class="`${json[currentIndex].colorScheme}Color`">
         <!-- topic -->
         <template v-if="json[currentIndex].type == 'topic'">
           <topic></topic>
@@ -89,12 +89,41 @@ export default {
 </script>
 
 <style lang="sass">
-#app
-  border: 5px solid black
+$mobileWidth: 1000px
+
+//color schemes
+$red: rgb(250,221,218)
+$darkRed: rgb(222,69,37)
+$green: rgb(207,254,224)
+$darkGreen: rgb(2,227,69)
+$purple: rgb(245,231,248)
+$darkPurple: rgb(161,86,199)
+$blue: rgb(222,243,252)
+$darkBlue: rgb(59,173,228)
+$yellow: rgb(255,253,220)
+$darkYellow: rgb(243,195,0)
+
+@mixin mobile
+    @media (max-width: #{$mobileWidth})
+        @content
+
+html
+  background-color: yellow
+  height: 100%
+  body
+    height: 100%
+    #app
+      height: 100%
+#home
   position: relative
   min-height: calc(100vh - 10px)
+  max-width: 1000px
+  display: block
+  margin: 0 auto
+  height: 100%
   header
     width: 100%
+    height: 7em
     #logo
       font-family: sans-serif
       color: white
@@ -106,8 +135,12 @@ export default {
       font-size: 3em
       padding: 2rem
       display: inline-block
+      @include mobile
+        border-bottom: 0
+    #sectionName
+      &.redColor
+        background-color: $darkRed
     .topRight
-      background-color: red
       border-bottom: 1px solid red
       width: calc(100% - 13rem - 2px)
       font-size: 3em
@@ -118,16 +151,23 @@ export default {
         float: right
   #bottomPt
     position: relative
-    height: calc(100vh - 10em + 5px)
+    height: calc(100% - 9em)
     nav
-      width: 7em
+      width: 8em
       border-right: 2px solid black
       display: block
       float: left
-      padding: 1em
+      padding: 1em 0 1em 1em
       height: 100%
-      .head
+      background-color: white
+      @include mobile
+        display: none
+      li.head
         font-weight: bold
+        margin-bottom: .5em
+        display: block
+        &.redColor
+          border-bottom: 4px solid $darkRed
     main
       margin-left: calc(9em + 2px)
       width: calc(100% - 11em + -2px)
@@ -135,4 +175,9 @@ export default {
       padding: 1em
       height: 100%
       position: relative
+      &.redColor
+        background-color: $red
+      @include mobile
+        width: calc(100% - 2em)
+        margin-left: 0
 </style>
