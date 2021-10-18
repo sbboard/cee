@@ -131,7 +131,7 @@ html
       background-color: grey
       border-right: 2px solid black
       border-bottom: 1px solid black
-      width: 5rem
+      width: 6rem
       text-align: center
       font-size: 3em
       padding: 2rem
@@ -143,7 +143,7 @@ html
         background-color: $darkRed
     .topRight
       border-bottom: 1px solid red
-      width: calc(100% - 13rem - 2px)
+      width: calc(100% - 14rem - 2px)
       font-size: 3em
       padding: 2rem
       display: inline-block
@@ -154,24 +154,31 @@ html
     position: relative
     height: calc(100% - 9em)
     nav
-      width: 8em
+      width: 10em
       border-right: 2px solid black
       display: block
       float: left
-      padding: 1em 0 1em 1em
-      height: 100%
+      height: calc(100% + 2em)
       background-color: white
       @include mobile
         display: none
+      li
+        cursor: pointer
+        padding: .5em 0
+        padding-left: 1.5em
+        &.redColor
+          &:hover
+            background-color: $red
       li.head
         font-weight: bold
-        margin-bottom: .5em
         display: block
+        font-size: 1.25em
+        padding-left: 1em
         &.redColor
           border-bottom: 4px solid $darkRed
     main
-      margin-left: calc(9em + 2px)
-      width: calc(100% - 11em + -2px)
+      margin-left: calc(10em + 2px);
+      width: calc(100% - 12em + -2px);
       background-color: pink
       padding: 1em
       height: 100%

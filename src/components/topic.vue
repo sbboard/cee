@@ -53,7 +53,6 @@ export default {
     position: absolute
     bottom: 0
     right: 0
-    /* padding: 2em; */
     border: 2px solid black
     height: 4em
     width: 4em
