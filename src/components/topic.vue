@@ -2,7 +2,7 @@
   <div id="topic" v-if="currentPage == null">
     <blockquote>"{{ json[currentIndex].quote }}"</blockquote>
     <figcaption v-html="json[currentIndex].citation"></figcaption>
-    <div @click="changePage('more')">More</div>
+    <div id="moreBtn" @click="changePage('more')">More</div>
   </div>
   <div id="moreBtn" v-if="currentPage == 'more'">
     {{ json[currentIndex].more }}
@@ -44,10 +44,25 @@ export default {
     width: 75%
   figcaption
     text-align: right
-    width: 75%;
+    width: 75%
     margin-top: 1em
   #moreBtn
     position: absolute
     bottom: 0
     right: 0
+    position: absolute
+    bottom: 0
+    right: 0
+    /* padding: 2em; */
+    border: 2px solid black
+    height: 4em
+    width: 4em
+    display: flex
+    align-content: center
+    cursor: pointer
+    align-items: center
+    margin: .5em
+    justify-content: center
+    box-shadow: aqua
+    border-radius: 100%
 </style>

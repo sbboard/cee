@@ -108,7 +108,7 @@ $darkYellow: rgb(243,195,0)
         @content
 
 html
-  background-color: yellow
+  background: #202020
   height: 100%
   body
     height: 100%
@@ -121,6 +121,7 @@ html
   display: block
   margin: 0 auto
   height: 100%
+  box-shadow: 0px 20px 37px 10px #000, 0px -20px 37px 10px #000
   header
     width: 100%
     height: 7em

@@ -1,9 +1,9 @@
 <template>
   <div id="pageNav">
-    <div @click="changePage('example')">eye</div>
-    <div @click="changePage('enrich')">enrich</div>
-    <div @click="changePage('lense')">magnifying glass</div>
-    <div @click="changePage('challenges')">arrow</div>
+    <div @click="changePage('example')"><i class="far fa-eye"></i></div>
+    <div @click="changePage('enrich')"><i class="fas fa-tint"></i></div>
+    <div @click="changePage('lense')"><i class="fas fa-search"></i></div>
+    <div @click="changePage('challenges')"><i class="fas fa-arrow-circle-up"></i></div>
   </div>
 </template>
 
