@@ -4,9 +4,9 @@
     <figcaption v-html="json[currentIndex].citation"></figcaption>
     <div id="moreBtn" @click="changePage('more')">More</div>
   </div>
-  <div id="moreBtn" v-if="currentPage == 'more'">
+  <div id="more" v-if="currentPage == 'more'">
     {{ json[currentIndex].more }}
-    <div @click="changePage(null)">Back</div>
+    <div id="moreBtn" @click="changePage(null)">Back</div>
   </div>
 </template>
 
@@ -46,22 +46,7 @@ export default {
     text-align: right
     width: 75%
     margin-top: 1em
-  #moreBtn
-    position: absolute
-    bottom: 0
-    right: 0
-    position: absolute
-    bottom: 0
-    right: 0
-    border: 2px solid black
-    height: 4em
-    width: 4em
-    display: flex
-    align-content: center
-    cursor: pointer
-    align-items: center
-    margin: .5em
-    justify-content: center
-    box-shadow: aqua
-    border-radius: 100%
+#more
+  padding: 2rem
+  font-size: 1.25rem
 </style>

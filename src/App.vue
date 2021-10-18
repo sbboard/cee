@@ -2,12 +2,12 @@
   <div id="home">
     <header>
       <div id="logo">cee</div>
-      <div id="sectionName" class="topRight" :class="`${json[currentIndex].colorScheme}Color`" v-if="currentPage == null">
+      <div id="sectionName" class="topRight" :class="`${json[currentIndex].colorScheme}Color`" v-if="currentPage == null || currentPage == 'more'">
         {{ json[currentIndex].title }}
       </div>
-      <div class="topRight" v-else>
-        {{ pageName }}
-        {{ json[currentIndex].title }}
+      <div id="sectionName" class="topRight" :class="`${json[currentIndex].colorScheme}Color`" v-else>
+        <span class="pageName">{{ pageName }}</span>
+        <span class="title">{{ json[currentIndex].title }}</span>
         <div id="pageNav">filler</div>
       </div>
     </header>
@@ -17,7 +17,7 @@
           <template v-for="i in json" :key="i.index">
             <li
               v-if="i.index != null"
-              :class="[{ head: i.type == 'topic' }, `${i.colorScheme}Color`]"
+              :class="[{ head: i.type == 'topic' }, `${i.colorScheme}Color`, {active: i.index == currentIndex}]"
               @click="changeIndex(i.index)"
             >
               {{ i.title }}
@@ -125,6 +125,7 @@ html
   header
     width: 100%
     height: 7em
+    position: relative
     #logo
       font-family: sans-serif
       color: white
@@ -139,17 +140,32 @@ html
       @include mobile
         border-bottom: 0
     #sectionName
+      display: inline-flex
+      flex-direction: column
+      float: right
+      height: calc(100% - 4rem)
+      #pageNav
+        position: absolute
+        right: 2rem
+        @include mobile
+          display: none
+      span
+        font-size: .5em
+        display: block
+      .pageName
+        border-bottom: 1px solid black
+      .title
+          font-size: 1rem
       &.redColor
         background-color: $darkRed
+        #pageNav
+          background-color: $darkRed
     .topRight
       border-bottom: 1px solid red
       width: calc(100% - 14rem - 2px)
       font-size: 3em
       padding: 2rem
       display: inline-block
-      #pageNav
-        display: inline-block
-        float: right
   #bottomPt
     position: relative
     height: calc(100% - 9em)
@@ -166,9 +182,13 @@ html
         cursor: pointer
         padding: .5em 0
         padding-left: 1.5em
+        background-color: white
+        transition: background-color 250ms
         &.redColor
           &:hover
             background-color: $red
+          &.active
+            background-color: $darkRed
       li.head
         font-weight: bold
         display: block
@@ -188,4 +208,23 @@ html
       @include mobile
         width: calc(100% - 2em)
         margin-left: 0
+  #moreBtn
+    position: absolute
+    bottom: 0
+    right: 0
+    position: absolute
+    bottom: 0
+    right: 0
+    border: 2px solid black
+    height: 4rem
+    width: 4rem
+    display: flex
+    align-content: center
+    cursor: pointer
+    font-size: 1rem
+    align-items: center
+    margin: .5rem
+    justify-content: center
+    box-shadow: aqua
+    border-radius: 100%
 </style>
