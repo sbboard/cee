@@ -1,9 +1,19 @@
 <template>
   <div id="pageNav">
-    <div @click="changePage('example')"><i class="far fa-eye"></i></div>
-    <div @click="changePage('enrich')"><i class="fas fa-tint"></i></div>
-    <div @click="changePage('lense')"><i class="fas fa-search"></i></div>
-    <div @click="changePage('challenges')"><i class="fas fa-arrow-circle-up"></i></div>
+    <div @click="changePage('example')">
+      <i class="far fa-eye"></i>
+      <span>example video</span>
+    </div>
+    <div @click="changePage('enrich')">
+      <i class="fas fa-tint"></i><span>enriching your ecosystem</span>
+    </div>
+    <div @click="changePage('lense')">
+      <i class="fas fa-search"></i><span>interconnection lenses</span>
+    </div>
+    <div @click="changePage('challenges')">
+      <i class="fas fa-arrow-circle-up"></i>
+      <span>common challenges</span>
+    </div>
   </div>
 </template>
 
@@ -30,17 +40,64 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+$mobileWidth: 1000px
+
+//color schemes
+$red: rgb(250,221,218)
+$darkRed: rgb(222,69,37)
+$green: rgb(207,254,224)
+$darkGreen: rgb(2,227,69)
+$purple: rgb(245,231,248)
+$darkPurple: rgb(161,86,199)
+$blue: rgb(222,243,252)
+$darkBlue: rgb(59,173,228)
+$yellow: rgb(255,253,220)
+$darkYellow: rgb(243,195,0)
+@mixin mobile
+  @media (max-width: #{$mobileWidth})
+    @content
 #pageNav
-    position: absolute
-    bottom: 0
-    margin: 0 auto
-    left: 0
-    right: 0
-    text-align: center
-    display: block
-    padding: 1em
-    border-top-left-radius: 2em
-    border-top-right-radius: 2em
-    width: 81%
-    background-color: rgba(0,0,0,.2)
+  position: absolute
+  bottom: 0
+  margin: 0 auto
+  left: 0
+  height: 6em
+  right: 0
+  text-align: center
+  display: flex
+  align-items: center
+  justify-content: center
+  padding: 1em
+  align-items: flex-end
+  padding-bottom: 0
+  border-top-left-radius: 2em
+  border-top-right-radius: 2em
+  width: 80%
+  background-color: rgba(0, 0, 0, 0.2)
+  transition: width 200ms, border-radius 200ms
+  @include mobile
+    width: calc(100% - 2rem)
+    border-radius: 0
+  div
+    display: inline-flex
+    cursor: pointer
+    width: 6rem
+    align-items: center
+    flex-direction: column
+    padding: 2.5rem 1rem 1rem 1rem
+    font-size: 4rem
+    transition: padding 200ms linear
+    &:hover
+      padding: 0rem 1rem 1rem 1rem
+      span
+        height: 2rem
+        opacity: 1
+        margin-top: .5rem
+  span
+    margin: 0
+    font-size: 1rem
+    height: 0
+    opacity: 0
+    overflow: hidden
+    transition: height 200ms linear, opacity 200ms linear, margin-top 200ms linear
 </style>
