@@ -2,13 +2,48 @@
   <div id="home">
     <header>
       <div id="logo">cee</div>
-      <div id="sectionName" class="topRight" :class="`${json[currentIndex].colorScheme}Color`" v-if="currentPage == null || currentPage == 'more'">
+      <div
+        id="sectionName"
+        class="topRight"
+        :class="`${json[currentIndex].colorScheme}Color`"
+        v-if="currentPage == null || currentPage == 'more'"
+      >
         {{ json[currentIndex].title }}
       </div>
-      <div id="sectionName" class="topRight" :class="`${json[currentIndex].colorScheme}Color`" v-else>
+      <div
+        id="sectionName"
+        class="topRight"
+        :class="`${json[currentIndex].colorScheme}Color`"
+        v-else
+      >
         <span class="pageName">{{ pageName }}</span>
         <span class="title">{{ json[currentIndex].title }}</span>
-        <div id="pageNav">filler</div>
+        <div id="pageNav">
+          <div
+            @click="changePage('example')"
+            :class="{ active: currentPage == 'example' }"
+          >
+            <i class="far fa-eye"></i>
+          </div>
+          <div
+            @click="changePage('enrich')"
+            :class="{ active: currentPage == 'enrich' }"
+          >
+            <i class="fas fa-tint"></i>
+          </div>
+          <div
+            @click="changePage('lense')"
+            :class="{ active: currentPage == 'lense' }"
+          >
+            <i class="fas fa-search"></i>
+          </div>
+          <div
+            @click="changePage('challenges')"
+            :class="{ active: currentPage == 'challenges' }"
+          >
+            <i class="fas fa-arrow-circle-up"></i>
+          </div>
+        </div>
       </div>
     </header>
     <div id="bottomPt">
@@ -17,7 +52,11 @@
           <template v-for="i in json" :key="i.index">
             <li
               v-if="i.index != null"
-              :class="[{ head: i.type == 'topic' }, `${i.colorScheme}Color`, {active: i.index == currentIndex}]"
+              :class="[
+                { head: i.type == 'topic' },
+                `${i.colorScheme}Color`,
+                { active: i.index == currentIndex },
+              ]"
               @click="changeIndex(i.index)"
             >
               {{ i.title }}
@@ -104,8 +143,8 @@ $yellow: rgb(255,253,220)
 $darkYellow: rgb(243,195,0)
 
 @mixin mobile
-    @media (max-width: #{$mobileWidth})
-        @content
+  @media (max-width: #{$mobileWidth})
+    @content
 
 html
   background: #202020
@@ -147,6 +186,20 @@ html
       #pageNav
         position: absolute
         right: 2rem
+        width: 5em
+        cursor: pointer
+        padding-left: 1rem
+        color: white
+        div
+          width: 1.25em
+          display: inline-block
+          text-align: center
+          font-size: 3rem
+          transition: color 250ms
+          &:hover
+            color: $red
+          &.active
+            color: black
         @include mobile
           display: none
       span
@@ -155,7 +208,7 @@ html
       .pageName
         border-bottom: 1px solid black
       .title
-          font-size: 1rem
+        font-size: 1rem
       &.redColor
         background-color: $darkRed
         #pageNav
@@ -197,14 +250,16 @@ html
         &.redColor
           border-bottom: 4px solid $darkRed
     main
-      margin-left: calc(10em + 2px);
-      width: calc(100% - 12em + -2px);
+      margin-left: calc(10em + 2px)
+      width: calc(100% - 12em + -2px)
       background-color: pink
       padding: 1em
       height: 100%
       position: relative
       &.redColor
         background-color: $red
+        #moreBtn
+          background-color: $darkRed
       @include mobile
         width: calc(100% - 2em)
         margin-left: 0
@@ -215,7 +270,6 @@ html
     position: absolute
     bottom: 0
     right: 0
-    border: 2px solid black
     height: 4rem
     width: 4rem
     display: flex
@@ -227,4 +281,8 @@ html
     justify-content: center
     box-shadow: aqua
     border-radius: 100%
+    transition: background-color 250ms
+    &:hover
+      background-color: white !important
+
 </style>
