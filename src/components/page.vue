@@ -1,5 +1,38 @@
 <template>
-  <div v-if="currentPage == null">definition etc etc that stuff</div>
+  <div v-if="currentPage == null" id="defPage">
+    <div id="sidePart">
+      <div id="iris" :class="[`${json[currentIndex].colorScheme}Color`, buttonSteps[miniNav]]"></div>
+      <span
+        v-if="json[currentIndex].definition"
+        :class="{ active: miniNav === 0 }"
+        @click="() => (miniNav = 0)"
+        >definition</span
+      >
+      <span
+        v-if="json[currentIndex].benefits"
+        :class="{ active: miniNav === 1 }"
+        @click="() => (miniNav = 1)"
+        >benefits</span
+      >
+      <span
+        v-if="json[currentIndex].examples"
+        :class="{ active: miniNav === 2 }"
+        @click="() => (miniNav = 2)"
+        >examples</span
+      >
+    </div>
+    <div id="textWindow">
+      <template v-if="miniNav === 0">{{
+        json[currentIndex].definition
+      }}</template>
+      <template v-if="miniNav === 1">{{
+        json[currentIndex].benefits
+      }}</template>
+      <template v-if="miniNav === 2">{{
+        json[currentIndex].examples
+      }}</template>
+    </div>
+  </div>
   <div v-else-if="currentPage == 'example'">
     <Vid></Vid>
   </div>
@@ -25,6 +58,12 @@ import Vid from "./pageComponents/vid.vue";
 export default {
   name: "page",
   components: { PageNav, Vid, Interconnected, Enriching, Challenges },
+  data() {
+    return {
+      miniNav: 0,
+      buttonSteps: ["top", "middle", "bottom"],
+    };
+  },
   computed: {
     json() {
       return this.$store.getters.getJSON;
@@ -40,4 +79,53 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+@import "../../src/global.sass"
+
+#defPage
+  width: 80%
+  margin: 0 auto
+  display: flex
+  justify-content: center
+  height: 86%
+  align-items: center
+  #sidePart
+    width: fit-content
+    display: block
+    padding-right: 1em
+    border-right: 1px solid black
+    display: flex
+    flex-direction: column
+    float: left
+    margin-right: 1em
+    font-size: 1.25em
+    position: relative
+    #iris
+      height: .6em
+      width: .6em
+      border-radius: 100%
+      position: absolute
+      right: -.3em
+      transition: top 250ms
+      &.top
+        top: 15%
+      &.middle
+        top: 47%
+      &.bottom
+        top: 82%
+      &.redColor
+        background-color: $darkRed
+    span
+      text-align: right
+      text-decoration: underline
+      height: 2em
+      justify-content: flex-end
+      align-items: center
+      display: flex
+      opacity: .5
+      cursor: pointer
+      transition: opacity 250ms
+      &:hover
+        opacity: 1
+      &.active
+        opacity: 1
 </style>

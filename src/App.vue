@@ -128,23 +128,7 @@ export default {
 </script>
 
 <style lang="sass">
-$mobileWidth: 1000px
-
-//color schemes
-$red: rgb(250,221,218)
-$darkRed: rgb(222,69,37)
-$green: rgb(207,254,224)
-$darkGreen: rgb(2,227,69)
-$purple: rgb(245,231,248)
-$darkPurple: rgb(161,86,199)
-$blue: rgb(222,243,252)
-$darkBlue: rgb(59,173,228)
-$yellow: rgb(255,253,220)
-$darkYellow: rgb(243,195,0)
-
-@mixin mobile
-  @media (max-width: #{$mobileWidth})
-    @content
+@import "../src/global.sass"
 
 html
   background: #202020
@@ -267,22 +251,21 @@ html
     position: absolute
     bottom: 0
     right: 0
-    position: absolute
-    bottom: 0
-    right: 0
     height: 4rem
+    border: 2px solid black
+    font-weight: bold
     width: 4rem
     display: flex
     align-content: center
     cursor: pointer
     font-size: 1rem
+    box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, .5)
     align-items: center
     margin: .5rem
     justify-content: center
-    box-shadow: aqua
     border-radius: 100%
     transition: background-color 250ms
     &:hover
       background-color: white !important
-
+      box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, .5)
 </style>
