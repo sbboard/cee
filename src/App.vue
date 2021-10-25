@@ -147,7 +147,8 @@ html
   box-shadow: 0px 20px 37px 10px #000, 0px -20px 37px 10px #000
   header
     width: 100%
-    height: 7em
+    font-size: 1.5vmin
+    height: $headerHeight
     position: relative
     #logo
       font-family: sans-serif
@@ -155,21 +156,25 @@ html
       background-color: grey
       border-right: 2px solid black
       border-bottom: 1px solid black
-      width: 6rem
+      width: 10rem
       text-align: center
       font-size: 3em
-      padding: 2rem
-      display: inline-block
+      display: inline-flex
+      height: 100%
+      justify-content: center
+      align-items: center
       @include mobile
         border-bottom: 0
     #sectionName
       display: inline-flex
       flex-direction: column
       float: right
-      height: calc(100% - 4rem)
+      height: 100%
+      justify-content: center
+      align-content: center
       #pageNav
         position: absolute
-        right: 2rem
+        right: 0
         width: 5em
         cursor: pointer
         padding-left: 1rem
@@ -178,7 +183,7 @@ html
           width: 1.25em
           display: inline-block
           text-align: center
-          font-size: 3rem
+          font-size: 1em
           transition: color 250ms
           &:hover
             color: $red
@@ -198,20 +203,19 @@ html
         #pageNav
           background-color: $darkRed
     .topRight
-      border-bottom: 1px solid red
-      width: calc(100% - 14rem - 2px)
+      width: calc(100% - 12rem - 2px)
       font-size: 3em
-      padding: 2rem
+      padding-left: 2rem
       display: inline-block
   #bottomPt
     position: relative
-    height: calc(100% - 9em)
+    min-height: 90vh
     nav
       width: 10em
       border-right: 2px solid black
       display: block
       float: left
-      height: calc(100% + 2em)
+      height: 90vh
       background-color: white
       @include mobile
         display: none
@@ -238,7 +242,7 @@ html
       width: calc(100% - 12em + -2px)
       background-color: pink
       padding: 1em
-      height: 100%
+      min-height: calc(90vh - 2em)
       position: relative
       &.redColor
         background-color: $red
@@ -264,8 +268,14 @@ html
     margin: .5rem
     justify-content: center
     border-radius: 100%
-    transition: background-color 250ms
+    transition: all 250ms
     &:hover
       background-color: white !important
       box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, .5)
+    @include mobile
+      margin: 0
+      border-radius: 0
+      border-right: 0
+      border-top-left-radius: 2em
+      border-bottom: 0
 </style>

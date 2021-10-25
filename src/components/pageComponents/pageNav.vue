@@ -1,5 +1,5 @@
 <template>
-  <div id="pageNav">
+  <div id="btmPageNav">
     <div @click="changePage('example')">
       <i class="far fa-eye"></i>
       <span>example video</span>
@@ -56,12 +56,12 @@ $darkYellow: rgb(243,195,0)
 @mixin mobile
   @media (max-width: #{$mobileWidth})
     @content
-#pageNav
+#btmPageNav
   position: absolute
   bottom: 0
   margin: 0 auto
   left: 0
-  height: 6em
+  height: 10vh
   right: 0
   text-align: center
   display: flex
@@ -85,7 +85,7 @@ $darkYellow: rgb(243,195,0)
     align-items: center
     flex-direction: column
     padding: 2.5rem 1rem 1rem 1rem
-    font-size: 4rem
+    font-size: 7vmin
     transition: padding 200ms linear
     &:hover
       padding: 0rem 1rem 1rem 1rem

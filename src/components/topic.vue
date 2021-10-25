@@ -34,11 +34,12 @@ export default {
 
 <style lang="sass" scoped>
 #topic
-  height: 100%
+  min-height: 100%
   display: flex
   justify-content: center
   align-items: center
   flex-direction: column
+  padding: 4em 0
   blockquote
     font-size: 2em
     width: 75%
