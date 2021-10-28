@@ -1,7 +1,13 @@
 <template>
   <div v-if="currentPage == null" id="defPage">
     <div id="sidePart">
-      <div id="iris" :class="[`${json[currentIndex].colorScheme}Color`, buttonSteps[miniNav]]"></div>
+      <div
+        id="iris"
+        :class="[
+          `${json[currentIndex].colorScheme}Color`,
+          buttonSteps[miniNav],
+        ]"
+      ></div>
       <span
         v-if="json[currentIndex].definition"
         :class="{ active: miniNav === 0 }"
@@ -88,6 +94,8 @@ export default {
   justify-content: center
   height: 86%
   align-items: center
+  @include mobile
+    flex-direction: column
   #sidePart
     width: fit-content
     display: block
@@ -99,6 +107,17 @@ export default {
     margin-right: 1em
     font-size: 1.25em
     position: relative
+    @include mobile
+      width: fit-content
+      height: 100%
+      flex-direction: column
+      align-self: baseline
+      transform: rotateZ(90deg)
+      -moz-osx-font-smoothing: grayscale
+      -webkit-font-smoothing: antialiased !important
+      -moz-font-smoothing: antialiased !important
+      text-rendering: optimizelegibility !important
+      letter-spacing: .03em
     #iris
       height: .6em
       width: .6em
@@ -128,4 +147,7 @@ export default {
         opacity: 1
       &.active
         opacity: 1
+#textWindow
+  @include mobile
+    margin-top: 1em
 </style>

@@ -1,7 +1,10 @@
 <template>
   <div id="home">
     <header>
-      <div id="logo">cee</div>
+      <div id="logo" @click="mobileNavOpen = !mobileNavOpen">
+        <i class="fas fa-bars"></i>
+        <span>cee</span>
+      </div>
       <div
         id="sectionName"
         class="topRight"
@@ -47,7 +50,7 @@
       </div>
     </header>
     <div id="bottomPt">
-      <nav>
+      <nav :class="{ open: mobileNavOpen }">
         <ul>
           <template v-for="i in json" :key="i.index">
             <li
@@ -87,8 +90,14 @@ import page from "./components/page.vue";
 export default {
   components: { topic, page },
   name: "CEE Homepage",
+  data() {
+    return {
+      mobileNavOpen: false,
+    };
+  },
   methods: {
     changeIndex(index) {
+      this.mobileNavOpen = false;
       this.$store.commit("setIndex", index);
       this.$store.commit("setPage", null);
     },
@@ -149,7 +158,11 @@ html
     width: 100%
     font-size: 1.5vmin
     height: $headerHeight
+    z-index: 501
     position: relative
+    box-shadow: 0px -5px 20px 0px #000000
+    @include mobile
+      position: fixed
     #logo
       font-family: sans-serif
       color: white
@@ -158,13 +171,19 @@ html
       border-bottom: 1px solid black
       width: 10rem
       text-align: center
-      font-size: 3em
+      font-size: 4vh
       display: inline-flex
       height: 100%
       justify-content: center
       align-items: center
+      i
+        display: none
+        margin-right: 1rem
+        @include mobile
+          display: block
       @include mobile
         border-bottom: 0
+        cursor: pointer
     #sectionName
       display: inline-flex
       flex-direction: column
@@ -194,6 +213,8 @@ html
       span
         font-size: .5em
         display: block
+        @include mobile
+          font-size: .75em
       .pageName
         border-bottom: 1px solid black
       .title
@@ -210,6 +231,8 @@ html
   #bottomPt
     position: relative
     min-height: 90vh
+    @include mobile
+      padding-top: 10vh
     nav
       width: 10em
       border-right: 2px solid black
@@ -217,8 +240,15 @@ html
       float: left
       height: 90vh
       background-color: white
+      &.open
+        bottom: 0vh
       @include mobile
-        display: none
+        position: fixed
+        bottom: 100vh
+        z-index: 500
+        width: 100%
+        display: block
+        transition: bottom .5s
       li
         cursor: pointer
         padding: .5em 0
@@ -256,7 +286,6 @@ html
     bottom: 0
     right: 0
     height: 4rem
-    border: 2px solid black
     font-weight: bold
     width: 4rem
     display: flex
@@ -269,6 +298,10 @@ html
     justify-content: center
     border-radius: 100%
     transition: all 250ms
+    background-color: #de4525
+    font-family: sans-serif
+    text-transform: lowercase
+    font-style: italic
     &:hover
       background-color: white !important
       box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, .5)

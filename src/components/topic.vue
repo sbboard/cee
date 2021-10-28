@@ -33,6 +33,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+@import "../../src/global.sass"
+
 #topic
   min-height: 100%
   display: flex
@@ -40,6 +42,8 @@ export default {
   align-items: center
   flex-direction: column
   padding: 4em 0
+  @include mobile
+    padding: 1em 0 4rem 0
   blockquote
     font-size: 2em
     width: 75%

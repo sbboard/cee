@@ -12,7 +12,7 @@
         <template v-if="i.more != null">
           <i class="fas fa-tint moreDrop"></i>
         </template>
-        {{ i.text }}
+        <p>{{ i.text }}</p>
         <div class="moreArrow" v-if="i.more != null">
           <span class="dash"></span>
           <i class="fas fa-angle-right"></i>
@@ -53,10 +53,12 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+@import "../../../src/global.sass"
+
 #enrich
-  padding: 0 3em
-  margin-top: 3em
-  height: calc(100vh - 22em)
+  padding: 0px 2em
+  margin-top: 1em
+  height: 70vh
   overflow-y: auto
   .intro
     margin: 1.25em 0
@@ -67,11 +69,17 @@ export default {
     border-bottom: 1px solid black
   ul
     margin-left: 1em
+    @include mobile
+      margin-left: 0
   li
     margin-top: 0.5em
+    @include mobile
+      margin-top: 1em
     .moreDrop
       width: 2em
       text-align: center
+      @include mobile
+        float: left
     .moreArrow
       width: 25%
       display: inline-flex
@@ -79,6 +87,8 @@ export default {
       font-size: 0.5em
       line-height: 0
       position: relative
+      @include mobile
+        display: none
       i
         position: absolute
         left: 0
@@ -89,6 +99,15 @@ export default {
       font-style: italic
       font-weight: bold
       padding-left: .5em
+      @include mobile
+        font-style: italic
+        font-weight: bold
+        padding-left: 0.5em
+        display: block
+        width: 100%
+        text-align: right
+        &::after
+          content: '...'
     .dash
       width: 0%
       margin-bottom: 0.5em
@@ -101,11 +120,15 @@ export default {
       margin-left: 2.2em
     &.more
       cursor: pointer
+      p
+        display: inline-block
+        @include mobile
+          display: block
+          margin-left: 2.2em
       &:hover
         .moreArrow
           .dash
             width: 100%
           i
             left: calc(100% - .5em)
-            
 </style>

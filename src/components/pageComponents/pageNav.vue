@@ -40,22 +40,8 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-$mobileWidth: 1000px
+@import "../../../src/global.sass"
 
-//color schemes
-$red: rgb(250,221,218)
-$darkRed: rgb(222,69,37)
-$green: rgb(207,254,224)
-$darkGreen: rgb(2,227,69)
-$purple: rgb(245,231,248)
-$darkPurple: rgb(161,86,199)
-$blue: rgb(222,243,252)
-$darkBlue: rgb(59,173,228)
-$yellow: rgb(255,253,220)
-$darkYellow: rgb(243,195,0)
-@mixin mobile
-  @media (max-width: #{$mobileWidth})
-    @content
 #btmPageNav
   position: absolute
   bottom: 0
@@ -78,17 +64,18 @@ $darkYellow: rgb(243,195,0)
   @include mobile
     width: calc(100% - 2rem)
     border-radius: 0
+    position: fixed
   div
     display: inline-flex
     cursor: pointer
     width: 6rem
     align-items: center
     flex-direction: column
-    padding: 2.5rem 1rem 1rem 1rem
+    padding: 2.5rem 0rem 1rem 0rem
     font-size: 7vmin
     transition: padding 200ms linear
     &:hover
-      padding: 0rem 1rem 1rem 1rem
+      padding: 0rem 0rem 1rem 0rem
       span
         height: 2rem
         opacity: 1

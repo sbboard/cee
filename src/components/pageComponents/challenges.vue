@@ -22,10 +22,12 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+@import "../../../src/global.sass"
+
 #challenges
-  padding: 0 3em
-  margin-top: 3em
-  height: calc(100vh - 22em)
+  padding: 0px 2em
+  margin-top: 1em
+  height: 70vh
   overflow-y: auto
   &:deep b
     display: block
