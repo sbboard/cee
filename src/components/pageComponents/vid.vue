@@ -2,18 +2,118 @@
   <div id="vidPage">
     <h2 :class="[`${json[currentIndex].colorScheme}Color`]">
       {{ json[currentIndex].video.title }}
-      <i class="far fa-eye" data-v-ae914fcc=""></i>
+      <i
+        class="far fa-eye"
+        data-v-ae914fcc=""
+        @click="infoWindow.infoOn = !infoWindow.infoOn"
+      ></i>
     </h2>
     <div id="stuffWrap">
       <img :src="`/assets/img/${json[currentIndex].video.thumbnail}`" />
       <p>{{ json[currentIndex].video.description }}</p>
     </div>
+
+    <Vue3DraggableResizable
+      :initW="110"
+      :initH="120"
+      v-model:x="vidWindow.x"
+      v-model:y="vidWindow.y"
+      v-model:w="vidWindow.w"
+      v-model:h="vidWindow.h"
+      v-model:active="vidWindow.active"
+      :draggable="true"
+      :resizable="true"
+    >
+      <div id="vidWindow">
+        <video controls>
+          <source
+            :src="`assets/video/${json[currentIndex].video.file}`"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </Vue3DraggableResizable>
+
+    <Vue3DraggableResizable
+      :initW="pageWidth"
+      :initH="pageHeight"
+      v-model:x="infoWindow.x"
+      v-model:y="infoWindow.y"
+      v-model:w="infoWindow.w"
+      v-model:h="infoWindow.h"
+      v-model:active="infoWindow.active"
+      :draggable="true"
+      :resizable="false"
+      v-if="infoWindow.infoOn"
+    >
+      <div id="infoWindow">
+        <div id="infoHeader">Content</div>
+        <table>
+          <tr>
+            <td>Area of Study</td>
+            <td>{{ json[currentIndex].video.AoS }}</td>
+          </tr>
+          <tr>
+            <td>Topic</td>
+            <td>{{ json[currentIndex].video.topic }}</td>
+          </tr>
+          <tr>
+            <td>Big Idea</td>
+            <td>{{ json[currentIndex].video.bigIdea }}</td>
+          </tr>
+          <tr>
+            <td>Concept</td>
+            <td>{{ json[currentIndex].video.concept }}</td>
+          </tr>
+          <tr>
+            <td>Grade Level</td>
+            <td>{{ json[currentIndex].video.gradeLvl }}</td>
+          </tr>
+          <tr>
+            <td>Standards</td>
+            <td v-html="json[currentIndex].video.standards"></td>
+          </tr>
+        </table>
+      </div>
+    </Vue3DraggableResizable>
   </div>
 </template>
 
 <script>
-export default {
+import { defineComponent } from "vue";
+import Vue3DraggableResizable from "vue3-draggable-resizable";
+//default styles
+import "vue3-draggable-resizable/dist/Vue3DraggableResizable.css";
+
+export default defineComponent({
+  components: { Vue3DraggableResizable },
   name: "vid",
+  data() {
+    return {
+      infoWindow: {
+        infoOn: false,
+        x: 100,
+        y: 100,
+        h: 100,
+        w: 100,
+        active: false,
+      },
+      vidWindow: {
+        infoOn: false,
+        x: 100,
+        y: 100,
+        h: 100,
+        w: 100,
+        active: false,
+      },
+    };
+  },
+  methods: {
+    print(val) {
+      console.log(val);
+    },
+  },
   computed: {
     json() {
       return this.$store.getters.getJSON;
@@ -24,8 +124,14 @@ export default {
     currentPage() {
       return this.$store.getters.getPage;
     },
+    pageHeight() {
+      return 0;
+    },
+    pageWidth() {
+      return 500;
+    },
   },
-};
+});
 </script>
 
 <style lang="sass" scoped>
@@ -65,4 +171,21 @@ h2
     text-align: left
     @include mobile
       margin-left: 0
+
+#infoWindow
+  background-color: white
+  #infoHeader
+    width: calc(100% - 1em)
+    background-color: gray
+    color: white
+    font-size: 1.25em
+    padding: .5em
+  table
+    td:first-child
+      background-color: red
+      width: 25%
+
+#vidWindow
+  video
+    width: 100%
 </style>
