@@ -46,9 +46,16 @@
       :draggable="true"
       :resizable="false"
       v-if="infoWindow.infoOn"
+      :class="[`${json[currentIndex].colorScheme}Color`]"
     >
       <div id="infoWindow">
-        <div id="infoHeader">Content</div>
+        <div id="infoHeader">
+          Content
+          <i
+            @click="infoWindow.infoOn = !infoWindow.infoOn"
+            class="far fa-window-close"
+          ></i>
+        </div>
         <table>
           <tr>
             <td>Area of Study</td>
@@ -83,8 +90,6 @@
 <script>
 import { defineComponent } from "vue";
 import Vue3DraggableResizable from "vue3-draggable-resizable";
-//default styles
-import "vue3-draggable-resizable/dist/Vue3DraggableResizable.css";
 
 export default defineComponent({
   components: { Vue3DraggableResizable },
@@ -149,7 +154,7 @@ h2
     color: white
     cursor: pointer
   &.redColor
-    background-color: rgba($darkRed, .5)
+    background-color: $midRed
 #stuffWrap
   width: 100%
   @include mobile
@@ -174,18 +179,42 @@ h2
 
 #infoWindow
   background-color: white
+  background-color: white
+  overflow: hidden
+  border-radius: 0.5em
+  box-shadow: 0px 5px 15px -7px #000000f2
+  border: 2px solid black
   #infoHeader
     width: calc(100% - 1em)
     background-color: gray
     color: white
     font-size: 1.25em
     padding: .5em
+    i
+      float: right
+      cursor: pointer
   table
+    border-collapse: collapse
+    border-spacing: 0
+    max-height: 20em
+    display: block
+    overflow-y: scroll
+    td
+      padding: 0.5em
     td:first-child
-      background-color: red
       width: 25%
+      text-align: right
 
 #vidWindow
   video
     width: 100%
+.vdr-container.active
+  border: none !important
+  z-index: 90000
+.vdr-container
+  &.redColor
+    #infoWindow
+      table
+        td:first-child
+          background-color: $midRed
 </style>

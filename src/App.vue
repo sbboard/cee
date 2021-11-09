@@ -144,6 +144,7 @@ html
   height: 100%
   body
     height: 100%
+    overflow-x: hidden
     #app
       height: 100%
 #home
