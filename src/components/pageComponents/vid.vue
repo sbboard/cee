@@ -9,28 +9,57 @@
       ></i>
     </h2>
     <div id="stuffWrap">
-      <img :src="`/assets/img/${json[currentIndex].video.thumbnail}`" />
+      <img
+        @click="vidWindow.infoOn = true"
+        :src="`/assets/img/${json[currentIndex].video.thumbnail}`"
+      />
       <p>{{ json[currentIndex].video.description }}</p>
     </div>
 
     <Vue3DraggableResizable
-      :initW="110"
-      :initH="120"
+      :initW="pageWidth"
+      :initH="pageHeight"
       v-model:x="vidWindow.x"
       v-model:y="vidWindow.y"
       v-model:w="vidWindow.w"
       v-model:h="vidWindow.h"
       v-model:active="vidWindow.active"
       :draggable="true"
-      :resizable="true"
+      :resizable="false"
+      v-if="vidWindow.infoOn"
     >
       <div id="vidWindow">
-        <video controls>
+        <div id="infoHeader">
+          Video
+          <i
+            @click="
+              () => {
+                vidWindow.infoOn = false;
+                vidWindow.vidPlaying = false;
+              }
+            "
+            class="far fa-window-close"
+          ></i>
+        </div>
+        <div id="beginMsg" v-if="vidWindow.vidPlaying == false">
+          <p>Watch the entire video once through.</p>
+          <p>
+            Then, you will be able to see it again with more information
+            appearing at key points.
+          </p>
+        </div>
+        <video
+          controls
+          @playing="
+            () => {
+              vidWindow.vidPlaying = true;
+            }
+          "
+        >
           <source
             :src="`assets/video/${json[currentIndex].video.file}`"
             type="video/mp4"
           />
-          Your browser does not support the video tag.
         </video>
       </div>
     </Vue3DraggableResizable>
@@ -111,6 +140,7 @@ export default defineComponent({
         h: 100,
         w: 100,
         active: false,
+        vidPlaying: false,
       },
     };
   },
@@ -163,6 +193,12 @@ h2
     width: 30%
     float: left
     box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, .5)
+    cursor: pointer
+    filter: brightness(1)
+    transition: filter .25s, box-shadow .25s
+    &:hover
+      filter: brightness(0.9)
+      box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, .2)
     @include mobile
       max-height: 50vh
       max-width: 100%
@@ -204,8 +240,39 @@ h2
     td:first-child
       width: 25%
       text-align: right
-
 #vidWindow
+  background-color: white
+  background-color: white
+  overflow: hidden
+  border-radius: 0.5em
+  box-shadow: 0px 5px 15px -7px #000000f2
+  border: 2px solid black
+  line-height: 0
+  position: relative
+  #beginMsg
+    position: absolute
+    top: 0
+    line-height: initial
+    text-align: center
+    flex-direction: column
+    font-weight: bold
+    height: calc(100% - 6em)
+    display: flex
+    justify-content: center
+    pointer-events: none
+    padding: 3em
+    p
+      padding: .5em
+  #infoHeader
+    width: calc(100% - 1em)
+    background-color: gray
+    color: white
+    font-size: 1.25em
+    padding: .5em
+    line-height: initial
+    i
+      float: right
+      cursor: pointer
   video
     width: 100%
 .vdr-container.active
