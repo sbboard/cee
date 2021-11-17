@@ -51,7 +51,8 @@
   <div v-else-if="currentPage == 'challenges'">
     <Challenges></Challenges>
   </div>
-  <Page-nav></Page-nav>
+  <Page-nav v-if="currentPage == null"></Page-nav>
+  <div v-else id="moreBtn" @click="changePage(null)">Back</div>
 </template>
 
 <script>
@@ -69,6 +70,11 @@ export default {
       miniNav: 0,
       buttonSteps: ["top", "middle", "bottom"],
     };
+  },
+  methods: {
+    changePage(newPage) {
+      this.$store.commit("setPage", newPage);
+    },
   },
   computed: {
     json() {
