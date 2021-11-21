@@ -36,25 +36,54 @@
               () => {
                 vidWindow.infoOn = false;
                 vidWindow.vidPlaying = false;
+                vidWindow.vidStarted = false;
+                vidWindow.seenOnce = false;
+                vidWindow.currentTip = '';
+                vidWindow.showMsg = false;
               }
             "
             class="far fa-window-close"
           ></i>
         </div>
-        <div id="beginMsg" v-if="vidWindow.vidPlaying == false">
+        <div
+          id="beginMsg"
+          v-if="
+            vidWindow.vidPlaying == false &&
+            vidWindow.seenOnce == false &&
+            this.vidWindow.vidStarted == false
+          "
+        >
           <p>Watch the entire video once through.</p>
           <p>
             Then, you will be able to see it again with more information
             appearing at key points.
           </p>
         </div>
+        <div
+          id="midMessage"
+          v-if="
+            vidWindow.vidPlaying == false &&
+            vidWindow.seenOnce == true &&
+            this.vidWindow.vidStarted == false
+          "
+        >
+          <p>
+            This time, you will see more information at key points in the video.
+          </p>
+        </div>
+        <div id="infoMessage" v-if="vidWindow.showMsg">
+          <p>
+            {{ vidWindow.currentTip }}
+          </p>
+        </div>
         <video
           controls
-          @playing="
-            () => {
-              vidWindow.vidPlaying = true;
-            }
-          "
+          @playing="vidPlayed"
+          @play="() => (this.vidWindow.vidStarted = true)"
+          @pause="() => (this.vidWindow.vidPlaying = false)"
+          @ended="vidEnded"
+          @seeked="vidSeeked"
+          ref="video"
         >
           <source
             :src="`assets/video/${json[currentIndex].video.file}`"
@@ -141,6 +170,10 @@ export default defineComponent({
         w: 100,
         active: false,
         vidPlaying: false,
+        vidStarted: false,
+        seenOnce: false,
+        currentTip: "",
+        showMsg: false,
       },
     };
   },
@@ -148,6 +181,44 @@ export default defineComponent({
     print(val) {
       console.log(val);
     },
+    playCheck() {
+      if (this.vidWindow.vidPlaying && this.vidWindow.seenOnce) {
+        let allStops = this.json[this.currentIndex].video.stopPoints.map(
+          (v) => {
+            return v.cuetime;
+          }
+        );
+        if (allStops.includes(Math.floor(this.$refs.video.currentTime))) {
+          let currentTipText = this.json[
+            this.currentIndex
+          ].video.stopPoints.filter((v) => {
+            return v.cuetime == Math.floor(this.$refs.video.currentTime);
+          })[0].text;
+          if (this.vidWindow.currentTip != currentTipText) {
+            this.vidWindow.currentTip = currentTipText;
+            this.vidWindow.showMsg = true;
+            this.$refs.video.pause();
+          }
+        }
+      }
+    },
+    vidEnded() {
+      this.vidWindow.seenOnce = true;
+      this.vidWindow.vidPlaying = false;
+      this.vidWindow.vidStarted = false;
+    },
+    vidPlayed() {
+      this.vidWindow.vidPlaying = true;
+      this.vidWindow.showMsg = false;
+    },
+    vidSeeked() {
+      this.vidWindow.vidPlaying = true;
+      this.vidWindow.showMsg = false;
+      this.vidWindow.currentTip = "";
+    },
+  },
+  mounted() {
+    setInterval(this.playCheck, 500);
   },
   computed: {
     json() {
@@ -249,18 +320,18 @@ h2
   border: 2px solid black
   line-height: 0
   position: relative
-  #beginMsg
+  #beginMsg, #midMessage, #infoMessage
     position: absolute
-    top: 0
     line-height: initial
     text-align: center
     flex-direction: column
     font-weight: bold
-    height: calc(100% - 6em)
+    background-color: rgba(white,.9)
+    height: calc(100% - 5.75em)
     display: flex
     justify-content: center
     pointer-events: none
-    padding: 3em
+    padding: 0 3em 3em 3em
     p
       padding: .5em
   #infoHeader
@@ -275,6 +346,7 @@ h2
       cursor: pointer
   video
     width: 100%
+    outline: none
 .vdr-container.active
   border: none !important
   z-index: 90000

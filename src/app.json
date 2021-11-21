@@ -21,6 +21,20 @@
         "title": "Lunchtime Planning",
         "file": "video_12.mp4",
         "thumbnail": "new_thumbs/12thumb.jpg",
+        "stopPoints": [
+          {
+            "cuetime": 17,
+            "text": "All the teachers from the K-1 grade level meet to plan experiences that will help children acquire knowledge of the concepts and big ideas. Allocating time for grade-level meetings requires the support of administrators."
+          },
+          {
+            "cuetime": 102,
+            "text": "Although one teacher starts the conversation, as it goes along everyone contributes different ideas."
+          },
+          {
+            "cuetime": 140,
+            "text": "Meeting as a group allows the teachers to share ideas. After their discussion, they will implement the ideas in ways that are suited to their students."
+          }
+        ],
         "description": "All the K-1 teachers meet to discuss experiences students will need to acquire an understanding of different forces (i.e. gravity, friction, push, pull, etc.) and how these forces cause motion.",
         "AoS": "Physical Sicence",
         "topic": "Force and Motion",
