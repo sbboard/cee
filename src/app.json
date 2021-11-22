@@ -21,7 +21,7 @@
         "title": "Lunchtime Planning",
         "file": "video_12.mp4",
         "thumbnail": "new_thumbs/12thumb.jpg",
-        "stopPoints": [
+        "planningPoints": [
           {
             "cuetime": 17,
             "text": "All the teachers from the K-1 grade level meet to plan experiences that will help children acquire knowledge of the concepts and big ideas. Allocating time for grade-level meetings requires the support of administrators."
@@ -33,6 +33,58 @@
           {
             "cuetime": 140,
             "text": "Meeting as a group allows the teachers to share ideas. After their discussion, they will implement the ideas in ways that are suited to their students."
+          }
+        ],
+        "setupPoints": [
+          {
+            "cuetime": 29,
+            "text": "Teachers consider which materials and resources will be best suited to setting up firsthand experiences that illustrate the concepts."
+          },
+          {
+            "cuetime": 61,
+            "text": "A teacher suggests using a large Arrowhead water bottle because it is common to all the classrooms and is heavy enough to present a challenge for the children when they try to move it."
+          },
+          {
+            "cuetime": 140,
+            "text": "Using the playground equipment for experiences with force and motion extends the learning environment and helps children make connections between the concepts and the world around them."
+          }
+        ],
+        "culturePoints": [
+          {
+            "cuetime": 29,
+            "text": "The teachers plan experiences that the children will share, which helps ensure everyone has background knowledge of the concepts and provides context for their discussions."
+          },
+          {
+            "cuetime": 67,
+            "text": "Notice that the teacher anticipates the children will realize the easiest way to move the water bottle will be to roll it. She talks about honoring their response and then asking them to try another way."
+          }
+        ],
+        "exPoints": [
+          {
+            "cuetime": "10",
+            "text": "K-1 teachers discuss what firsthand experiences to provide for the students to demonstrate different kinds of forces."
+          },
+          {
+            "cuetime": 37,
+            "text": "As the teachers consider different possibilities for experiences for the children, they anticipate how the children will react and what they will think while they are having the experiences."
+          },
+          {
+            "cuetime": 61,
+            "text": "Asking children to move one of the large Arrowhead water bottles in their classroom offers a hands-on task that can inspire \"how\" and \"why\" questions and lead to further exploration."
+          },
+          {
+            "cuetime": 140,
+            "text": "Once the teachers have given the children some background knowledge on force and motion, they will take the children to the playground for firsthand experiences to reinforce the concept."
+          }
+        ],
+        "repPoints": [
+          {
+            "cuetime": 37,
+            "text": "Linking concepts and experiences in their planning discussions will help the teachers later as they assess the children's representations."
+          },
+          {
+            "cuetime": 113,
+            "text": "The experiences the teachers are planning will be followed by discussion, where children will have the opportunity to orally represent their understanding of the concepts."
           }
         ],
         "description": "All the K-1 teachers meet to discuss experiences students will need to acquire an understanding of different forces (i.e. gravity, friction, push, pull, etc.) and how these forces cause motion.",
@@ -62,9 +114,6 @@
             "moreImg": null
           }
         ]
-      },
-      "lense": {
-        "sameAsVideo": true
       },
       "challenges": {
         "theText": "<b>My days are already so full, how can I fit in time to plan with other teachers?</b><br/>It is often necessary to look for creative ways to make time for planning. You might turn a weekly lunchtime into a potluck gathering where a group of teachers share a meal and discuss the curriculum. You might schedule PE or extracurricular activities at the same time as your teaching partner and use that time to meet. Some teachers meet while classroom aides are supervising children outside. Others fit in brief 15-minute discussions on several different days each week.<br/>Too often in schools we devote more time to discussing day-to-day nuts and bolts than we do planning curriculum goals. Trading some of the time ordinarily spent on procedures and using it instead for discussions of big ideas and concepts helps shift the focus to children's learning.<br/><b>How can teachers cover everything in the curriculum if they use this approach?</b><br/>The classroom-ecosystem approach stresses depth over breadth. Therefore you should work in the beginning of the year to carefully select the areas you will spend more time on than others. Examine the curriculum and the science education standards and try to determine which concepts and big ideas will be most meaningful for children. Work with other teachers to eliminate the redundancies that rarely deepen understanding.<br/>When teachers feel pressed to cover everything in the standards, the result is a watered down or disconnected program. If you approach the curriculum in terms of big ideas and concepts rather than topics and themes or isolated facts, you'll be better able to help children make connections and gain in-depth knowledge.<br/><b>Should a teacher ever say \"no\" to an idea or investigation that emerges from the student/s?</b><br/>Yes. A teacher's response to a student's idea or investigation should depend on his or her learning goal for the students. What might they learn from the idea? Does it fit with the science concepts and big ideas? Are there cost or safety concerns that might weigh against implementing this particular idea or investigation?<br/>The fact that students are motivated to come up with ideas and ask questions indicates that the teacher is making science relevant and exciting. One way to determine whether ideas or investigations should be pursued is to ask which of the learning goals they will achieve.<br/><b>How much do teachers need to know about science to teach this way?</b><br/>The stronger the teacher's knowledge of the content area the better he or she can help children build their own understanding. A strong knowledge base can also help teachers be sure of where they want to lead children in terms of the learning goals.<br/>To increase their knowledge, teachers can read books, work with colleagues, use teacher guides or carefully selected internet sites, ask experts to come to the classroom, or attend professional development seminars.<br/>Teachers who use the classroom-ecosystem approach need to see themselves as learners with the children, but they also must stay one step ahead, keeping in mind the concepts. Still, that doesn't mean they need to know it all. In the course of investigations children will come up with challenging questions. Teachers must know where to look for information and be willing to take the time to find it. A very important part of the classroom-ecosystem approach is this dynamic of constant learning on the part of both the teacher and the child."

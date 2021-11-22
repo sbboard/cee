@@ -40,10 +40,10 @@
     </div>
   </div>
   <div v-else-if="currentPage == 'example'">
-    <Vid></Vid>
+    <Vid :page="'example'"></Vid>
   </div>
   <div v-else-if="currentPage == 'lense'">
-    <Interconnected></Interconnected>
+    <Vid :page="'lense'"></Vid>
   </div>
   <div v-else-if="currentPage == 'enrich'">
     <Enriching></Enriching>
@@ -58,13 +58,12 @@
 <script>
 import Challenges from "./pageComponents/challenges.vue";
 import Enriching from "./pageComponents/enriching.vue";
-import Interconnected from "./pageComponents/interconnected.vue";
 import PageNav from "./pageComponents/pageNav.vue";
 import Vid from "./pageComponents/vid.vue";
 
 export default {
   name: "page",
-  components: { PageNav, Vid, Interconnected, Enriching, Challenges },
+  components: { PageNav, Vid, Enriching, Challenges },
   data() {
     return {
       miniNav: 0,

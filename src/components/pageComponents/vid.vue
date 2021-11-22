@@ -50,7 +50,8 @@
           v-if="
             vidWindow.vidPlaying == false &&
             vidWindow.seenOnce == false &&
-            this.vidWindow.vidStarted == false
+            this.vidWindow.vidStarted == false &&
+            page == 'example'
           "
         >
           <p>Watch the entire video once through.</p>
@@ -60,11 +61,22 @@
           </p>
         </div>
         <div
+          id="beginMsg"
+          v-else-if="
+            vidWindow.vidPlaying == false &&
+            this.vidWindow.vidStarted == false &&
+            page == 'lense'
+          "
+        >
+          <p>Click Here to Watch the Video.</p>
+        </div>
+        <div
           id="midMessage"
-          v-if="
+          v-else-if="
             vidWindow.vidPlaying == false &&
             vidWindow.seenOnce == true &&
-            this.vidWindow.vidStarted == false
+            this.vidWindow.vidStarted == false &&
+            page == 'example'
           "
         >
           <p>
@@ -90,6 +102,21 @@
             type="video/mp4"
           />
         </video>
+        <div
+          id="lenseBar"
+          :class="vidWindow.currentLenseColor"
+          v-if="page == 'lense'"
+        >
+          <i class="fas fa-search"></i> Current Lense:
+          <select @change="lenseChange($event)">
+            <option value="planningPoints|redColor">Planning</option>
+            <option value="setupPoints|greenColor">Setup</option>
+            <option value="culturePoints|purpleColor">Culture</option>
+            <option value="exPoints|blueColor">Experiences</option>
+            <option value="repPoints|yellowColor">Representation</option>
+            <option value="none|noneColor">None</option>
+          </select>
+        </div>
       </div>
     </Vue3DraggableResizable>
 
@@ -152,6 +179,7 @@ import Vue3DraggableResizable from "vue3-draggable-resizable";
 export default defineComponent({
   components: { Vue3DraggableResizable },
   name: "vid",
+  props: ["page"],
   data() {
     return {
       infoWindow: {
@@ -173,25 +201,34 @@ export default defineComponent({
         vidStarted: false,
         seenOnce: false,
         currentTip: "",
+        currentLense: "planningPoints",
+        currentLenseColor: "redColor",
         showMsg: false,
       },
     };
   },
   methods: {
-    print(val) {
-      console.log(val);
+    lenseChange(event) {
+      let eventInfo = event.target.value.split("|");
+      this.vidWindow.currentLense = eventInfo[0];
+      this.vidWindow.currentLenseColor = eventInfo[1];
     },
     playCheck() {
-      if (this.vidWindow.vidPlaying && this.vidWindow.seenOnce) {
-        let allStops = this.json[this.currentIndex].video.stopPoints.map(
-          (v) => {
-            return v.cuetime;
-          }
-        );
+      if (
+        this.vidWindow.vidPlaying &&
+        (this.vidWindow.seenOnce || this.page == "lense") &&
+        this.vidWindow.currentLense != "none"
+      ) {
+        console.log(this.vidWindow.currentLense);
+        let allStops = this.json[this.currentIndex].video[
+          this.vidWindow.currentLense
+        ].map((v) => {
+          return v.cuetime;
+        });
         if (allStops.includes(Math.floor(this.$refs.video.currentTime))) {
-          let currentTipText = this.json[
-            this.currentIndex
-          ].video.stopPoints.filter((v) => {
+          let currentTipText = this.json[this.currentIndex].video[
+            this.vidWindow.currentLense
+          ].filter((v) => {
             return v.cuetime == Math.floor(this.$refs.video.currentTime);
           })[0].text;
           if (this.vidWindow.currentTip != currentTipText) {
@@ -243,6 +280,25 @@ export default defineComponent({
 <style lang="sass" scoped>
 @import "../../../src/global.sass"
 
+#lenseBar
+  color: black
+  padding: 0.5em
+  background-color: white
+  position: inherit
+  z-index: 9
+  select
+    width: 100%
+    margin-top: 0.5em
+  &.redColor
+    background-color: $darkRed
+  &.greenColor
+    background-color: $darkGreen
+  &.yellowColor
+    background-color: $darkYellow
+  &.purpleColor
+    background-color: $darkPurple
+  &.blueColor
+    background-color: $darkBlue
 h2
   padding: .5em
   margin-bottom: 1em
@@ -327,7 +383,9 @@ h2
     flex-direction: column
     font-weight: bold
     background-color: rgba(white,.9)
-    height: calc(100% - 5.75em)
+    width: calc(100% - 6em)
+    cursor: pointer
+    height: calc(100% - 6em)
     display: flex
     justify-content: center
     pointer-events: none
@@ -338,6 +396,7 @@ h2
     width: calc(100% - 1em)
     background-color: gray
     color: white
+    cursor: pointer
     font-size: 1.25em
     padding: .5em
     line-height: initial
@@ -347,6 +406,7 @@ h2
   video
     width: 100%
     outline: none
+    cursor: pointer
 .vdr-container.active
   border: none !important
   z-index: 90000
