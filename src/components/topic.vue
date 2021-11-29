@@ -5,7 +5,7 @@
     <div id="moreBtn" @click="changePage('more')">More</div>
   </div>
   <div id="more" v-if="currentPage == 'more'">
-    {{ json[currentIndex].more }}
+    <div v-html="json[currentIndex].more"></div>
     <div id="moreBtn" @click="changePage(null)">Back</div>
   </div>
 </template>
@@ -54,4 +54,7 @@ export default {
 #more
   padding: 2rem
   font-size: 1.25rem
+  &:deep p
+    display: block
+    margin-bottom: 1em
 </style>

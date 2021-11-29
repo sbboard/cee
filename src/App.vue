@@ -224,6 +224,22 @@ html
         background-color: $darkRed
         #pageNav
           background-color: $darkRed
+      &.blueColor
+        background-color: $darkBlue
+        #pageNav
+          background-color: $darkBlue
+      &.yellowColor
+        background-color: $darkYellow
+        #pageNav
+          background-color: $darkYellow
+      &.purpleColor
+        background-color: $darkPurple
+        #pageNav
+          background-color: $darkPurple
+      &.greenColor
+        background-color: $darkGreen
+        #pageNav
+          background-color: $darkGreen
     .topRight
       width: calc(100% - 12rem - 2px)
       font-size: 3em
@@ -261,6 +277,26 @@ html
             background-color: $red
           &.active
             background-color: $darkRed
+        &.yellowColor
+          &:hover
+            background-color: $yellow
+          &.active
+            background-color: $darkYellow
+        &.blueColor
+          &:hover
+            background-color: $blue
+          &.active
+            background-color: $darkBlue
+        &.purpleColor
+          &:hover
+            background-color: $purple
+          &.active
+            background-color: $darkPurple
+        &.greenColor
+          &:hover
+            background-color: $green
+          &.active
+            background-color: $darkGreen
       li.head
         font-weight: bold
         display: block
@@ -268,6 +304,14 @@ html
         padding-left: 1em
         &.redColor
           border-bottom: 4px solid $darkRed
+        &.blueColor
+          border-bottom: 4px solid $darkBlue
+        &.yellowColor
+          border-bottom: 4px solid $darkYellow
+        &.purpleColor
+          border-bottom: 4px solid $darkPurple
+        &.greenColor
+          border-bottom: 4px solid $darkGreen
     main
       margin-left: calc(10em + 2px)
       width: calc(100% - 12em + -2px)
@@ -279,6 +323,22 @@ html
         background-color: $red
         #moreBtn
           background-color: $darkRed
+      &.yellowColor
+        background-color: $yellow
+        #moreBtn
+          background-color: $darkYellow
+      &.blueColor
+        background-color: $blue
+        #moreBtn
+          background-color: $darkBlue
+      &.purpleColor
+        background-color: $purple
+        #moreBtn
+          background-color: $darkPurple
+      &.greenColor
+        background-color: $green
+        #moreBtn
+          background-color: $darkGreen
       @include mobile
         width: calc(100% - 2em)
         margin-left: 0
