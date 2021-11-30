@@ -52,7 +52,13 @@
     <Challenges></Challenges>
   </div>
   <Page-nav v-if="currentPage == null"></Page-nav>
-  <div v-else id="moreBtn" @click="changePage(null)">Back</div>
+  <div
+    v-else-if="currentPage != 'enrich'"
+    id="moreBtn"
+    @click="changePage(null)"
+  >
+    Back
+  </div>
 </template>
 
 <script>

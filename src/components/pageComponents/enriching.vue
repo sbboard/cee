@@ -1,25 +1,35 @@
 <template>
   <div id="enrich">
-    <h2>What should I keep in mind?</h2>
-    <p class="intro">{{ json[currentIndex].enrich.intro }}</p>
-    <ul>
-      <li
-        v-for="i in json[currentIndex].enrich.list"
-        :class="[{ noMore: !i.more, more: i.more }]"
-        :key="i.text"
-        @click="changeMore(i)"
-      >
-        <template v-if="i.more != null">
-          <i class="fas fa-tint moreDrop"></i>
-        </template>
-        <p>{{ i.text }}</p>
-        <div class="moreArrow" v-if="i.more != null">
-          <span class="dash"></span>
-          <i class="fas fa-angle-right"></i>
-        </div>
-        <span class="moreText" v-if="i.more != null">more</span>
-      </li>
-    </ul>
+    <template v-if="!moreEnabled">
+      <h2>What should I keep in mind?</h2>
+      <p class="intro">{{ json[currentIndex].enrich.intro }}</p>
+      <ul>
+        <li
+          v-for="i in json[currentIndex].enrich.list"
+          :class="[{ noMore: !i.more, more: i.more }]"
+          :key="i.text"
+          @click="changeMore(i)"
+        >
+          <template v-if="i.more != null">
+            <i class="fas fa-tint moreDrop"></i>
+          </template>
+          <p>{{ i.text }}</p>
+          <div class="moreArrow" v-if="i.more != null">
+            <span class="dash"></span>
+            <i class="fas fa-angle-right"></i>
+          </div>
+          <span class="moreText" v-if="i.more != null">more</span>
+        </li>
+      </ul>
+      <div id="moreBtn" @click="changePage(null)">Back</div>
+    </template>
+    <template v-else>
+      <div id="stuffWrap">
+        <img v-if="moreImg != null" :src="`/assets/img/${moreImg}`" />
+        <p>{{ moreText }}</p>
+      </div>
+      <div id="moreBtn" @click="moreEnabled = false">Back</div>
+    </template>
   </div>
 </template>
 
@@ -29,13 +39,18 @@ export default {
   data() {
     return {
       moreEnabled: false,
-      moreIndex: 0,
+      moreText: null,
+      moreImg: null,
     };
   },
   methods: {
     changeMore(MI) {
       this.moreEnabled = true;
-      this.moreIndex = MI;
+      this.moreText = MI.more;
+      this.moreImg = MI.moreImg;
+    },
+    changePage(newPage) {
+      this.$store.commit("setPage", newPage);
     },
   },
   computed: {
@@ -55,6 +70,29 @@ export default {
 <style lang="sass" scoped>
 @import "../../../src/global.sass"
 
+#stuffWrap
+  width: 100%
+  @include mobile
+    text-align: center
+  img
+    width: 30%
+    float: left
+    box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, .5)
+    filter: brightness(1)
+    transition: filter .25s, box-shadow .25s
+    margin-right: 1em
+    @include mobile
+      max-height: 50vh
+      max-width: 100%
+      width: auto
+      margin: 0 auto
+      margin-bottom: 1em
+      float: none
+  p
+    display: block
+    text-align: left
+    @include mobile
+      margin-left: 0
 #enrich
   padding: 0px 2em
   margin-top: 1em
