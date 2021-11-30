@@ -54,7 +54,7 @@ export default {
 #more
   padding: 2rem
   font-size: 1.25rem
-  &:deep p
+  &:deep(p)
     display: block
     margin-bottom: 1em
 </style>

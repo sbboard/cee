@@ -29,7 +29,7 @@ export default {
   margin-top: 1em
   height: 70vh
   overflow-y: auto
-  &:deep b
+  &:deep(b)
     display: block
     font-weight: bold
     margin-top: 1em
