@@ -8,13 +8,6 @@
         @click="infoWindow.infoOn = !infoWindow.infoOn"
       ></i>
     </h2>
-    <div id="stuffWrap">
-      <img
-        @click="vidWindow.infoOn = true"
-        :src="`/assets/img/${json[currentIndex].video.thumbnail}`"
-      />
-      <p>{{ json[currentIndex].video.description }}</p>
-    </div>
 
     <Vue3DraggableResizable
       :initW="pageWidth"
@@ -22,11 +15,12 @@
       v-model:x="vidWindow.x"
       v-model:y="vidWindow.y"
       v-model:w="vidWindow.w"
+      style="z-index: 2147483647"
       v-model:h="vidWindow.h"
       v-model:active="vidWindow.active"
       :draggable="true"
       :resizable="false"
-      v-if="vidWindow.infoOn"
+      :class="[vidWindow.infoOn ? '' : 'hide-vid']"
     >
       <div id="vidWindow">
         <div id="infoHeader">
@@ -130,8 +124,11 @@
       v-model:active="infoWindow.active"
       :draggable="true"
       :resizable="false"
-      v-if="infoWindow.infoOn"
-      :class="[`${json[currentIndex].colorScheme}Color`]"
+      style="z-index: 2147483647"
+      :class="[
+        `${json[currentIndex].colorScheme}Color`,
+        infoWindow.infoOn ? '' : 'hidden',
+      ]"
     >
       <div id="infoWindow">
         <div id="infoHeader">
@@ -169,6 +166,13 @@
         </table>
       </div>
     </Vue3DraggableResizable>
+    <div id="stuffWrap">
+      <img
+        @click="vidWindow.infoOn = true"
+        :src="`/assets/img/${json[currentIndex].video.thumbnail}`"
+      />
+      <p>{{ json[currentIndex].video.description }}</p>
+    </div>
   </div>
 </template>
 
@@ -316,6 +320,7 @@ h2
   width: 100%
   @include mobile
     text-align: center
+    margin-bottom: 4em
   img
     width: 30%
     float: left
@@ -323,6 +328,8 @@ h2
     cursor: pointer
     filter: brightness(1)
     transition: filter .25s, box-shadow .25s
+    @include mobile
+      display: none
     &:hover
       filter: brightness(0.9)
       box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, .2)
@@ -347,6 +354,11 @@ h2
   border-radius: 0.5em
   box-shadow: 0px 5px 15px -7px #000000f2
   border: 2px solid black
+  @include mobile
+    border-radius: 0
+    box-shadow: initial
+    border: 0
+    margin-bottom: 1em
   #infoHeader
     width: calc(100% - 1em)
     background-color: gray
@@ -356,6 +368,10 @@ h2
     i
       float: right
       cursor: pointer
+    @include mobile
+      cursor: inherit
+      i
+        cursor: inherit
   table
     border-collapse: collapse
     border-spacing: 0
@@ -376,6 +392,12 @@ h2
   border: 2px solid black
   line-height: 0
   position: relative
+  @include mobile
+    margin-bottom: 1rem
+    font-size: 2vw
+    border-radius: 0
+    box-shadow: initial
+    border: 0
   #beginMsg, #midMessage, #infoMessage
     position: absolute
     line-height: initial
@@ -383,15 +405,17 @@ h2
     flex-direction: column
     font-weight: bold
     background-color: rgba(white,.9)
-    width: calc(100% - 6em)
+    width: calc(100% - 6rem)
     cursor: pointer
-    height: calc(100% - 6em)
+    height: calc(100% - 6rem)
     display: flex
     justify-content: center
     pointer-events: none
     padding: 0 3em 3em 3em
+    @include mobile
+      padding: 0 3rem 6rem 3rem
     p
-      padding: .5em
+      padding: .5rem
   #infoHeader
     width: calc(100% - 1em)
     background-color: gray
@@ -400,6 +424,11 @@ h2
     font-size: 1.25em
     padding: .5em
     line-height: initial
+    @include mobile
+      cursor: inherit
+      display: none
+      i
+        cursor: inherit
     i
       float: right
       cursor: pointer
@@ -407,6 +436,21 @@ h2
     width: 100%
     outline: none
     cursor: pointer
+.hidden
+  display: none !important
+.hide-vid
+  display: none
+  @include mobile
+    display: block
+.vdr-container
+  @include mobile
+    position: inherit
+    width: 100% !important
+    height: initial !important
+    display: block
+#infoHeader .far
+  @include mobile
+    display: none !important
 .vdr-container.active
   border: none !important
   z-index: 90000
