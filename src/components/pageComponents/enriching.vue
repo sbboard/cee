@@ -25,8 +25,15 @@
     </template>
     <template v-else>
       <div id="stuffWrap">
-        <img v-if="moreImg != null" :src="`/assets/img/${moreImg}`" />
-        <p>{{ moreText }}</p>
+        <p class="intro" v-if="moreIntro">{{ moreIntro }}</p>
+        <div class="textWrap">
+          <img v-if="moreImg != null" :src="`/assets/img/${moreImg}`" />
+          <p>{{ moreText }}</p>
+        </div>
+        <div class="textWrap" v-if="moreTextTwo">
+          <img v-if="moreImgTwo != null" :src="`/assets/img/${moreImgTwo}`" />
+          <p>{{ moreTextTwo }}</p>
+        </div>
       </div>
       <div id="moreBtn" @click="moreEnabled = false">Back</div>
     </template>
@@ -39,8 +46,11 @@ export default {
   data() {
     return {
       moreEnabled: false,
+      moreIntro: null,
       moreText: null,
       moreImg: null,
+      moreImgTwo: null,
+      moreTextTwo: null,
     };
   },
   methods: {
@@ -48,6 +58,9 @@ export default {
       this.moreEnabled = true;
       this.moreText = MI.more;
       this.moreImg = MI.moreImg;
+      this.moreTextTwo = MI.moreTwo;
+      this.moreImgTwo = MI.moreImgTwo;
+      this.moreIntro = MI.moreIntro;
     },
     changePage(newPage) {
       this.$store.commit("setPage", newPage);
@@ -74,6 +87,11 @@ export default {
   width: 100%
   @include mobile
     text-align: center
+  .intro
+    margin-bottom: 1em
+  .textWrap
+    display: inline-block
+    margin-bottom: 1em
   img
     width: 30%
     float: left

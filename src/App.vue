@@ -62,7 +62,7 @@
               ]"
               @click="changeIndex(i.index)"
             >
-              {{ i.title }}
+              {{ firstWord(i.title) }}
             </li>
           </template>
         </ul>
@@ -104,6 +104,14 @@ export default {
     changePage(newPage) {
       this.$store.commit("setPage", newPage);
     },
+    firstWord(x){
+      if(x){
+        return x.split(" ")[0]
+      }
+      else{
+        return x
+      }
+    }
   },
   computed: {
     json() {

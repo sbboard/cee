@@ -119,8 +119,225 @@
         "theText": "<b>My days are already so full, how can I fit in time to plan with other teachers?</b><br/>It is often necessary to look for creative ways to make time for planning. You might turn a weekly lunchtime into a potluck gathering where a group of teachers share a meal and discuss the curriculum. You might schedule PE or extracurricular activities at the same time as your teaching partner and use that time to meet. Some teachers meet while classroom aides are supervising children outside. Others fit in brief 15-minute discussions on several different days each week.<br/>Too often in schools we devote more time to discussing day-to-day nuts and bolts than we do planning curriculum goals. Trading some of the time ordinarily spent on procedures and using it instead for discussions of big ideas and concepts helps shift the focus to children's learning.<br/><b>How can teachers cover everything in the curriculum if they use this approach?</b><br/>The classroom-ecosystem approach stresses depth over breadth. Therefore you should work in the beginning of the year to carefully select the areas you will spend more time on than others. Examine the curriculum and the science education standards and try to determine which concepts and big ideas will be most meaningful for children. Work with other teachers to eliminate the redundancies that rarely deepen understanding.<br/>When teachers feel pressed to cover everything in the standards, the result is a watered down or disconnected program. If you approach the curriculum in terms of big ideas and concepts rather than topics and themes or isolated facts, you'll be better able to help children make connections and gain in-depth knowledge.<br/><b>Should a teacher ever say \"no\" to an idea or investigation that emerges from the student/s?</b><br/>Yes. A teacher's response to a student's idea or investigation should depend on his or her learning goal for the students. What might they learn from the idea? Does it fit with the science concepts and big ideas? Are there cost or safety concerns that might weigh against implementing this particular idea or investigation?<br/>The fact that students are motivated to come up with ideas and ask questions indicates that the teacher is making science relevant and exciting. One way to determine whether ideas or investigations should be pursued is to ask which of the learning goals they will achieve.<br/><b>How much do teachers need to know about science to teach this way?</b><br/>The stronger the teacher's knowledge of the content area the better he or she can help children build their own understanding. A strong knowledge base can also help teachers be sure of where they want to lead children in terms of the learning goals.<br/>To increase their knowledge, teachers can read books, work with colleagues, use teacher guides or carefully selected internet sites, ask experts to come to the classroom, or attend professional development seminars.<br/>Teachers who use the classroom-ecosystem approach need to see themselves as learners with the children, but they also must stay one step ahead, keeping in mind the concepts. Still, that doesn't mean they need to know it all. In the course of investigations children will come up with challenging questions. Teachers must know where to look for information and be willing to take the time to find it. A very important part of the classroom-ecosystem approach is this dynamic of constant learning on the part of both the teacher and the child."
       }
     },
-    { "index": 2 },
-    { "index": 3 },
+    {
+      "index": 2,
+      "title": "Flexible Planning",
+      "colorScheme": "red",
+      "type": "page",
+      "definition": "Flexible planning involves teachers actively listening to children's ideas and including those ideas in the learning experiences. The teacher's challenge is to evaluate the ideas as they come up and decide how or if they fit into the curriculum.",
+      "benefits": "Seeing their ideas come to life empowers children and gives them incentive to be active participants in their learning environment.",
+      "examples": "During an experiment with liquids and gases, a child asks how long it would take for a liquid, poured onto the surface of the playground, to become a gas. Although it had not been part of the plan for the day, the teacher uses the \"teachable moment\" to conduct this experiment with the students.",
+      "video": {
+        "title": "Potential Potential Potential",
+        "file": "video_13.mp4",
+        "thumbnail": "preview13.jpg",
+        "planningPoints": [
+          {
+            "cuetime": 7,
+            "text": "Upon realizing a common misconception in their students' understanding of kinetic and potential energy, the teachers take time to review the concepts."
+          },
+          {
+            "cuetime": 46,
+            "text": "Next the teachers gather the students to address the confusion and clarify the concepts. The teachers have cleared class time for this essential discussion."
+          },
+          {
+            "cuetime": 158,
+            "text": "At the end of the discussion, one child noted that the transformation of energy is similar to when he and his friends run up and down a hill near the school. The teachers capitalize on the student's insight and take the class to the hill for an impromptu experience that helps reinforce the concepts."
+          }
+        ],
+        "setupPoints": [
+          {
+            "cuetime": 59,
+            "text": "The rug area provides a space where the teacher can gather the whole class to clarify the concepts. Here she is able to observe children's reactions and check in that everyone is getting the information."
+          },
+          {
+            "cuetime": 169,
+            "text": "Taking the children to a grassy hill near the school extends the learning space beyond the classroom."
+          },
+          {
+            "cuetime": 184,
+            "text": "Being flexible in her planning allows the teacher to pick up on a student's suggestion and results in using a space that is especially well suited to exploring the concepts."
+          }
+        ],
+        "culturePoints": [
+          {
+            "cuetime": 32,
+            "text": "In an effective Classroom-Ecosystem, teachers see themselves as continual learners. By consulting with a member of the classroom community who is more expert in physics, the teachers enhance their knowledge and are better able to help the children understand physics."
+          },
+          {
+            "cuetime": 60,
+            "text": "When teachers and children are constructing knowledge together, it is sometimes necessary to change the plan for the day. Here the teacher has postponed a planned experience so the class can gather for a discussion to clarify the concepts."
+          },
+          {
+            "cuetime": 169,
+            "text": "Providing opportunities for children to connect the concepts to familiar activities helps make the concepts more meaningful."
+          }
+        ],
+        "exPoints": [
+          {
+            "cuetime": 73,
+            "text": "As the teacher speaks, she refers to a diagram of a roller coaster, which she labels. Looking at the diagram is a thirdhand experience for the children, giving them a visual representation of abstract concepts."
+          },
+          {
+            "cuetime": 89,
+            "text": "As part of their firsthand experiences related to the concepts, the class visited a local amusement park. Recalling their experiences riding roller coasters helps the children make sense of the diagram."
+          },
+          {
+            "cuetime": 169,
+            "text": "Following a student's suggestion, the teachers take the children to a nearby hill so that they can personally experience the transformation of energy in their bodies as they run up and down."
+          }
+        ],
+        "repPoints": [
+          {
+            "cuetime": 127,
+            "text": "The teacher and student refer to the teacher's 2-D representation of a roller coaster as they discuss the concepts."
+          },
+          {
+            "cuetime": 157,
+            "text": "At the end of the classroom discussion the teacher took the children outside to the 3-D representation of a roller coaster that they had made. She had them identify the sections of the representation where kinetic and potential energy are used."
+          },
+          {
+            "cuetime": 187,
+            "text": "The teacher requires the children to use formal academic language to describe the movement of matter--potential and kinetic energy--as they run up and down the hill. This reinforces the concepts through two kinds of representation--oral and kinesthetic."
+          }
+        ],
+        "description": "In the sequence before this video begins, students pointed out areas of potential and kinetic energy on the model roller coaster outside their classroom, and teachers realized there were misunderstandings regarding the concepts (for more on this, see the Example Video for Teacher-Student Culture). Taking advantage of a teachable moment, teachers decided to re-introduce the concepts to clear up the misconceptions. Before the concepts are presented again to the students, however, the teachers want to make sure their own understanding is correct, and so they consult with a physics expert.",
+        "AoS": "Physical Sicence",
+        "topic": "Energy",
+        "bigIdea": "Conservation",
+        "concept": "Energy changes from one form to another",
+        "gradeLvl": "K-1 Science",
+        "standards": "Energy and matter have multiple forms and can be changed from one form to another. As a basis for understanding this concept:<ol><li>Students know sources of stored energy take many different forms, such as food, fuel, and batteries.</li><li>Students know machines and living things convert stored energy to motion and  heat.</li><li>Students know energy can be carried from one place to another by waves, such as water waves and sound waves, by electric current, and by moving objects.</li></ol>"
+      },
+      "enrich": {
+        "intro": "Before developing Formal Planning, consider that children will get the most out of this Component when it has the following properties:",
+        "list": [
+          {
+            "text": "Children have many opportunities to discuss ideas and concepts",
+            "more": null,
+            "moreImg": null
+          },
+          {
+            "text": "Teachers listen to children's ideas",
+            "more": "Here the teacher asks children to predict the possible outcomes when several different liquids are mixed together. It is in these kinds of discussions that new ideas emerge, which can often change the course of the lesson.",
+            "moreImg": "fle_eco_2.jpg"
+          },
+          {
+            "text": "Teachers incorporate children's ideas into the curriculum",
+            "more": null,
+            "moreImg": null
+          },
+          {
+            "text": "Teachers listen to children's ideas",
+            "more": "Classroom teachers share students' drawings and clay representations of the characteristics of a solid, such as bumpy, pointy, and round. This is followed by a discussion among teachers from the whole grade level to plan next steps.",
+            "moreImg": "fle_eco_4.jpg"
+          }
+        ]
+      },
+      "challenges": {
+        "theText": "<b>My days are already so full, how can I fit in time to plan with other teachers?</b><br/>It is often necessary to look for creative ways to make time for planning. You might turn a weekly lunchtime into a potluck gathering where a group of teachers share a meal and discuss the curriculum. You might schedule PE or extracurricular activities at the same time as your teaching partner and use that time to meet. Some teachers meet while classroom aides are supervising children outside. Others fit in brief 15-minute discussions on several different days each week.<br/>Too often in schools we devote more time to discussing day-to-day nuts and bolts than we do planning curriculum goals. Trading some of the time ordinarily spent on procedures and using it instead for discussions of big ideas and concepts helps shift the focus to children's learning.<br/><b>How can teachers cover everything in the curriculum if they use this approach?</b><br/>The classroom-ecosystem approach stresses depth over breadth. Therefore you should work in the beginning of the year to carefully select the areas you will spend more time on than others. Examine the curriculum and the science education standards and try to determine which concepts and big ideas will be most meaningful for children. Work with other teachers to eliminate the redundancies that rarely deepen understanding.<br/>When teachers feel pressed to cover everything in the standards, the result is a watered down or disconnected program. If you approach the curriculum in terms of big ideas and concepts rather than topics and themes or isolated facts, you'll be better able to help children make connections and gain in-depth knowledge.<br/><b>Should a teacher ever say \"no\" to an idea or investigation that emerges from the student/s?</b><br/>Yes. A teacher's response to a student's idea or investigation should depend on his or her learning goal for the students. What might they learn from the idea? Does it fit with the science concepts and big ideas? Are there cost or safety concerns that might weigh against implementing this particular idea or investigation?<br/>The fact that students are motivated to come up with ideas and ask questions indicates that the teacher is making science relevant and exciting. One way to determine whether ideas or investigations should be pursued is to ask which of the learning goals they will achieve.<br/><b>How much do teachers need to know about science to teach this way?</b><br/>The stronger the teacher's knowledge of the content area the better he or she can help children build their own understanding. A strong knowledge base can also help teachers be sure of where they want to lead children in terms of the learning goals.<br/>To increase their knowledge, teachers can read books, work with colleagues, use teacher guides or carefully selected internet sites, ask experts to come to the classroom, or attend professional development seminars.<br/>Teachers who use the classroom-ecosystem approach need to see themselves as learners with the children, but they also must stay one step ahead, keeping in mind the concepts. Still, that doesn't mean they need to know it all. In the course of investigations children will come up with challenging questions. Teachers must know where to look for information and be willing to take the time to find it. A very important part of the classroom-ecosystem approach is this dynamic of constant learning on the part of both the teacher and the child."
+      }
+    },
+    {
+      "index": 3,
+      "title": "Project Planning",
+      "colorScheme": "red",
+      "type": "page",
+      "definition": "Projects are long-term investigations that can last up to several months. They arise from an interest or need the children express and are directly related to the concepts or big ideas that have been presented in the classroom. Planning for a project involves teachers deciding what materials and resources will be needed to implement the children's ideas.",
+      "benefits": "Project planning helps assure that long-term investigations address the big ideas and concepts and offer children an opportunity to apply their learning in a meaningful way.",
+      "examples": "During a discussion about how simple machines make work easier, a small group of children suggests building a roller coaster that sends messages back and forth between adjoining classrooms. The teacher recognizes this as an opportunity for children to apply their knowledge of physical science concepts. For several months, children and adults work two mornings a week to design, construct and revise the message sending rollercoaster.",
+      "video": {
+        "title": "The Project",
+        "file": "video_14.mp4",
+        "thumbnail": "preview14.jpg",
+        "planningPoints": [
+          {
+            "cuetime": 18,
+            "text": "Many times project ideas generate from the children through conversation and discussion. Other times, teachers ask the students thought-provoking questions that will stimulate ideas for a long-term project."
+          },
+          {
+            "cuetime": 35,
+            "text": "Teachers discuss the main concept that will be reinforced for the students through the project."
+          }
+        ],
+        "setupPoints": [
+          {
+            "cuetime": 14,
+            "text": "The teacher is thinking about using different areas inside and outside the classroom for the project. Depending on what the children decide, the areas will be modified to fit the project design."
+          },
+          {
+            "cuetime": 51,
+            "text": "After the teachers talk to the children about what they will build, they will do further project planning to determine what resources they need to implement the project."
+          }
+        ],
+        "culturePoints": [
+          {
+            "cuetime": 6,
+            "text": "Asking children to contribute their ideas to the project design helps them to be more invested in the work and more likely to develop a deep understanding of the concepts."
+          },
+          {
+            "cuetime": 18,
+            "text": "Focusing the project on children's play or work helps make the concepts less abstract and encourages the children to make connections between science and their everyday lives."
+          },
+          {
+            "cuetime": 44,
+            "text": "All the children will contribute to the classroom project. This provides a natural way to help them develop collaborative skills."
+          }
+        ],
+        "exPoints": [
+          {
+            "cuetime": 23,
+            "text": "The teacher is thinking about how to design experiences around the project that would integrate other curricular areas."
+          },
+          {
+            "cuetime": 50,
+            "text": "Planning for this long-term project comes after children have had many experiences that introduced and reinforced the concepts."
+          }
+        ],
+        "repPoints": [
+          {
+            "cuetime": 9,
+            "text": "Oftentimes, teachers choose how students will represent their understanding of a concept or big idea. However, there are times when teachers ask students to choose how they want to demonstrate their knowledge. Student choice is a significant part of the process in long-term projects."
+          },
+          {
+            "cuetime": 50,
+            "text": "The process of designing and building the project will provide many opportunities for teachers to assess children's understanding of the concepts."
+          },
+          {
+            "cuetime": 57,
+            "text": "Earlier in the year, children designed simple toys as 3-D representations of the concept that simple machines make work easier."
+          }
+        ],
+        "description": "K-1 teachers from adjoining classrooms meet to discuss possibilities for a long-term project through which students will demonstrate their understanding of the concepts.",
+        "AoS": "Physical Sicence",
+        "topic": "Energy",
+        "bigIdea": "Systems",
+        "concept": "Simple machines make work easier",
+        "gradeLvl": "K-1 Science",
+        "standards": "The motion of objects can be observed and measured. As a basis for understanding this concept:<ol><li>Students know the way to change how something is moving is by giving it a push or a pull. The size of the change is related to the strength, or the amount of force, of the push or pull.</li><li>Students know tools and machines are used to apply pushes and pulls (forces) to make things move.</li><li>Students know objects fall to the ground unless something holds them up.</li></ol>"
+      },
+      "enrich": {
+        "intro": "Before developing Formal Planning, consider that children will get the most out of this Component when it has the following properties:",
+        "list": [
+          {
+            "text": "It uses children's interests as a guide",
+            "moreIntro": "Children's ideas for projects arise from their experiences. The idea for building a message sending roller coaster came about after children had many experiences with force and motion, kinetic and potential energy, and simple machines.",
+            "more": "After learning that simple machines make work easier, children wanted to create a machine of their own that could send messages between two classrooms. A field trip to LEGOLAND gave them ideas about how to build it - they observed roller coasters, made sketches and brainstormed ideas.",
+            "moreImg": "pro_eco_1a.jpg",
+            "moreTwo": "As the project emerged, children's discussions became part of the planning process. In both formal and informal discussions the teachers asked, what are the children's interests? The more defined the project became, the more it was a focus in meetings and in the classrooms.",
+            "moreImgTwo": "pro_eco_1b.jpg"
+          },
+          {
+            "text": "It uses the concepts and big ideas to provide direction",
+            "more": "Although projects arise from children's ideas, teachers should refer to the big ideas and concepts to provide structure and to ensure that the project work supports the learning goals. The work done in Formal Planning serves as a guide.",
+            "moreImg": null
+          }
+        ]
+      },
+      "challenges": {
+        "theText": "<b>My days are already so full, how can I fit in time to plan with other teachers?</b><br/>It is often necessary to look for creative ways to make time for planning. You might turn a weekly lunchtime into a potluck gathering where a group of teachers share a meal and discuss the curriculum. You might schedule PE or extracurricular activities at the same time as your teaching partner and use that time to meet. Some teachers meet while classroom aides are supervising children outside. Others fit in brief 15-minute discussions on several different days each week.<br/>Too often in schools we devote more time to discussing day-to-day nuts and bolts than we do planning curriculum goals. Trading some of the time ordinarily spent on procedures and using it instead for discussions of big ideas and concepts helps shift the focus to children's learning.<br/><b>How can teachers cover everything in the curriculum if they use this approach?</b><br/>The classroom-ecosystem approach stresses depth over breadth. Therefore you should work in the beginning of the year to carefully select the areas you will spend more time on than others. Examine the curriculum and the science education standards and try to determine which concepts and big ideas will be most meaningful for children. Work with other teachers to eliminate the redundancies that rarely deepen understanding.<br/>When teachers feel pressed to cover everything in the standards, the result is a watered down or disconnected program. If you approach the curriculum in terms of big ideas and concepts rather than topics and themes or isolated facts, you'll be better able to help children make connections and gain in-depth knowledge.<br/><b>Should a teacher ever say \"no\" to an idea or investigation that emerges from the student/s?</b><br/>Yes. A teacher's response to a student's idea or investigation should depend on his or her learning goal for the students. What might they learn from the idea? Does it fit with the science concepts and big ideas? Are there cost or safety concerns that might weigh against implementing this particular idea or investigation?<br/>The fact that students are motivated to come up with ideas and ask questions indicates that the teacher is making science relevant and exciting. One way to determine whether ideas or investigations should be pursued is to ask which of the learning goals they will achieve.<br/><b>How much do teachers need to know about science to teach this way?</b><br/>The stronger the teacher's knowledge of the content area the better he or she can help children build their own understanding. A strong knowledge base can also help teachers be sure of where they want to lead children in terms of the learning goals.<br/>To increase their knowledge, teachers can read books, work with colleagues, use teacher guides or carefully selected internet sites, ask experts to come to the classroom, or attend professional development seminars.<br/>Teachers who use the classroom-ecosystem approach need to see themselves as learners with the children, but they also must stay one step ahead, keeping in mind the concepts. Still, that doesn't mean they need to know it all. In the course of investigations children will come up with challenging questions. Teachers must know where to look for information and be willing to take the time to find it. A very important part of the classroom-ecosystem approach is this dynamic of constant learning on the part of both the teacher and the child."
+      }
+    },
     {
       "index": 4,
       "title": "Setup",
