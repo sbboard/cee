@@ -28,15 +28,15 @@
       >
     </div>
     <div id="textWindow">
-      <template v-if="miniNav === 0">{{
-        json[currentIndex].definition
-      }}</template>
-      <template v-if="miniNav === 1">{{
-        json[currentIndex].benefits
-      }}</template>
-      <template v-if="miniNav === 2">{{
-        json[currentIndex].examples
-      }}</template>
+      <template v-if="miniNav === 0"
+        ><p v-html="json[currentIndex].definition"></p
+      ></template>
+      <template v-if="miniNav === 1"
+        ><p v-html="json[currentIndex].benefits"></p
+      ></template>
+      <template v-if="miniNav === 2"
+        ><p v-html="json[currentIndex].examples"></p
+      ></template>
     </div>
   </div>
   <div v-else-if="currentPage == 'example'">
@@ -104,7 +104,8 @@ export default {
   display: flex
   justify-content: center
   height: 86%
-  align-items: center
+  margin-top: 1em
+  align-items: flex-start
   @include mobile
     flex-direction: column
   #sidePart
@@ -144,6 +145,8 @@ export default {
         top: 82%
       &.redColor
         background-color: $darkRed
+      &.greenColor
+        background-color: $darkGreen
     span
       text-align: right
       text-decoration: underline

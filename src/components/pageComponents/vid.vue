@@ -316,6 +316,8 @@ h2
     cursor: pointer
   &.redColor
     background-color: $midRed
+  &.greenColor
+    background-color: $midGreen
 #stuffWrap
   width: 100%
   @include mobile
@@ -460,4 +462,9 @@ h2
       table
         td:first-child
           background-color: $midRed
+  &.greenColor
+    #infoWindow
+      table
+        td:first-child
+          background-color: $midGreen
 </style>

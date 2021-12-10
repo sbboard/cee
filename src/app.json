@@ -88,7 +88,7 @@
           }
         ],
         "description": "All the K-1 teachers meet to discuss experiences students will need to acquire an understanding of different forces (i.e. gravity, friction, push, pull, etc.) and how these forces cause motion.",
-        "AoS": "Physical Sicence",
+        "AoS": "Physical Science",
         "topic": "Force and Motion",
         "bigIdea": "Cause and Effect",
         "concept": "Force causes motion",
@@ -202,7 +202,7 @@
           }
         ],
         "description": "In the sequence before this video begins, students pointed out areas of potential and kinetic energy on the model roller coaster outside their classroom, and teachers realized there were misunderstandings regarding the concepts (for more on this, see the Example Video for Teacher-Student Culture). Taking advantage of a teachable moment, teachers decided to re-introduce the concepts to clear up the misconceptions. Before the concepts are presented again to the students, however, the teachers want to make sure their own understanding is correct, and so they consult with a physics expert.",
-        "AoS": "Physical Sicence",
+        "AoS": "Physical Science",
         "topic": "Energy",
         "bigIdea": "Conservation",
         "concept": "Energy changes from one form to another",
@@ -347,9 +347,499 @@
       "citation": "Edwards, C., Gandini, L., and Forman, G. (1998).<br />The hundred languages of children: The Reggio Emelia approach.<br />Greenwich, CT: Ablex.",
       "more": "To support in-depth learning, the classroom must be a safe and inviting place for children to ask questions, experiment and take thoughtful risks. All aspects of the classroom setup -space, display and resources- must work together to promote these qualities. "
     },
-    { "index": 5 },
-    { "index": 6 },
-    { "index": 7 },
+    {
+      "index": 5,
+      "title": "Space Setup",
+      "colorScheme": "green",
+      "type": "page",
+      "definition": "The organization of the physical space in the classroom should be flexible in order to adapt and respond to the different needs of children and convey a sense of well-being to both children and parents.<br /><br />The classroom space should also support the varied ways that children learn and construct knowledge - by posing questions, generating information from multiple resources, and communicating information to others. To do this, classrooms should include spaces for quiet, reflective work; individual or cooperative work; whole-group or small-group learning; and messy escapades.",
+      "benefits": "Giving children opportunities to work in a variety of ways and encouraging frequent discussion helps ideas to emerge and connections to be made. Working cooperatively and with different kinds of learners, children have opportunities to communicate their thinking, listen to others, and give and receive feedback about their work from their peers. Working individually helps children focus on the task at hand and make independent decisions.",
+      "examples": "In a small group, students negotiate how to design two inclined planes, one with a lot of friction, and one with very little. They record their ideas and then bring them to the whole classroom community to gather further suggestions.",
+      "video": {
+        "title": "Classroom Space",
+        "file": "video_9.mp4",
+        "thumbnail": "preview9.jpg",
+        "planningPoints": [
+          {
+            "cuetime": 5,
+            "text": "With a variety of spatial configurations, children can work on different aspects of a collaborative project simultaneously. In planning a project, it is important to think ahead about different ways the space--both inside and outside the classroom--can support the project."
+          },
+          {
+            "cuetime": 40,
+            "text": "Setting up the classroom to support a variety of activities requires formal planning.  However, the more flexible the setup, the more effective it will be in adapting and responding to the needs of children and the ways in which they learn."
+          }
+        ],
+        "setupPoints": [
+          {
+            "cuetime": 5,
+            "text": "The strategic arrangement of cabinets and bookcases provides a space for children's imaginary play, a key component of young children's learning."
+          },
+          {
+            "cuetime": 19,
+            "text": "The positioning of students' large-scale creations (such as the blue Totem Pole) can help divide the classroom space and also provides a display of children's work."
+          },
+          {
+            "cuetime": 28,
+            "text": "A cozy space for reading (the sofa and coffee table seen here) helps make the classroom more appealing and bridges the transition from home to school."
+          },
+          {
+            "cuetime": 38,
+            "text": "A large area rug is used for whole-group learning and class discussions. It also offers a space for children to spread out while working independently. Tables and chairs (in the background on the left) provide an area for small groups to work together."
+          },
+          {
+            "cuetime": 58,
+            "text": "Looking at a bird's-eye view of the learning environment you just watched may help you understand how space can be arranged effectively to maximize the learning potential of your classroom."
+          },
+          {
+            "cuetime": 61,
+            "text": "To see a full-resolution version of this floorplan, go to the main CEE site, under Resources > Classroom Setup > Classroom Space Floorplan."
+          }
+        ],
+        "culturePoints": [
+          {
+            "cuetime": 3,
+            "text": "Areas designed for small groups encourage student interactions and the development of positive social skills.  This helps create a classroom culture where children feel comfortable exchanging ideas."
+          },
+          {
+            "cuetime": 11,
+            "text": "By moving about the room and checking in with children, the teacher helps them develop independence while also fostering a culture of respect and responsibility."
+          },
+          {
+            "cuetime": 41,
+            "text": "Providing children with a comfortable, inviting environment lets them know that they are valued and encourages their cooperative participation in the learning community."
+          }
+        ],
+        "exPoints": [
+          {
+            "cuetime": 29,
+            "text": "Including lots of books and comfortable reading spaces in the classroom setup encourages children to explore reading materials that support their firsthand and secondhand experiences."
+          },
+          {
+            "cuetime": 37,
+            "text": "Classrooms should be arranged so that relevant reading materials are readily accessible to children."
+          },
+          {
+            "cuetime": 43,
+            "text": "A large area rug provides a comfortable space for children to share a secondhand experience such as watching a video."
+          },
+          {
+            "cuetime": 51,
+            "text": "Incorporating computers into the classroom space, when possible, helps facilitate children's access to secondhand experiences, such as looking at photos or websites chosen by the teacher."
+          }
+        ],
+        "repPoints": [
+          {
+            "cuetime": 7,
+            "text": "Children represent their understanding of concepts through dramatic play.  Designating space for this kind of learning encourages children's imaginations and allows teachers to assess understanding."
+          },
+          {
+            "cuetime": 17,
+            "text": "Children's 3-D representation of a totem pole positioned in the classroom provides a reminder of the process and physical principles of construction, such as gravity, weight and balance."
+          },
+          {
+            "cuetime": 45,
+            "text": "A large clear space provides an area for kinesthetic representation. It also offers a gathering space for oral representation through discussion. Both provide opportunities for teachers to assess children's understanding."
+          },
+          {
+            "cuetime": 52,
+            "text": "Incorporating computers into the classroom space, when possible, gives children an additional medium for 2-D representation."
+          }
+        ],
+        "description": "This video depicts a variety of ways to set up the classroom space for teaching science for young children. Classroom space should be adaptable to support the science content and children's evolving ideas.",
+        "AoS": "Physical Science",
+        "topic": "Various",
+        "bigIdea": "Various",
+        "concept": "Various",
+        "gradeLvl": "K-3 Science",
+        "standards": "Various Physical Science standards"
+      },
+      "enrich": {
+        "intro": "Before developing Space Setup, consider that children will get the most out of this Component when it has the following properties:",
+        "list": [
+          {
+            "text": "It is flexible and adapts to children's needs",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "It promotes learning and exploration",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Children have space to spread out their work",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "It includes a cozy spot for reading",
+            "moreIntro": null,
+            "more": "Children gather in the library to work in their science journals. Bridging home to school helps create a safe and comfortable learning environment.",
+            "moreImg": "org_eco_4.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "It includes a large rug area for whole-group meetings",
+            "moreIntro": null,
+            "more": "After experimenting with changing liquids to solids and vice versa, teachers gathered students on the rug for a discussion. Having an area where the whole group can gather helps create an environment that promotes discussion and conversation.",
+            "moreImg": "org_eco_5.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Outdoor space is used whenever possible and appropriate",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          }
+        ]
+      },
+      "challenges": {
+        "theText": "<b>My days are already so full, how can I fit in time to plan with other teachers?</b><br/>It is often necessary to look for creative ways to make time for planning. You might turn a weekly lunchtime into a potluck gathering where a group of teachers share a meal and discuss the curriculum. You might schedule PE or extracurricular activities at the same time as your teaching partner and use that time to meet. Some teachers meet while classroom aides are supervising children outside. Others fit in brief 15-minute discussions on several different days each week.<br/>Too often in schools we devote more time to discussing day-to-day nuts and bolts than we do planning curriculum goals. Trading some of the time ordinarily spent on procedures and using it instead for discussions of big ideas and concepts helps shift the focus to children's learning.<b>How can teachers cover everything in the curriculum if they use this approach?</b><br/>The classroom-ecosystem approach stresses depth over breadth. Therefore you should work in the beginning of the year to carefully select the areas you will spend more time on than others. Examine the curriculum and the science education standards and try to determine which concepts and big ideas will be most meaningful for children. Work with other teachers to eliminate the redundancies that rarely deepen understanding.<br/>When teachers feel pressed to cover everything in the standards, the result is a watered down or disconnected program. If you approach the curriculum in terms of big ideas and concepts rather than topics and themes or isolated facts, you'll be better able to help children make connections and gain in-depth knowledge.<b>Should a teacher ever say \"no\" to an idea or investigation that emerges from the student's?</b><br/>Yes. A teacher's response to a student's idea or investigation should depend on his or her learning goal for the students. What might they learn from the idea? Does it fit with the science concepts and big ideas? Are there cost or safety concerns that might weigh against implementing this particular idea or investigation?<br/>The fact that students are motivated to come up with ideas and ask questions indicates that the teacher is making science relevant and exciting. One way to determine whether ideas or investigations should be pursued is to ask which of the learning goals they will achieve.<b>How much do teachers need to know about science to teach this way?</b><br/>The stronger the teacher's knowledge of the content area the better he or she can help children build their own understanding. A strong knowledge base can also help teachers be sure of where they want to lead children in terms of the learning goals. <br/>To increase their knowledge, teachers can read books, work with colleagues, use teacher guides or carefully selected internet sites, ask experts to come to the classroom, or attend professional development seminars.<br/>Teachers who use the classroom-ecosystem approach need to see themselves as learners with the children, but they also must stay one step ahead, keeping in mind the concepts. Still, that doesn't mean they need to know it all. In the course of investigations children will come up with challenging questions. Teachers must know where to look for information and be willing to take the time to find it. A very important part of the classroom-ecosystem approach is this dynamic of constant learning on the part of both the teacher and the child."
+      }
+    },
+    {
+      "index": 6,
+      "title": "Display Setup",
+      "colorScheme": "green",
+      "type": "page",
+      "definition": "A challenge as educators is to think beyond decorating the classroom and consider how the walls and areas of the room can be used effectively to promote curiosity, inquiry and creativity.",
+      "benefits": "Classroom displays of children's on-going and finished work help to stimulate thinking and create dialogue, which in turn lead to new learning.<br/><br/>Displaying documentation of children's thought processes and conversations invites children to edit, revise and give further thought to their work. It gives teachers the opportunity to reflect on their practice. It also provides a way to bring parents into the life of the classroom.",
+      "examples": "A collaborative project to build a model of a roller coaster is set up in the center of the classroom, where all children can add to it as they develop new knowledge. A painting of a roller coaster is mounted with a simple black border so the details of the child's work stand out.",
+      "video": {
+        "title": "Classroom Displays",
+        "file": "video_10.mp4",
+        "thumbnail": "preview10.jpg",
+        "planningPoints": [
+          {
+            "cuetime": 4,
+            "text": "Teachers should look beyond decoration and plan meaningful and functional displays that change along with the classroom."
+          },
+          {
+            "cuetime": 31,
+            "text": "Coming up with ways to include hands-on displays should be a part of the formal planning of classroom activities.  To correspond with a unit about friction, teachers arranged for classroom families to donate simple materials like sand and scraps of fabric, which were glued to cardboard and displayed on a table to promote student engagement with the concepts."
+          },
+          {
+            "cuetime": 44,
+            "text": "Teachers planned for their students' 2D and 3D representations of textures to also function as a stimulating wall display."
+          },
+          {
+            "cuetime": 83,
+            "text": "Plan to take pictures of your students engaged in class projects. These photos can help children and teachers to reflect on their work, and they also help parents be informed members of the classroom community."
+          }
+        ],
+        "setupPoints": [
+          {
+            "cuetime": 4,
+            "text": "Classroom displays should be dynamic spaces for student work, as well as for thought-provoking objects that inspire children's thinking."
+          },
+          {
+            "cuetime": 17,
+            "text": "A table displaying hands-on books and materials becomes an interactive display designed to attract attention and encourage students' engagement."
+          },
+          {
+            "cuetime": 38,
+            "text": "Look for ways to allow individual and collaborative student projects to be the focus of your classroom display.  Here, students used clay to represent words that describe characteristics of matter.  The individual pieces are arranged to create a visual \"chart\" that supports students' thinking."
+          },
+          {
+            "cuetime": 51,
+            "text": "Keeping display boards simple and uncluttered allows children's work to be the focus. A bulletin board covered with busy patterns and colors can detract from the integrity of children's work."
+          },
+          {
+            "cuetime": 76,
+            "text": "Documenting learning processes and ongoing projects can also be an important part of classroom display.  It encourages students to reflect on their thought processes and past work.  Documentary display also allows teachers to reflect upon their practice."
+          },
+          {
+            "cuetime": 113,
+            "text": "Allowing ongoing projects to remain a part of the classroom display inspires children to continue thinking about the material throughout the school day. The presence of the rollercoaster on the outside windows of the classroom encourages children to discuss possible additions or changes, and keeps the concepts fresh in their minds."
+          }
+        ],
+        "culturePoints": [
+          {
+            "cuetime": 11,
+            "text": "Classroom displays should feature hands-on objects to promote curiosity and engagement. This requires establishing a classroom culture early in the year where students respect classroom property and are trusted to use it appropriately."
+          },
+          {
+            "cuetime": 38,
+            "text": "Here, student representations are displayed as an informational chart that illustrates the various characteristics of matter. This type of display emphasizes students' work as a source of information, validating their efforts and showing that their contributions to the classroom are valued."
+          },
+          {
+            "cuetime": 76,
+            "text": "Documentation displays that show photographs of children at work help engage parents in the life of the classroom and make them part of the learning community. Here, parents can see their children engaged in a long-term project, and can follow the evolution of the project step-by-step."
+          }
+        ],
+        "exPoints": [
+          {
+            "cuetime": 11,
+            "text": "Including books, posters, and 3D objects in your classroom displays provides children with experiences related to the curricular concepts. Here, teachers have set out simple inclined planes, small blocks of various shapes, and surfaces with different textures for children to explore, providing them with firsthand experiences."
+          },
+          {
+            "cuetime": 17,
+            "text": "Including reading materials and informational posters in classroom displays offers students thirdhand experiences that enhance their understanding of the concepts and provide background information for firsthand experiences."
+          },
+          {
+            "cuetime": 57,
+            "text": "Here, the classroom display includes photographs of students exploring the properties of different states of matter through firsthand experiences."
+          },
+          {
+            "cuetime": 63,
+            "text": "The display tells the story of a \"solids hunt\", where students went exploring outside and brought back a variety of items with different characteristics. They then categorized the items and wrote descriptions of them."
+          },
+          {
+            "cuetime": 146,
+            "text": "A student's representation of swings in motion reflects the child's firsthand experience on the playground. Including the representation in the classroom display reinforces for all the students that they experience the physical principles of force and motion every day."
+          }
+        ],
+        "repPoints": [
+          {
+            "cuetime": 38,
+            "text": "Student representations of concepts are the cornerstone of classroom display.  Making students' creative work visible in the classroom helps stimulate thinking and reinforces the concepts."
+          },
+          {
+            "cuetime": 94,
+            "text": "Students' 2-D representations, including labeled diagrams they create to represent their understanding, can be powerful components of a thought-provoking classroom display."
+          },
+          {
+            "cuetime": 113,
+            "text": "The students' 3D representation of a rollercoaster is mounted on the outside of the classroom, where it can remain while the building process continues. Displaying in-process projects like this one allows children to continually examine their work and add to it as they learn more about the concepts and big ideas."
+          },
+          {
+            "cuetime": 139,
+            "text": "As part of their unit on motion, the students collaborated on a large-scale mural on canvas, which represents their understanding of the physics at work at a local amusement park. The painting has become a permanent part of the school's hallway display."
+          }
+        ],
+        "description": "This video depicts a variety of ways that classroom displays support the teaching of science for young children. Classroom displays should adapt to reflect the science content and children's evolving ideas.",
+        "AoS": "Physical Science",
+        "topic": "Various",
+        "bigIdea": "Various",
+        "concept": "Various",
+        "gradeLvl": "K-3 Science",
+        "standards": "Various Physical Science standards"
+      },
+      "enrich": {
+        "intro": "Before developing Display Setup, consider that children will get the most out of this Component when it has the following properties:",
+        "list": [
+          {
+            "text": "It reflects children's culture and ideas",
+            "moreIntro": null,
+            "more": "Integrating social studies with science, teachers had students create their self-portraits using many different kinds of solids.",
+            "moreImg": "dis_eco_1.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "It reflects the culture of the school",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Displays of children's work include documentation",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "It includes children's on-going projects",
+            "moreIntro": null,
+            "more": "A roller coaster that sent messages between two adjacent classrooms was built during a three-month period. As children gained more knowledge of the physical science content such as force and motion, kinetic and potential energy, and simple machines, they added new ideas to their project.",
+            "moreImg": "dis_eco_4.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "It includes places for the eye to rest and the mind to reflect",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "It does not rely on pre-packaged materials",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          }
+        ]
+      },
+      "challenges": {
+        "theText": "<b>My days are already so full, how can I fit in time to plan with other teachers?</b><br/>It is often necessary to look for creative ways to make time for planning. You might turn a weekly lunchtime into a potluck gathering where a group of teachers share a meal and discuss the curriculum. You might schedule PE or extracurricular activities at the same time as your teaching partner and use that time to meet. Some teachers meet while classroom aides are supervising children outside. Others fit in brief 15-minute discussions on several different days each week.<br/>Too often in schools we devote more time to discussing day-to-day nuts and bolts than we do planning curriculum goals. Trading some of the time ordinarily spent on procedures and using it instead for discussions of big ideas and concepts helps shift the focus to children's learning.<b>How can teachers cover everything in the curriculum if they use this approach?</b><br/>The classroom-ecosystem approach stresses depth over breadth. Therefore you should work in the beginning of the year to carefully select the areas you will spend more time on than others. Examine the curriculum and the science education standards and try to determine which concepts and big ideas will be most meaningful for children. Work with other teachers to eliminate the redundancies that rarely deepen understanding.<br/>When teachers feel pressed to cover everything in the standards, the result is a watered down or disconnected program. If you approach the curriculum in terms of big ideas and concepts rather than topics and themes or isolated facts, you'll be better able to help children make connections and gain in-depth knowledge.<b>Should a teacher ever say \"no\" to an idea or investigation that emerges from the student's?</b><br/>Yes. A teacher's response to a student's idea or investigation should depend on his or her learning goal for the students. What might they learn from the idea? Does it fit with the science concepts and big ideas? Are there cost or safety concerns that might weigh against implementing this particular idea or investigation?<br/>The fact that students are motivated to come up with ideas and ask questions indicates that the teacher is making science relevant and exciting. One way to determine whether ideas or investigations should be pursued is to ask which of the learning goals they will achieve.<b>How much do teachers need to know about science to teach this way?</b><br/>The stronger the teacher's knowledge of the content area the better he or she can help children build their own understanding. A strong knowledge base can also help teachers be sure of where they want to lead children in terms of the learning goals. <br/>To increase their knowledge, teachers can read books, work with colleagues, use teacher guides or carefully selected internet sites, ask experts to come to the classroom, or attend professional development seminars.<br/>Teachers who use the classroom-ecosystem approach need to see themselves as learners with the children, but they also must stay one step ahead, keeping in mind the concepts. Still, that doesn't mean they need to know it all. In the course of investigations children will come up with challenging questions. Teachers must know where to look for information and be willing to take the time to find it. A very important part of the classroom-ecosystem approach is this dynamic of constant learning on the part of both the teacher and the child."
+      }
+    },
+    {
+      "index": 7,
+      "title": "Resource Setup",
+      "colorScheme": "green",
+      "type": "page",
+      "definition": "Resources in the classroom should be readily accessible and include objects and materials that attract attention, invite curiosity, inspire discussion, and support a variety of ways of thinking and representing ideas. They should include objects found in nature, recycled materials and interesting or unusual books. There should be materials such as wood, wire, fabric, tiles, and paper of different sizes, shapes, textures and weight. There also should be a variety of art supplies such as charcoal, clay, paints, colored pencils and pastels.",
+      "benefits": "Resources provide children with the means to express themselves, support their learning process and communicate what they have learned. Offering a variety of interesting resources in a way that is readily accessible to children fosters independence and helps children grow as learners.",
+      "examples": "To represent the characteristics of a solid, the teacher provides students with a variety of natural materials that can be used to symbolize qualities such as \"pointy,\" \"rough,\" \"crunchy\" and \"shiny.\"",
+      "video": {
+        "title": "Classroom Resources",
+        "file": "video_11.mp4",
+        "thumbnail": "preview11.jpg",
+        "planningPoints": [
+          {
+            "cuetime": 7,
+            "text": "Thinking about what materials children will need in their work is an important part of planning. When planning for a long-term project, teachers should consider asking parents to bring in modest materials and scraps for the children's use."
+          },
+          {
+            "cuetime": 24,
+            "text": "To support children's understanding of solids, the teacher planned an experience in which she provided a variety of rocks for the children to sort into groups according to characteristics.  She had the rocks waiting on tables for children when they returned from lunch so they could get to work right away."
+          },
+          {
+            "cuetime": 30,
+            "text": "In formal planning in the beginning of the year, the teacher arranged for every child to have a clipboard for recording observations. The sturdy clipboards can be taken on field trips and reused from year to year."
+          },
+          {
+            "cuetime": 51,
+            "text": "Teachers can work with their school or local librarian to select reading materials that enrich children's understanding of the concepts and big ideas."
+          },
+          {
+            "cuetime": 72,
+            "text": "Including resources such as wheels and axles in the dramatic play area helps ensure that even unstructured choice time provides an opportunity to enrich children's understanding of the concepts and big ideas."
+          }
+        ],
+        "setupPoints": [
+          {
+            "cuetime": 15,
+            "text": "Resources should include books, art supplies and an assortment of creative materials. To foster independence and creativity, children should be able to access resources when they need them and without assistance."
+          },
+          {
+            "cuetime": 20,
+            "text": "Grouping supplies in an attractive manner makes them inviting to children. It also inspires children to want to experiment with different media, which in turn enriches their work and provides multiple opportunities for assessment."
+          },
+          {
+            "cuetime": 26,
+            "text": "Resources are as much a part of the classroom's physical environment as the furniture and display boards.  Their visibility is a constant reminder to children that thinking is an active process, and that ideas should be recorded, experimented with, evaluated and revised."
+          },
+          {
+            "cuetime": 44,
+            "text": "Book displays should be changed and updated to correspond with the subject matter taught in the classroom. Here, a selection of books about force and motion and simple machines provide information related to the concepts and big ideas."
+          },
+          {
+            "cuetime": 62,
+            "text": "A small table display provides stimulating, unusual and thought-provoking items that children may explore on their own."
+          },
+          {
+            "cuetime": 75,
+            "text": "Asking classroom families to bring in modest materials and scraps can be an inexpensive way to support a large-scale project.  Designating a kid-friendly place in the classroom for these varied supplies broadens children's thinking and encourages creativity."
+          }
+        ],
+        "culturePoints": [
+          {
+            "cuetime": 19,
+            "text": "Setting up spaces where materials are stored in an attractive and welcoming way encourages pride in the learning environment and inspires children's thinking."
+          },
+          {
+            "cuetime": 25,
+            "text": "Storing materials so that they are always at hand tells children that they are capable, responsible members of the classroom community and that they have important work to do."
+          },
+          {
+            "cuetime": 38,
+            "text": "Communicating expectations and setting routines supports a classroom culture where everyone takes responsibility for their surroundings. In turn, children should be trusted to treat classroom property with respect and to work as independently as possible."
+          }
+        ],
+        "exPoints": [
+          {
+            "cuetime": 24,
+            "text": "To support children's understanding of solids, the teacher set out materials for a firsthand experience in which children sorted a variety of rocks into groups according to characteristics."
+          },
+          {
+            "cuetime": 51,
+            "text": "Books about force and motion and simple machines provide thirdhand experiences to enrich children's understanding of the concepts and big ideas. Making reading materials readily available throughout the room encourages children to use books as a resource in their work and to explore science related materials during reading time."
+          },
+          {
+            "cuetime": 67,
+            "text": "A classroom setup that incorporates resources related to the concepts and big ideas encourages children to seek out firsthand experiences on their own. Observations and information gathered from these experiences can inform classroom discussions."
+          }
+        ],
+        "repPoints": [
+          {
+            "cuetime": 15,
+            "text": "Keep in mind that no one medium offers the best means of expression for every child. Offering a wide variety of materials to be used in representation helps children convey their understanding of concepts and big ideas and also can give the teacher a more accurate assessment of children's understanding."
+          },
+          {
+            "cuetime": 30,
+            "text": "Clipboards are one way to provide a convenient and efficient way for children to record observations. The observations will later inform children's representations of the concepts and big ideas."
+          },
+          {
+            "cuetime": 56,
+            "text": "Including a selection of nonfiction books amongst other hands-on materials encourages children to see the books as reference tools to be used in creating representations."
+          },
+          {
+            "cuetime": 74,
+            "text": "Resources for large-scale representations can include a variety of donated materials. Using donated or found materials keeps costs low and inspires children to extend their thinking."
+          }
+        ],
+        "description": "This video depicts a variety of resources to be used in teaching science for young children. A variety of adaptable resources should be offered to support the science content and children's evolving ideas.",
+        "AoS": "Physical Science",
+        "topic": "Various",
+        "bigIdea": "Various",
+        "concept": "Various",
+        "gradeLvl": "K-3 Science",
+        "standards": "Various Physical Science standards"
+      },
+      "enrich": {
+        "intro": "Before developing Resource Setup, consider that children will get the most out of this Component when it has the following properties:",
+        "list": [
+          {
+            "text": "It includes a variety of materials",
+            "moreIntro": null,
+            "more": "Natural materials like these were offered to children to assist them in representing the different characteristics of a solid. Providing a variety of materials helps give students choices and assures that each child's work will be distinctive and unique.",
+            "moreImg": "res_eco_1.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Materials are accessible to children",
+            "moreIntro": null,
+            "more": "To show their understanding of a force creating motion, students were asked to create a surface with friction and a surface without. These students independently look for materials that would best represent a bumpy, rough surface.",
+            "moreImg": "res_eco_2a.jpg",
+            "moreTwo": "To help students get a better understanding of how simple machines work, a repair shop was set up in the classroom. To their delight the students were able to take apart the machines and see wheels, screws, wedges, inclined planes and levers.",
+            "moreImgTwo": "res_eco_2b.jpg"
+          },
+          {
+            "text": "Materials inspire imagination",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Nothing in the room is off limits to children",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          }
+        ]
+      },
+      "challenges": {
+        "theText": "<b>My days are already so full, how can I fit in time to plan with other teachers?</b><br/>It is often necessary to look for creative ways to make time for planning. You might turn a weekly lunchtime into a potluck gathering where a group of teachers share a meal and discuss the curriculum. You might schedule PE or extracurricular activities at the same time as your teaching partner and use that time to meet. Some teachers meet while classroom aides are supervising children outside. Others fit in brief 15-minute discussions on several different days each week.<br/>Too often in schools we devote more time to discussing day-to-day nuts and bolts than we do planning curriculum goals. Trading some of the time ordinarily spent on procedures and using it instead for discussions of big ideas and concepts helps shift the focus to children's learning.<b>How can teachers cover everything in the curriculum if they use this approach?</b><br/>The classroom-ecosystem approach stresses depth over breadth. Therefore you should work in the beginning of the year to carefully select the areas you will spend more time on than others. Examine the curriculum and the science education standards and try to determine which concepts and big ideas will be most meaningful for children. Work with other teachers to eliminate the redundancies that rarely deepen understanding.<br/>When teachers feel pressed to cover everything in the standards, the result is a watered down or disconnected program. If you approach the curriculum in terms of big ideas and concepts rather than topics and themes or isolated facts, you'll be better able to help children make connections and gain in-depth knowledge.<b>Should a teacher ever say \"no\" to an idea or investigation that emerges from the student's?</b><br/>Yes. A teacher's response to a student's idea or investigation should depend on his or her learning goal for the students. What might they learn from the idea? Does it fit with the science concepts and big ideas? Are there cost or safety concerns that might weigh against implementing this particular idea or investigation?<br/>The fact that students are motivated to come up with ideas and ask questions indicates that the teacher is making science relevant and exciting. One way to determine whether ideas or investigations should be pursued is to ask which of the learning goals they will achieve.<b>How much do teachers need to know about science to teach this way?</b><br/>The stronger the teacher's knowledge of the content area the better he or she can help children build their own understanding. A strong knowledge base can also help teachers be sure of where they want to lead children in terms of the learning goals. <br/>To increase their knowledge, teachers can read books, work with colleagues, use teacher guides or carefully selected internet sites, ask experts to come to the classroom, or attend professional development seminars.<br/>Teachers who use the classroom-ecosystem approach need to see themselves as learners with the children, but they also must stay one step ahead, keeping in mind the concepts. Still, that doesn't mean they need to know it all. In the course of investigations children will come up with challenging questions. Teachers must know where to look for information and be willing to take the time to find it. A very important part of the classroom-ecosystem approach is this dynamic of constant learning on the part of both the teacher and the child."
+      }
+    },
     {
       "index": 8,
       "title": "Culture",
