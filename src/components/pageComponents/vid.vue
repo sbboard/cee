@@ -34,6 +34,8 @@
                 vidWindow.seenOnce = false;
                 vidWindow.currentTip = '';
                 vidWindow.showMsg = false;
+                this.$refs.video.pause();
+                this.$refs.video.currentTime = 0;
               }
             "
             class="far fa-window-close"
@@ -44,7 +46,7 @@
           v-if="
             vidWindow.vidPlaying == false &&
             vidWindow.seenOnce == false &&
-            this.vidWindow.vidStarted == false &&
+            vidWindow.vidStarted == false &&
             page == 'example'
           "
         >
@@ -253,7 +255,7 @@ export default defineComponent({
       this.vidWindow.showMsg = false;
     },
     vidSeeked() {
-      this.vidWindow.vidPlaying = true;
+      //this.vidWindow.vidPlaying = true;
       this.vidWindow.showMsg = false;
       this.vidWindow.currentTip = "";
     },
