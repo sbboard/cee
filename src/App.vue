@@ -104,14 +104,32 @@ export default {
     changePage(newPage) {
       this.$store.commit("setPage", newPage);
     },
-    firstWord(x){
-      if(x){
-        return x.split(" ")[0]
+    firstWord(x) {
+      if (x) {
+        return x.split(" ")[0];
+      } else {
+        return x;
       }
-      else{
-        return x
+    },
+    checkKey(e) {
+      e = e || window.event;
+      if (e.keyCode == "38") {
+        //up btn
+        if(this.currentIndex != 0){
+          this.changeIndex(this.currentIndex - 1)
+        }
+      } else if (e.keyCode == "40") {
+        //down btn
+        console.log("down")
+        if(this.currentIndex != this.json.length - 1){
+          this.changeIndex(this.currentIndex + 1)
+        }
+      } else if (e.keyCode == "37") {
+        //left btn
+      } else if (e.keyCode == "39") {
+        //right btn
       }
-    }
+    },
   },
   computed: {
     json() {
@@ -140,6 +158,7 @@ export default {
   },
   beforeMount() {
     this.$store.commit("loadJson", JSON.stringify(jsonFile));
+    document.onkeydown = this.checkKey;
   },
 };
 </script>
