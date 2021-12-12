@@ -318,6 +318,8 @@ h2
     cursor: pointer
   &.redColor
     background-color: $midRed
+  &.purpleColor
+    background-color: $midPurple
   &.greenColor
     background-color: $midGreen
 #stuffWrap
@@ -464,6 +466,11 @@ h2
       table
         td:first-child
           background-color: $midRed
+  &.purpleColor
+    #infoWindow
+      table
+        td:first-child
+          background-color: $midPurple
   &.greenColor
     #infoWindow
       table

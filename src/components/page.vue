@@ -145,6 +145,8 @@ export default {
         top: 82%
       &.redColor
         background-color: $darkRed
+      &.purpleColor
+        background-color: $darkPurple
       &.greenColor
         background-color: $darkGreen
     span

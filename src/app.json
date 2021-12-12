@@ -849,8 +849,316 @@
       "citation": "Adapted from Erickson, F., with Bagrodia, R., Cook-Sather, A., Espinoza, M., Jurow, S., Shultz, J. and Spencer, J. (2007). Students' Experience of School Curriculum: The Everyday Circumstances of Granting and Withholding Assent to Learn. In Connelly, F.M. et al (eds.), The Sage Handbook of Curriculum. Thousand Oaks, CA: Sage Publications, Inc., pp. 198-218.",
       "more": "An effective classroom ecosystem is one in which teachers and students work together with mutual respect and as active participants in the learning process. Teachers facilitate active learning by providing opportunities for children to work in a variety of social arrangements; by modeling respect for ideas, encouraging questions, and valuing mistakes as part of learning; and by fostering children's independent use of resources to construct knowledge."
     },
-    { "index": 9 },
-    { "index": 10 },
+    {
+      "index": 9,
+      "title": "Student-Student Culture",
+      "colorScheme": "purple",
+      "type": "page",
+      "definition": "Children should be able to trust that they can work with their classmates in a socially safe environment. They should be able to avoid embarrassment, work without interference from other students when they wish to do so, and at other times work cooperatively with students, getting and giving help to one another in a timely way. Children should be given opportunities to work in a variety of configurations: individually, in pairs, in small groups of four or five, and as a whole group. Each configuration provides different opportunities to develop independence or to share work, negotiate ideas and conflicts, actively listen to other perspectives and develop relationships.",
+      "benefits": "Working together in conditions of mutual respect enriches children's personal relationships and improves verbal and nonverbal communication skills. When children work in a group they must be able to articulate their ideas without fear of harsh criticism or mockery from their fellow students. This candor helps students to deepen their understanding of concepts, which enhances their cognitive development. As children communicate about their thinking, they learn to speak in relationship to listening, and listen in relationship to speaking. In this way they challenge each others' thinking, with consideration for others, thus developing positive social skills.",
+      "examples": "In a large group, children discuss whether they should build their roller coaster inside or outside the classroom. The teacher acts as a facilitator while the children exchange ideas and concerns about the roller coaster's location. Children become invested in the process because they are given the opportunity to make decisions and come up with solutions.",
+      "video": {
+        "title": "The Roller Coaster",
+        "file": "video_15.mp4",
+        "thumbnail": "preview15.jpg",
+        "planningPoints": [
+          {
+            "cuetime": 13,
+            "text": "When the children came up with the idea to build a roller coaster, the teachers did project planning to ensure that there would be many opportunities for learning about the science concepts and big ideas."
+          },
+          {
+            "cuetime": 29,
+            "text": "In their project planning, teachers asked families to contribute scrap materials for use in building the roller coaster."
+          },
+          {
+            "cuetime": 82,
+            "text": "Part of the planning process was to group children into committees. These two students volunteered for the Building Committee. Committees are a good way to incorporate small-group work into class projects, and they mirror practices used in the adult workplace."
+          }
+        ],
+        "setupPoints": [
+          {
+            "cuetime": 14,
+            "text": "Teachers and children work on the roller coaster outside. Using outdoor space extends the learning environment and allows teachers and small groups to engage in detailed, concentrated work with fewer distractions."
+          },
+          {
+            "cuetime": 25,
+            "text": "Students and teachers chose to mount the roller coaster in a space where they can have easy, on-going access to it. This allows them to make revisions as needed and helps create an on-going dialogue about the project and the concepts."
+          },
+          {
+            "cuetime": 93,
+            "text": "The materials for the project are varied and accessible to all the children. The teacher encourages the children to decide which materials will work best for their purpose."
+          },
+          {
+            "cuetime": 137,
+            "text": "The materials include a jumble of donated scraps. Using donated and found materials keeps project costs low and inspires children to use creativity and imagination."
+          }
+        ],
+        "culturePoints": [
+          {
+            "cuetime": 5,
+            "text": "Although a teacher is present to supervise, the children are trusted to work on testing and improving the model roller coaster the group is building. They are able to work independently and productively because the teachers have set up routines to support this and children have had much practice working together."
+          },
+          {
+            "cuetime": 24,
+            "text": "Notice that the task requires the children to work cooperatively to solve the problem of how to get the ball through the tube. Real work in the world requires collaboration."
+          },
+          {
+            "cuetime": 54,
+            "text": "Notice how the children negotiate ideas, making suggestions and in turn being open to suggestions. Again, this kind of cooperative work is made possible by giving children many opportunities to work together."
+          },
+          {
+            "cuetime": 155,
+            "text": "The task engages the children and sustains their interest because it is in the context of a project they and their peers have generated."
+          }
+        ],
+        "exPoints": [
+          {
+            "cuetime": 24,
+            "text": "Working with a 3-D model provides children with firsthand experiences that make the concepts more tangible. Here the children can observe firsthand the effects of force and motion and the operation of simple machines such as inclined planes."
+          },
+          {
+            "cuetime": 44,
+            "text": "The students' building and testing of the roller coaster model is informed by previous experiences designed to illustrate the concepts. It also will provide context and help deepen understanding as they continue to explore the concepts and big ideas."
+          }
+        ],
+        "repPoints": [
+          {
+            "cuetime": 13,
+            "text": "The model roller coaster is a 3-D representation of concepts such as 'force causes motion and simple machines make work easier'."
+          },
+          {
+            "cuetime": 36,
+            "text": "Before beginning construction of the roller coaster, the children created 2-D representations of the components, such as inclined planes. In their drawings and paintings the children recorded their observations and then used those observations to inform the building of their 3-D representations."
+          },
+          {
+            "cuetime": 82,
+            "text": "The students' testing leads to observations about what makes sections of the roller coaster function, and this in turn leads to revisions to the model. Revising their 3-D representations allows children to deepen their understanding and formulate new questions."
+          }
+        ],
+        "description": "During their study of simple machines, force and motion, and kinetic and potential energy, students decided to build a roller coaster that sends messages from one classroom to another. In this video, two children are working on the roller coaster model.",
+        "AoS": "Physical Science",
+        "topic": "Matter and Energy",
+        "bigIdea": "Cause and Effect",
+        "concept": "Force causes motion",
+        "gradeLvl": "K-1 Science",
+        "standards": "The motion of objects can be observed and measured. As a basis for understanding this concept:<ol><li>Students know the position of an object can be described by locating it in relation to another object or to the background.</li><li>Students know an object's motion can be described by recording the change in position of the object over time.</li><li>Students know the way to change how something is moving is by giving it a push or a pull. The size of the change is related to the strength, or the amount of force, of the push or pull.</li><li>Students know tools and machines are used to apply pushes and pulls (forces) to make things move.</li><li>Students know objects fall to the ground unless something holds them up.</li></ol>"
+      },
+      "enrich": {
+        "intro": "Before developing Student-Student Culture, consider that children will get the most out of this Component when it has the following properties:",
+        "list": [
+          {
+            "text": "The classroom space supports the variety of ways that children learn",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Teachers trust children to work in small groups without adult guidance",
+            "moreIntro": null,
+            "more": "Giving children opportunities to work with peers and to manage their own learning helps them become more engaged in the work and more likely to gain deep understanding of the concepts. To help ensure that the small groups are successful, teachers need to set up clear expectations for how children work together, and they need to communicate these expectations early and often.",
+            "moreImg": "stu_eco_2.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Frequent conversations encourage differing perspectives and ideas",
+            "moreIntro": null,
+            "more": "Discussion and negotiation help children make sense of the concepts, the big ideas and the learning experiences. As children talk to one another they have natural opportunities to question and explain, to sort out what they do and do not understand and to revise their thinking. This active processing of ideas makes the content more memorable and engaging for students. It also helps students develop work and social skills that will be useful throughout their lives.",
+            "moreImg": "stu_eco_3.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          }
+        ]
+      },
+      "challenges": {
+        "theText": "<b>How can I be sure students are learning if there is no teacher or adult at a table?</b><br />The classroom-ecosystem approach to teaching and learning is based on the belief that children are naturally curious and capable of learning independently.<br/>To help ensure that the learning goals are met, set up experiences and materials that are engaging for children and have purpose. Everything on the table should be connected to the concepts and big ideas.<br/>The way teachers put out materials is also important. For example, provide tools such as magnifying glasses to accompany experiences. Set out books with intriguing photos to help children in their research. Make sure there are sharpened pencils and different types of paper for children to use. Inviting materials help engage children in the learning experiences and encourage them to record their ideas and their understanding.<br/><b>When is there time in the day for conversation and discussion? How do I best facilitate them?</b><br/>Children need to have opportunities throughout the day to share their work with the teacher and each other and to discuss their hypotheses, predictions and thoughts for further study. This is when critical thinking and deep learning happen.<br/>After each work time hold a debriefing. Follow firsthand, secondhand and thirdhand experiences and any kind of representation of understanding with a conversation. These conversations can be one-on-one with a teacher or involve the whole group. Whenever possible, include time for both types of discussion.<br/>The best way to facilitate conversation is through asking open-ended questions and allowing children to answer without fear of judgment. For example, ask children: What did you notice? How did this thing compare to that one? What are some things that are similar, different? What if we were to add this? What do you predict will happen? How can you record what happened?<br/>Conversations are most effective when the class is gathered in a common space, such as on the rug, rather than in desks or in rows of chairs. Sitting together in a circle on the rug helps make clear that everyone is a potential contributor and everyone's contribution is valued.<br/><b>How do I encourage students who have a hard time participating in discussions?</b><br/>Each child has something valuable and important to offer the learning community. It's important for teachers to unlock that gift, to find a child's strengths and what really interests her or him. This takes a lot of listening to and observing children, but it pays off in richer, fuller class discussions and deeper understanding of the concepts for all the children. If a child is quiet or reticent, put him in charge of a project he can share and feel proud of. Facilitate conversations so not only the same children are answering. Give quieter children time to answer. Modeling a respectful way to converse helps everyone learn how to be part of a productive work group.<br/><b>What are some ways to build \"community\" in my classroom?</b><br/>Setting up reasonable expectations for behavior and making sure children know what those expectations are helps build a community where everyone takes responsibility for himself or herself and everyone takes on the role of contributor.<br/>In the beginning of the year and throughout the year, talk to children about taking care of their learning environment and keeping it beautiful. Emphasize that each person is an integral part of that. Build in lessons about how to take care of materials by putting caps on markers, cleaning up paintbrushes, putting away supplies, etc.<br/>Model respect for children to help ensure that they will respect you and the other adults and children in the classroom. Even small things such as speaking to children warmly and with respect for their intelligence, displaying their work without added adornment, and giving them the time they need to complete tasks or answer questions help create a constructive community."
+      }
+    },
+    {
+      "index": 10,
+      "title": "Teacher-Student Culture",
+      "colorScheme": "purple",
+      "type": "page",
+      "definition": "Children should be able to trust that they can work comfortably with their teacher in the presence of their fellow students. They should be able to avoid embarrassment as they interact with their teacher, work without interruption when that is appropriate, ask for help from the teacher, and get help in a timely way, when they need it. The teacher's role in the classroom ecosystem is one of active listener, facilitator of ideas and researcher.",
+      "benefits": "When the social arrangement of the classroom as a workplace for learning is one in which children feel safe to ask questions and take intellectual risks they become deeper thinkers and more invested learners. Addressing children's individual needs, integrating their ideas into instruction, and encouraging questions helps all children feel they have a contribution to make. As children see their ideas becoming an important part of classroom life, they feel invested in the classroom community and are more open and ready to take on new learning. They develop strong learning morale.",
+      "examples": "To assess a student's understanding of a concept, the teacher asks him to explain his reasoning. During the course of his explanation, the child realizes that he doesn't quite understand and he begins to question his reasoning. Rather than criticizing the child for being \"wrong\" or telling him the \"right\" answer, the teacher allows the student time to explain his thinking and helps to scaffold his understanding through inquiry.",
+      "video": {
+        "title": "Alex Being Forthright - and Mistaken",
+        "file": "video_8.mp4",
+        "thumbnail": "preview8.jpg",
+        "planningPoints": [
+          {
+            "cuetime": 5,
+            "text": "The idea to build a roller coaster was generated by the children. The teachers did careful planning to align the project with the concepts and big ideas."
+          },
+          {
+            "cuetime": 17,
+            "text": "The teacher planned this time to work with a small group of students to assess their understanding of the concepts of kinetic and potential energy. Meanwhile, a teaching assistant and a parent volunteer work with the other children on another aspect of the roller coaster project."
+          },
+          {
+            "cuetime": 49,
+            "text": "After realizing the students in the small group were confused about the concepts, the teacher brought the discussion to the whole group. This required flexibility in planning and a willingness to allow the children's needs to influence the course of instruction."
+          },
+          {
+            "cuetime": 118,
+            "text": "After this discussion, the teacher will do additional planning with her colleagues to clarify her own understanding of the scientific concepts and determine how best to clarify them for the students."
+          }
+        ],
+        "setupPoints": [
+          {
+            "cuetime": 3,
+            "text": "When setting up a large project, consider all aspects of the learning environment. Using outdoor space, when possible, provides opportunities for small group work and allows for in-depth, uninterrupted discussion."
+          },
+          {
+            "cuetime": 15,
+            "text": "Throughout the work space, resources are accessible to all the children. Note the canisters of building materials on the countertop. When the camera zooms out, notice the paint bottles to the left of the sink and the materials in storage tables at the far right. These important supplies are stored at children's height and are available as they need them."
+          },
+          {
+            "cuetime": 32,
+            "text": "The roller coaster is mounted on the outside of the classroom windows and remains there for the duration of the project. Displaying on-going work helps stimulate thinking, creativity and discussion, and integrates the project into the life of the classroom."
+          },
+          {
+            "cuetime": 44,
+            "text": "Notice the photos displayed behind the roller coaster. They tell the story of the project thus far. Displaying documentation of the group's planning and thinking process provides context for the project, gives teachers and children opportunities for reflection, and offers parents a way to connect with the children's work."
+          },
+          {
+            "cuetime": 57,
+            "text": "Student work, including paintings depicting force and motion, is displayed prominently in the classroom. The displays help stimulate thinking, create dialogue and convey that the children's work is valued."
+          }
+        ],
+        "culturePoints": [
+          {
+            "cuetime": 3,
+            "text": "Notice the teacher's request: \"Alex, you gotta explain that.\" Without a lot of prior work on making it safe to say what you think when the teacher asks, this request would be intimidating to a child."
+          },
+          {
+            "cuetime": 14,
+            "text": "Notice that Alex is comfortable expressing his ideas. Although he is slightly wrong about the concepts, discussing them will help him refine his understanding and work toward a notion of potential energy being gained or lost as it trades off with kinetic energy (energy of motion)."
+          },
+          {
+            "cuetime": 29,
+            "text": "The teacher realizes there is something that doesn't add up, but she doesn't tell the child he's wrong or correct him. Instead she tries to help him clarify his understanding by engaging him in dialogue."
+          },
+          {
+            "cuetime": 32,
+            "text": "Now the child realizes he isn't right, but he is still being candid. Although the stakes for embarassment are higher, he still says what he thinks. An effective classroom culture values learning as a process and allows children to revise their thinking through discussion and interaction."
+          },
+          {
+            "cuetime": 45,
+            "text": "Note that the teacher could have let the misconception pass, but she doesn't. Because she has established the classroom as a socially safe environment, she knows she can engage the whole group in the discussion."
+          },
+          {
+            "cuetime": 70,
+            "text": "Alex is saying that the message ball is gaining kinetic energy when it is going down. Notice he is still willing to share his ideas openly, even when he is in front of the whole class. Notice, too, that everyone is respectful as he speaks."
+          },
+          {
+            "cuetime": 80,
+            "text": "Here the teacher has noticed another child has something to say. Together the teacher and children construct a discussion in which children say what they think and no one attacks their ideas or pokes fun. The clear message is that the classroom is a safe place where thoughts can be expressed without negative consequences."
+          },
+          {
+            "cuetime": 89,
+            "text": "Notice how the teacher picks up on the child's question, \"When it's going down it's going faster. So how is it losing speed?\" When the teacher says, \"That's confusing,\" she underscores the dissonance between the ideas and models how to think through a problem"
+          },
+          {
+            "cuetime": 95,
+            "text": "As discussions and re-teaching continue, the teacher will use what the children are saying to distinguish between speed and total energy and between kinetic and potential energy."
+          },
+          {
+            "cuetime": 116,
+            "text": "For more about the story of the roller coaster, go to the Flexible Planning video, which shows how the teachers did research to clarify their understanding of kinetic and potential energy and then brought the information to the children."
+          }
+        ],
+        "exPoints": [
+          {
+            "cuetime": 3,
+            "text": "The children began building the roller coaster toward the end of the school year, but they had been building knowledge of the concepts since September. For example, a trip to a local amusement park allowed the children to explore the concepts of force and motion and kinetic and potential energy through firsthand experiences with roller coasters."
+          },
+          {
+            "cuetime": 8,
+            "text": "The students have firsthand experiences as they use the roller coaster model to apply their knowledge of the concepts."
+          },
+          {
+            "cuetime": 95,
+            "text": "The children are able to discuss scientific ideas because they have had many experiences throughout the year that were designed to familiarize them with the concepts. These included building and testing model inclined planes and experimenting with simple machines."
+          }
+        ],
+        "repPoints": [
+          {
+            "cuetime": 15,
+            "text": "Using their knowledge of the concepts, the students have built a 3-D working model of a roller coaster.  A student uses text to label the roller coaster where he thinks kinetic and potential energy are at work."
+          },
+          {
+            "cuetime": 35,
+            "text": "As the student explains his reasoning for labeling the parts of the roller coaster, he finds he is confused about the concepts. Having children talk about their work is an excellent way to assess their understanding and provides an opportunity to clarify the concepts."
+          },
+          {
+            "cuetime": 57,
+            "text": "Notice the paintings displayed above and to the right of the white board. They are 2-D representations of the children's understanding of force and motion."
+          },
+          {
+            "cuetime": 116,
+            "text": "Giving children the opportunity to represent their thinking in different ways (i.e., orally, by drawing and painting, and by building a 3-D model) helps children understand the 'how, what' and 'why' of a concept. It also offers multiple entry points to accommodate different learning styles."
+          }
+        ],
+        "description": "In the sequence before this video begins, the teacher had asked children to label their roller coaster at the points where the ball achieves maximum kinetic and potential energy. When Alex explains his placement of the labels, it becomes apparent that he is confusing velocity with the distinction between kinetic and potential energy. The teacher recognizes this and makes a plan to help him refine his understanding. (For more on how she and her colleague re-teach the concepts to clear up the misconceptions, go to the Example Video in Flexible Planning.)",
+        "AoS": "Physical Science",
+        "topic": "Kinetic and Potential Energy",
+        "bigIdea": "Cause and Effect",
+        "concept": "Energy is stored and energy is released",
+        "gradeLvl": "K-1 Science",
+        "standards": "The concepts here go beyond the standards, but it was important to address them because they came up in the context of the project."
+      },
+      "enrich": {
+        "intro": "Before developing Student-Student Culture, consider that children will get the most out of this Component when it has the following properties:",
+        "list": [
+          {
+            "text": "Frequent conversations encourage differing perspectives and ideas",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Teachers actively listen to children's ideas and emergent thinking",
+            "moreIntro": null,
+            "more": "Active listening on the part of the teacher encourages children to express their ideas. It helps children develop confidence and empowers them to take an active role in the learning process. This sets up a different kind of relationship in the classroom, one that is less focused on the teacher imparting knowledge and more on teachers and students working together to construct knowledge.<br/>When teachers take the time to listen to children's ideas they get to know their students better and see their potential and their individuality. Strong knowledge of their students helps teachers become better at assessing learning and is a key factor in children's academic success.",
+            "moreImg": "tea_eco_2.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Teachers see themselves as researchers and facilitators of children's learning",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "The classroom space is comfortable and sparks children's curiosity",
+            "moreIntro": null,
+            "more": "Providing children with a comfortable, inviting physical environment lets them know that they are valued and encourages their cooperative participation in the learning community. An attractive, functional space in which children can easily access resources and work both independently and cooperatively invites them to engage with the concepts and big ideas. When the physical environment is safe and inviting, opportunities emerge for children to share their ideas and understanding with one another and to learn through their interactions with teachers and peers.",
+            "moreImg": "tea_eco_4.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Teachers display student work without embellishments",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          }
+        ]
+      },
+      "challenges": {
+        "theText": "<b>How can I be sure students are learning if there is no teacher or adult at a table?</b><br />The classroom-ecosystem approach to teaching and learning is based on the belief that children are naturally curious and capable of learning independently.<br/>To help ensure that the learning goals are met, set up experiences and materials that are engaging for children and have purpose. Everything on the table should be connected to the concepts and big ideas.<br/>The way teachers put out materials is also important. For example, provide tools such as magnifying glasses to accompany experiences. Set out books with intriguing photos to help children in their research. Make sure there are sharpened pencils and different types of paper for children to use. Inviting materials help engage children in the learning experiences and encourage them to record their ideas and their understanding.<br/><b>When is there time in the day for conversation and discussion? How do I best facilitate them?</b><br/>Children need to have opportunities throughout the day to share their work with the teacher and each other and to discuss their hypotheses, predictions and thoughts for further study. This is when critical thinking and deep learning happen.<br/>After each work time hold a debriefing. Follow firsthand, secondhand and thirdhand experiences and any kind of representation of understanding with a conversation. These conversations can be one-on-one with a teacher or involve the whole group. Whenever possible, include time for both types of discussion.<br/>The best way to facilitate conversation is through asking open-ended questions and allowing children to answer without fear of judgment. For example, ask children: What did you notice? How did this thing compare to that one? What are some things that are similar, different? What if we were to add this? What do you predict will happen? How can you record what happened?<br/>Conversations are most effective when the class is gathered in a common space, such as on the rug, rather than in desks or in rows of chairs. Sitting together in a circle on the rug helps make clear that everyone is a potential contributor and everyone's contribution is valued.<br/><b>How do I encourage students who have a hard time participating in discussions?</b><br/>Each child has something valuable and important to offer the learning community. It's important for teachers to unlock that gift, to find a child's strengths and what really interests her or him. This takes a lot of listening to and observing children, but it pays off in richer, fuller class discussions and deeper understanding of the concepts for all the children. If a child is quiet or reticent, put him in charge of a project he can share and feel proud of. Facilitate conversations so not only the same children are answering. Give quieter children time to answer. Modeling a respectful way to converse helps everyone learn how to be part of a productive work group.<br/><b>What are some ways to build \"community\" in my classroom?</b><br/>Setting up reasonable expectations for behavior and making sure children know what those expectations are helps build a community where everyone takes responsibility for himself or herself and everyone takes on the role of contributor.<br/>In the beginning of the year and throughout the year, talk to children about taking care of their learning environment and keeping it beautiful. Emphasize that each person is an integral part of that. Build in lessons about how to take care of materials by putting caps on markers, cleaning up paintbrushes, putting away supplies, etc.<br/>Model respect for children to help ensure that they will respect you and the other adults and children in the classroom. Even small things such as speaking to children warmly and with respect for their intelligence, displaying their work without added adornment, and giving them the time they need to complete tasks or answer questions help create a constructive community."
+      }
+    },
     {
       "index": 11,
       "title": "Experiences",

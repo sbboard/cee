@@ -28,7 +28,7 @@
         <p class="intro" v-if="moreIntro">{{ moreIntro }}</p>
         <div class="textWrap">
           <img v-if="moreImg != null" :src="`/assets/img/${moreImg}`" />
-          <p>{{ moreText }}</p>
+          <p v-html="moreText"></p>
         </div>
         <div class="textWrap" v-if="moreTextTwo">
           <img v-if="moreImgTwo != null" :src="`/assets/img/${moreImgTwo}`" />
@@ -109,6 +109,10 @@ export default {
   p
     display: block
     text-align: left
+    &:deep(br)
+      height: 1em
+      content: ''
+      display: block
     @include mobile
       margin-left: 0
 #enrich
