@@ -35,4 +35,8 @@ export default {
     margin-top: 1em
     &:first-of-type
       margin-top: 0
+  &:deep(a)
+    display: block
+    margin-top: 1em
+    color: black
 </style>

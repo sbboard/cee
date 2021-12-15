@@ -322,6 +322,10 @@ h2
     background-color: $midPurple
   &.greenColor
     background-color: $midGreen
+  &.blueColor
+    background-color: $midBlue
+  &.yellowColor
+    background-color: $midYellow
 #stuffWrap
   width: 100%
   @include mobile
@@ -476,4 +480,14 @@ h2
       table
         td:first-child
           background-color: $midGreen
+  &.blueColor
+    #infoWindow
+      table
+        td:first-child
+          background-color: $midBlue
+  &.yellowColor
+    #infoWindow
+      table
+        td:first-child
+          background-color: $midYellow
 </style>

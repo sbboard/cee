@@ -149,6 +149,10 @@ export default {
         background-color: $darkPurple
       &.greenColor
         background-color: $darkGreen
+      &.blueColor
+        background-color: $darkBlue
+      &.yellowColor
+        background-color: $darkYellow
     span
       text-align: right
       text-decoration: underline

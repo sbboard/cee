@@ -30,9 +30,9 @@
           <img v-if="moreImg != null" :src="`/assets/img/${moreImg}`" />
           <p v-html="moreText"></p>
         </div>
-        <div class="textWrap" v-if="moreTextTwo">
+        <div class="textWrap" v-if="moreTextTwo || moreImgTwo">
           <img v-if="moreImgTwo != null" :src="`/assets/img/${moreImgTwo}`" />
-          <p>{{ moreTextTwo }}</p>
+          <p v-if="moreTextTwo">{{ moreTextTwo }}</p>
         </div>
       </div>
       <div id="moreBtn" @click="moreEnabled = false">Back</div>
@@ -92,6 +92,7 @@ export default {
   .textWrap
     display: inline-block
     margin-bottom: 1em
+    width: 100%
   img
     width: 30%
     float: left
@@ -109,6 +110,8 @@ export default {
   p
     display: block
     text-align: left
+    &:deep(a)
+      color: black
     &:deep(br)
       height: 1em
       content: ''

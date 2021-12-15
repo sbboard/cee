@@ -1168,9 +1168,347 @@
       "citation": "Lowery, L. (1998).<br />The Biological Basis of Thinking and Learning (Monograph), p. 18<br />Berkeley, CA: Lawrence Hall of Science.",
       "more": "Before children can formulate questions or show what they know, they have to be provided with experiences related to the content. Once children have been provided background knowledge either through firsthand or secondhand experiences, they are ready to work with text, which both uses and deepens prior knowledge. The goal in providing children with a variety of experiences is to help them move from novice to expert in their understanding and their ability to apply their knowledge of the concepts."
     },
-    { "index": 12 },
-    { "index": 13 },
-    { "index": 14 },
+    {
+      "index": 12,
+      "title": "Firsthand Experiences",
+      "colorScheme": "blue",
+      "type": "page",
+      "definition": "Firsthand experiences are concrete. They are learning opportunities that involve participation through our five senses.",
+      "benefits": "Firsthand experiences provide children opportunities to connect prior knowledge with newly acquired knowledge and to apply learning to their everyday lives. They also offer opportunities for interactions to stimulate inquiry and discussions and incentive to research and learn more.",
+      "examples": "For firsthand experiences with force and motion, the teacher takes the children to the playground. Using the slide, monkey bars and swings helps children see how forces such as pushes, pulls, gravity and friction create motion.",
+      "video": {
+        "title": "Simple Machines Make Work Easier",
+        "file": "video_5.mp4",
+        "thumbnail": "preview5.jpg",
+        "planningPoints": [
+          {
+            "cuetime": 21,
+            "text": "At first the teacher does not give the children the proper tools to make their work easier. Instead she has planned the experience so that children can discover firsthand how difficult it is to perform the task without simple machines."
+          },
+          {
+            "cuetime": 36,
+            "text": "The teacher has chosen materials that illustrate the concept that simple machines make work easier. She provides a variety of materials and tools, such as clay, wood, hammers, nails and rolling pins."
+          }
+        ],
+        "setupPoints": [
+          {
+            "cuetime": 10,
+            "text": "The students' work is completed in small groups, where they can hear and see each others' activities."
+          },
+          {
+            "cuetime": 31,
+            "text": "The tools are in a central place where all children can access them without assistance."
+          },
+          {
+            "cuetime": 57,
+            "text": "The book on the table provides a ready source of information about simple machines that children can easily access."
+          },
+          {
+            "cuetime": 64,
+            "text": "In both classrooms, teachers make use of the entire space, setting up small groups at tables and allowing children to move around as they pursue their work."
+          }
+        ],
+        "culturePoints": [
+          {
+            "cuetime": 10,
+            "text": "Working together in small groups, the children share their experiences and their observations."
+          },
+          {
+            "cuetime": 48,
+            "text": "Notice that the teacher sits with the children, at their level, so he can engage them in conversation about their work."
+          },
+          {
+            "cuetime": 62,
+            "text": "Notice that the children are trusted to use tools such as hammers and nails, and they use them responsibly. This is possible because the teachers have established routines to accustom children to working independently."
+          }
+        ],
+        "exPoints": [
+          {
+            "cuetime": 3,
+            "text": "First children are asked to work with wood and nails using only their hands."
+          },
+          {
+            "cuetime": 29,
+            "text": "Next, the children will be given the opportunity to experience using tools to make work easier. As the children are beginning, the teacher will focus them on the task by reminding them of the concept."
+          },
+          {
+            "cuetime": 61,
+            "text": "After the children have had the experience, the teacher will remind them again of the concept. Both the work assigned and the teacher's commentary ask the children to be explicit about the concept."
+          }
+        ],
+        "repPoints": [
+          {
+            "cuetime": 70,
+            "text": "The student uses text and drawing to represent her understanding that simple machines require less energy than doing the same task manually."
+          },
+          {
+            "cuetime": 91,
+            "text": "The teacher talks with the student to help her reflect on the experience and link it to the concepts."
+          }
+        ],
+        "description": "The students are first asked to complete a set of tasks using only their hands. Then they are asked to complete the same tasks using small tools. This experience provides background knowledge on simple machines and how they make work easier.",
+        "AoS": "Physical Science",
+        "topic": "Matter and Energy",
+        "bigIdea": "Systems",
+        "concept": "Simple machines make work easier",
+        "gradeLvl": "K-1 Science",
+        "standards": "The motion of objects can be observed and measured. As a basis for understanding this concept:<ol><li>Students know the way to change how something is moving is by giving it a push or a pull. The size of the change is related to the strength, or the amount of force, of the push or pull.</li><li>Students know tools and machines are used to apply pushes and pulls (forces) to make things move.</li><li>Students know objects fall to the ground unless something holds them up.</li></ol>"
+      },
+      "enrich": {
+        "intro": "Before developing Student-Student Culture, consider that children will get the most out of this Component when it has the following properties:",
+        "list": [
+          {
+            "text": "It connects to children's prior knowledge",
+            "moreIntro": null,
+            "more": "On the playground, students experience force and motion firsthand. Although they have used the monkey bars many times before, they now have a specific intent, which is to create a motion using the push and pull of their bodies as a force.",
+            "moreImg": "fir_eco_1.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "It builds on previously taught concepts",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "It involves a group discussion",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "It is something the children suggest",
+            "moreIntro": null,
+            "more": "After engaging in a variety of firsthand experiences the teacher had planned, the children looked around the playground for their own examples of how force creates motion. They observed that pushing the knob on the drinking fountain forced the water to come out.",
+            "moreImg": "fir_eco_4.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Children record their findings",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          }
+        ]
+      },
+      "challenges": {
+        "theText": "<b>My yearly classroom budget allows for only one field trip. How can I assure that my students get a variety of firsthand experiences?</b><br/>If field trips are not possible, finding creative ways to bring the experience into your classroom is the next best thing. For example, if your students are studying the rock cycle and a trip to the mountains to collect different kinds of rocks can't be arranged, bringing in igneous, sedimentary and metamorphic rocks for the children to observe is helpful. If it's not possible to visit a garden to witness pollination firsthand, growing a small garden that attracts pollinators in or around your classroom is also meaningful.<br/><b>Should I provide a firsthand experience for every new concept?</b><br/>Firsthand experiences should be used whenever possible. They provide children opportunities to connect prior knowledge with newly acquired knowledge and to apply learning to their everyday lives. However, it is not always possible to have children dissect an insect, observe a whale in its natural habitat or go for a walk to view a tree's varied-colored leaves. In this case, age-appropriate videos, photographs and text can and should be used.<br/><b>Where can I get quality expository science texts for young children?</b><br/>The library media teacher at your school or the children's librarian at your local public library can recommend books and point you to other resources.<br/>In addition, the following web sites publish lists of outstanding science books for children.<br/><a target='_blank' href='http://www.sbfonline.com/prizes.htm'>http://www.sbfonline.com/prizes.htm</a>Annual prize winners for excellence in science books, chosen by Science Books and Film (SB and F), a critical review journal devoted exclusively to print and non-print materials in all the sciences and for all age groups. SB and F is published by the American Association for the Advancement of Science (AAAS).<a href='http://www.nsta.org/publications/ostb/default.aspx' target='_blank'>http://www.nsta.org/publications/ostb/default.aspx</a>Titles on this annotated list are chosen because they are \"accurate and interesting and have a spark of inspiration that will challenge and extend the reader.\" Sponsored by the Australian Academy of Science."
+      }
+    },
+    {
+      "index": 13,
+      "title": "Secondhand Experiences",
+      "colorScheme": "blue",
+      "type": "page",
+      "definition": "Secondhand experiences are offered through visuals such as a video, a photograph or a poster, or through observation of a demonstration or experiment.",
+      "benefits": "A visual representation of the content helps students gain a more immediate connection than text alone. It also gives students more information and makes the material more memorable.",
+      "examples": "To show students what molecules look like in a liquid, a solid and a gas, the teacher shows students a poster or a photograph. This visual representation offers information about content for which firsthand experiences are not available.",
+      "video": {
+        "title": "Rocks, Sand and Awesome Scientists",
+        "file": "video_6.mp4",
+        "thumbnail": "preview6.jpg",
+        "planningPoints": [
+          {
+            "cuetime": 20,
+            "text": "The teacher has structured the introduction of the concepts so that children first made predictions and now are engaging in a secondhand experience. This helps give the children an investment in the experiment as they watch to see how their predictions compare to the results."
+          }
+        ],
+        "setupPoints": [
+          {
+            "cuetime": 9,
+            "text": "The group sits in a circle, which encourages discussion and interaction."
+          },
+          {
+            "cuetime": 30,
+            "text": "The demonstration uses simple and inexpensive materials--rocks, sand, marbles, water and glass jars."
+          },
+          {
+            "cuetime": 171,
+            "text": "The children are encouraged to move around the space and to position themselves so they can closely observe the rocks and water."
+          }
+        ],
+        "culturePoints": [
+          {
+            "cuetime": 24,
+            "text": "As the teacher conducts the experiment, she asks the children to share their ideas and observations. Fostering a classroom culture in which students are expected to take turns and to listen actively and respectfully encourages participation."
+          },
+          {
+            "cuetime": 61,
+            "text": "Notice that the teacher refers back to the child's comment, mentioning him by name. In an effective classroom ecosystem, teachers and children are partners in the learning process and build off each others' ideas."
+          },
+          {
+            "cuetime": 139,
+            "text": "Notice that the children are free to sit comfortably, and some even lie on the floor. Well established routines and expectations for behavior make it possible for the group to work in this way. By encouraging children to move around so they can see, the teacher helps deepen the children's engagement in the experience."
+          }
+        ],
+        "exPoints": [
+          {
+            "cuetime": 9,
+            "text": "The teacher gathers the children for a secondhand experience, which helps make the science concepts more memorable because they can see the way the physical principles play out."
+          },
+          {
+            "cuetime": 14,
+            "text": "The teacher asks lots of questions to engage children's attention and focus the experience on the concepts."
+          },
+          {
+            "cuetime": 40,
+            "text": "Asking \"What's happening?\" cues the children to observe closely and helps them develop analytical skills."
+          },
+          {
+            "cuetime": 129,
+            "text": "The animation in the teacher's voice helps engage the children in the secondhand experience. In secondhand experiences, teachers have to work harder to summon children's attention. This is different from firsthand experiences, where the tension is built into the experience."
+          }
+        ],
+        "repPoints": [
+          {
+            "cuetime": 9,
+            "text": "Before the demonstration, the teacher asked the children to predict what would happen and to create 2-D representations of their thinking."
+          },
+          {
+            "cuetime": 64,
+            "text": "Notice how the child refers to his drawing and says, \"That's what I did.\" Children have their 2-D representations in front of them and can refer to them as they watch the experiment and make observations."
+          }
+        ],
+        "description": "To illustrate the concept \"matter takes up space,\" the teacher gathers a small group of children for a demonstration, a secondhand experience.",
+        "AoS": "Physical Science",
+        "topic": "Energy",
+        "bigIdea": "Systems",
+        "concept": "Simple machines make work easier",
+        "gradeLvl": "K-1 Science",
+        "standards": "Materials come in different forms (states), including solids, liquids, and gases. As a basis for understanding this concept:<ol><li>Students know solids, liquids, and gases have different properties.</li><li>Students know the properties of substances can change when the substances are mixed, cooled, or heated.</li></ol>"
+      },
+      "enrich": {
+        "intro": "Before developing Student-Student Culture, consider that children will get the most out of this Component when it has the following properties:",
+        "list": [
+          {
+            "text": "Videos, posters and photographs are age-appropriate",
+            "moreIntro": null,
+            "more": "This poster showing wheels and axels is appropriate for young children because the drawings are visually simple yet serious. In contrast, cartoon-like drawings discount children's intelligence and capabilities. The poster also includes symbols, such as arrows, that depict movement. Students are often asked to use symbols to show movement in their 2-D representations.",
+            "moreImg": "sec_eco_1.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Videos, posters and photographs spark children's curiosity",
+            "moreIntro": null,
+            "more": "A poster of Leonardo da Vinci's design for a giant catapult and a photo of the Wright brothers' first motored flight help stimulate children's curiosity and promote discussion and conversation. These kinds of visuals honor children's intelligence and capabilities.",
+            "moreImg": "sec_eco_2a.jpg",
+            "moreTwo": null,
+            "moreImgTwo": "sec_eco_2b.jpg"
+          }
+        ]
+      },
+      "challenges": {
+        "theText": "<b>My yearly classroom budget allows for only one field trip. How can I assure that my students get a variety of firsthand experiences?</b><br/>If field trips are not possible, finding creative ways to bring the experience into your classroom is the next best thing. For example, if your students are studying the rock cycle and a trip to the mountains to collect different kinds of rocks can't be arranged, bringing in igneous, sedimentary and metamorphic rocks for the children to observe is helpful. If it's not possible to visit a garden to witness pollination firsthand, growing a small garden that attracts pollinators in or around your classroom is also meaningful.<br/><b>Should I provide a firsthand experience for every new concept?</b><br/>Firsthand experiences should be used whenever possible. They provide children opportunities to connect prior knowledge with newly acquired knowledge and to apply learning to their everyday lives. However, it is not always possible to have children dissect an insect, observe a whale in its natural habitat or go for a walk to view a tree's varied-colored leaves. In this case, age-appropriate videos, photographs and text can and should be used.<br/><b>Where can I get quality expository science texts for young children?</b><br/>The library media teacher at your school or the children's librarian at your local public library can recommend books and point you to other resources.<br/>In addition, the following web sites publish lists of outstanding science books for children.<br/><a target='_blank' href='http://www.sbfonline.com/prizes.htm'>http://www.sbfonline.com/prizes.htm</a>Annual prize winners for excellence in science books, chosen by Science Books and Film (SB and F), a critical review journal devoted exclusively to print and non-print materials in all the sciences and for all age groups. SB and F is published by the American Association for the Advancement of Science (AAAS).<a href='http://www.nsta.org/publications/ostb/default.aspx' target='_blank'>http://www.nsta.org/publications/ostb/default.aspx</a>Titles on this annotated list are chosen because they are \"accurate and interesting and have a spark of inspiration that will challenge and extend the reader.\" Sponsored by the Australian Academy of Science."
+      }
+    },
+    {
+      "index": 14,
+      "title": "Thirdhand Experiences",
+      "colorScheme": "blue",
+      "type": "page",
+      "definition": "Thirdhand experiences involve narrative and expository texts.",
+      "benefits": "Because young children are inherently curious about the world, we have the responsibility to provide them with books whose purpose is to convey information. These texts give children the opportunity to use their background knowledge to develop a more profound understanding of the concepts and can be both visually exciting and intellectually stimulating.",
+      "examples": "The teacher first gives the students multiple opportunities to experiment with changing a liquid to a solid and vice versa. After these firsthand experiences, the children read informational texts about liquids and solids.",
+      "video": {
+        "title": "What is the World Made Of?",
+        "file": "video_7.mp4",
+        "thumbnail": "preview7.jpg",
+        "planningPoints": [
+          {
+            "cuetime": 21,
+            "text": "In her planning, the teacher decided to read the book between firsthand and secondhand experiences to both reinforce and foreshadow the experiences. In this case, she's using the book to help focus on the scientific lexicon of the states of matter."
+          },
+          {
+            "cuetime": 99,
+            "text": "The teacher does an initial assessment of the students' background knowledge of gas as one of the states of matter."
+          }
+        ],
+        "setupPoints": [
+          {
+            "cuetime": 34,
+            "text": "With thirdhand experiences it is possible to gather children in larger groups. However, it is necessary to work harder to focus children's attention. The animation in the teacher's voice helps engage the children in the thirdhand experience."
+          },
+          {
+            "cuetime": 45,
+            "text": "The whole-group area is large enough for two classrooms to sit together comfortably. This was achieved by pushing away some of the furniture temporarily."
+          }
+        ],
+        "culturePoints": [
+          {
+            "cuetime": 45,
+            "text": "Bringing the children together in a large group allows them to share their experiences and knowledge as they discuss the book. Later, when they work in small groups, they can refer back to their shared experience of the story."
+          },
+          {
+            "cuetime": 62,
+            "text": "The teacher uses questions to engage the children in the story and focus their attention on the crucial information at the right moments. Having the children assist in reading the material helps reinforce their understanding of the concept."
+          }
+        ],
+        "exPoints": [
+          {
+            "cuetime": 6,
+            "text": "The teacher uses a thirdhand experience, reading a book about the states of matter, to reinforce what the children have learned through firsthand experiences."
+          },
+          {
+            "cuetime": 34,
+            "text": "The animation in the teacher's voice helps engage the children in the thirdhand experience. In thirdhand experiences teachers have to work harder to summon children's attention. This is different from firsthand experiences, where the tension is built into the experience."
+          },
+          {
+            "cuetime": 57,
+            "text": "To highlight and bring attention to the concepts and the scientific lexicon, the teacher uses inflection and asks the children questions."
+          },
+          {
+            "cuetime": 115,
+            "text": "Although the concept of gas as one of the states of matter has been introduced through a thirdhand experience, the students have a frame of reference from the many firsthand experiences they have had with solids and liquids."
+          }
+        ],
+        "repPoints": [
+          {
+            "cuetime": 17,
+            "text": "With the exception of the teacher inviting children to call out words, children are not creating representations here. Their learning and practicing the scientific lexicon will support their later representation."
+          }
+        ],
+        "description": "Two K-1 classrooms, one bilingual and one monolingual, gather to listen to a reading about the different states of matter.",
+        "AoS": "Physical Science",
+        "topic": "Matter",
+        "bigIdea": "Change",
+        "concept": "Matter comes in different states",
+        "gradeLvl": "K-1 Science",
+        "standards": "Properties of materials can be observed, measured, and predicted. As a basis for understanding this concept:<ol><li>Students know water can be a liquid or a solid and can be made to change back and forth from one form to the other.</li></ol><br/>Materials come in different forms (states), including solids, liquids, and gases. As a basis for understanding this concept:<ol><li>Students know solids, liquids, and gases have different properties.</li></ol>"
+      },
+      "enrich": {
+        "intro": "Before developing Thirdhand Experiences, consider that children will get the most out of this Component when it has the following properties:",
+        "list": [
+          {
+            "text": "Texts include fiction and non-fiction related to the science concepts",
+            "moreIntro": null,
+            "more": "A variety of fiction and nonfiction texts are available to help children deepen their understanding of the concepts. Teachers can talk to their school library teacher or local public librarian for suggestions. There are also organizations that publish yearly lists of outstanding science books.<br/>See <a href='http://www.sbfonline.com'>Best Books for Children</a> or <a href='http://www. nsta.org/publications/ostb/default.aspx'>Outstanding Science Trade Books for Students K-12</a>.",
+            "moreImg": "thi_eco_1.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Books related to science concepts have a space in the classroom",
+            "moreIntro": null,
+            "more": "A selection of engaging and age-appropriate fiction and nonfiction texts are set out where they will invite curiosity and children have easy access to them.",
+            "moreImg": "thi_eco_2a.jpg",
+            "moreTwo": null,
+            "moreImgTwo": "thi_eco_2b.jpg"
+          }
+        ]
+      },
+      "challenges": {
+        "theText": "<b>My yearly classroom budget allows for only one field trip. How can I assure that my students get a variety of firsthand experiences?</b><br/>If field trips are not possible, finding creative ways to bring the experience into your classroom is the next best thing. For example, if your students are studying the rock cycle and a trip to the mountains to collect different kinds of rocks can't be arranged, bringing in igneous, sedimentary and metamorphic rocks for the children to observe is helpful. If it's not possible to visit a garden to witness pollination firsthand, growing a small garden that attracts pollinators in or around your classroom is also meaningful.<br/><b>Should I provide a firsthand experience for every new concept?</b><br/>Firsthand experiences should be used whenever possible. They provide children opportunities to connect prior knowledge with newly acquired knowledge and to apply learning to their everyday lives. However, it is not always possible to have children dissect an insect, observe a whale in its natural habitat or go for a walk to view a tree's varied-colored leaves. In this case, age-appropriate videos, photographs and text can and should be used.<br/><b>Where can I get quality expository science texts for young children?</b><br/>The library media teacher at your school or the children's librarian at your local public library can recommend books and point you to other resources.<br/>In addition, the following web sites publish lists of outstanding science books for children.<br/><a target='_blank' href='http://www.sbfonline.com/prizes.htm'>http://www.sbfonline.com/prizes.htm</a>Annual prize winners for excellence in science books, chosen by Science Books and Film (SB and F), a critical review journal devoted exclusively to print and non-print materials in all the sciences and for all age groups. SB and F is published by the American Association for the Advancement of Science (AAAS).<a href='http://www.nsta.org/publications/ostb/default.aspx' target='_blank'>http://www.nsta.org/publications/ostb/default.aspx</a>Titles on this annotated list are chosen because they are \"accurate and interesting and have a spark of inspiration that will challenge and extend the reader.\" Sponsored by the Australian Academy of Science."
+      }
+    },
     {
       "index": 15,
       "title": "Representation",
