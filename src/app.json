@@ -1518,9 +1518,637 @@
       "citation": "Eisner, E. (December 2003/January 2004).<br />Preparing for Today and Tomorrow,<br />Educational Leadership, p. 6",
       "more": "<p>Representation is the means by which students demonstrate and communicate their knowledge of big ideas and concepts both to the teacher and to themselves. Students create representations in a variety of ways, including drawing, writing, graphing, sculpting and movement. This work can be categorized into four key formats--oral/textual, kinesthetic, two-dimensional and three-dimensional--each of which offers unique opportunities for children to deepen their understanding. (See General Guidelines for Choosing a Representational Format)</p><p>Deep understanding of a concept includes knowing about its structure, its behavior and its function, or the \"what,\" the \"how,\" and the \"why\" of the concept. For example, to understand the concept \"Simple machines make work easier,\" students must know what are the different parts of the simple machine (structure), how the simple machine works (behavior) and why it makes work easier (function). One type of representation may help students see the \"what\" while another may help them see the \"how.\"</p><p>Additionally, asking children to create multiple representations of concepts and big ideas helps them to synthesize and build knowledge. Offering opportunities to represent concepts in a variety of ways helps to ensure that children with differences in learning style, previous experiences and background knowledge will be engaged and invested in the learning process. At the same time, representation provides important tools for assessing children's understanding and allows the teacher to make informed decisions about instruction. The result is greater effectiveness in addressing children's individual learning needs, which ultimately helps ensure academic success for every child.</p>"
     },
-    { "index": 16 },
-    { "index": 17 },
-    { "index": 18 },
-    { "index": 19 }
+    {
+      "index": 16,
+      "title": "2-Dimension Representation",
+      "colorScheme": "yellow",
+      "type": "page",
+      "definition": "Two-dimensional representations include sketches, drawings and paintings.",
+      "benefits": "Creating two-dimensional representations helps to highlight the structure or the \"what\" in a concept or big idea. In addition to familiarizing children with the details of the thing they are observing, this process helps children hone their scientific skills. It also provides a motivating way to practice and strengthen fine motor skills, which is especially beneficial for the youngest children.",
+      "examples": "Children create a drawing of a simple machine such as a pulley, then label all the parts and note the connections between the parts --the wheel, the axel and the rope linking the two.",
+      "video": {
+        "title": "Rocks and Sand and Awesome Scientists 2",
+        "file": "video_1.mp4",
+        "thumbnail": "preview1.jpg",
+        "planningPoints": [
+          {
+            "cuetime": 8,
+            "text": "With the foundation of the lesson planned in formal planning, the teacher asks children to make predictions and discuss them. This requires the teacher to use flexibility as she listens to children and builds on their ideas."
+          },
+          {
+            "cuetime": 29,
+            "text": "The children's predictions provide an assessment of their prior knowledge, which helps the teacher plan firsthand experiences related to the concepts. Later the children will use their predictions as references during and after conducting an experiment."
+          },
+          {
+            "cuetime": 101,
+            "text": "Although the teacher does not know what the children are going to say, she knows what the big idea is and chooses certain students' responses to either help highlight the learning goal or point out misconceptions. Notice, also, how she creates a rich and meaningful discussion by calling on children from different cultural and linguistic backgrounds and including both boys and girls."
+          }
+        ],
+        "setupPoints": [
+          {
+            "cuetime": 12,
+            "text": "The teacher works with a small group of children on the rug. They sit in a circle, which helps include everyone in the discussion."
+          },
+          {
+            "cuetime": 52,
+            "text": "Note that the representation and the experiment use simple materials such as marbles, sand, water, markers, and paper."
+          }
+        ],
+        "culturePoints": [
+          {
+            "cuetime": 8,
+            "text": "Notice how the teacher refers to the child as a scientist. This helps the child see herself as a scientist, which in turn builds confidence and competence."
+          },
+          {
+            "cuetime": 46,
+            "text": "Here the teacher helps a shy, quiet child feel safe explaining her work to her peers. She does this by letting the child finish her explanation even when it's inaudible to others, preventing other children from interrupting, and respectfully asking the child to repeat her explanation for the rest of the group."
+          },
+          {
+            "cuetime": 62,
+            "text": "Notice how the teacher calls attention to the concept by pausing the conversation and repeating the child's words to the group. This also reinforces the scientific lexicon."
+          },
+          {
+            "cuetime": 157,
+            "text": "Notice how the teacher makes an English Language learner feel comfortable discussing her ideas in front of her peers. She does this by calling on the child last, which gives the child time to observe others interacting with the teacher. The teacher also asks open-ended questions for which there is no wrong answer."
+          }
+        ],
+        "exPoints": [
+          {
+            "cuetime": 14,
+            "text": "The children have had prior experiences with sorting and categorizing solids by their properties, such as texture, weight, size and shape and by their characteristics, rough, heavy, small and round."
+          },
+          {
+            "cuetime": 136,
+            "text": "Making predictions and discussing them helps provide background knowledge that prepares children for the secondhand experience that will follow. This helps them become more selective in their observations of the secondhand experience and focuses their attention on the concept, which is <i>matter takes up space.</i>"
+          }
+        ],
+        "repPoints": [
+          {
+            "cuetime": 21,
+            "text": "The teacher encourages the child to discuss her two dimensional representation. The child's response will help the teacher assess the student's understanding of the concept."
+          },
+          {
+            "cuetime": 61,
+            "text": "The children accompany their two dimensional representations with oral or textual representations or both."
+          },
+          {
+            "cuetime": 84,
+            "text": "Asking clarifying questions helps the teacher assess the child's understanding."
+          },
+          {
+            "cuetime": 136,
+            "text": "Repeating the child's words and asking a follow-up question reinforces a good observation and helps move the child forward in her understanding."
+          }
+        ],
+        "description": "To provide children with background knowledge about the concept \"matter takes up space,\" the teacher asked her students to predict what would happen to rocks in a jar when sand was poured on top of them. In this video, children have created drawings to illustrate their predictions and are gathered for a group discussion.",
+        "AoS": "Physical Science",
+        "topic": "Matter and Energy",
+        "bigIdea": "Constancy and Change",
+        "concept": "Matter takes up space",
+        "gradeLvl": "K-1 Science",
+        "standards": "Materials come in different forms (states), including solids, liquids, and gases. As a basis for understanding this concept:<ol><li>Students know solids, liquids, and gases have different properties.</li><li>Students know the properties of substances can change when the substances are mixed, cooled, or heated.</li></ol>"
+      },
+      "enrich": {
+        "intro": "Before developing Thirdhand Experiences, consider that children will get the most out of this Component when it has the following properties:",
+        "list": [
+          {
+            "text": "It is followed by discussion for assessment purposes",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "The children make revisions to their representations if needed",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Children examine and talk about each others' representations",
+            "moreIntro": null,
+            "more": "Children present their ideas for building a model of a LEGO factory in their classroom. As they talk, they refer to drawings that members of their planning group have created.",
+            "moreImg": "2-D_eco_3.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Children create multiple 2-D representations of each concept",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Sometimes the children can choose the materials to use",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Materials are limited to three or four choices",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Students are not just copying a model",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "It is used with the other representational forms",
+            "moreIntro": null,
+            "more": "A classroom display organizes children's multiple representations of the characteristics of matter. A variety of characteristics are represented in drawings and paintings as well as oral/textual and three-dimensional forms.",
+            "moreImg": "2-D_eco_8.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Assessment of the representation informs instruction",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          }
+        ]
+      },
+      "challenges": {
+        "theText": "<b>What can I do if I'm only provided with traditional instructional materials?</b>Teachers who want their students to develop skills in critical thinking and inquiry are restricted if they have only text-based materials that focus on memorizing facts and terminology. Curriculum is defined not only by the materials used but by what students are interested in, how they learn and on what they are assessed. Teachers can use the National Science Education Standards as a base to determine the concepts and big ideas they want students to know and then decide which materials they can use to help students reach those learning goals.<b>What if I don't have a background in the arts? Will I still be able to teach this way?</b>Understanding the importance of providing students with different ways to demonstrate their understanding matters far more than having a background in art. This is not to say it's not important for children to develop the art skills articulated in the National Standards, such as knowing the difference between materials, techniques and processes and using art materials and tools in a safe and responsible manner. However, it is equally important for children to be able to use the different media, techniques and processes to communicate ideas and concepts.<b>How can I come up with ideas for children to represent their understanding in a variety of ways?</b>Collaborating with colleagues who have strengths in different areas frequently promotes new ideas. In addition, students have ideas about creative ways to show what they know. The more accessible the materials are, the more eager students will be to experiment with them and the better adept they will become at choosing materials best suited to their understanding of the concepts.<b>How do I use these kinds of representations as an assessment tool?</b>Because children's representations reveal the gaps in their learning, they can help teachers know what experiences to plan based on what information is needed. Teachers can determine what knowledge children need to acquire by listening to the students talk about their representations, assessing their work and planning collaboratively to redefine the lessons to meet more specific goals."
+      }
+    },
+    {
+      "index": 17,
+      "title": "3-Dimension Representation",
+      "colorScheme": "yellow",
+      "type": "page",
+      "definition": "Three-dimensional representations are structures or sculptures created with materials such as wood, clay, wire or blocks.",
+      "benefits": "Creating three-dimensional representations helps children make connections between the structure or \"what\" of a concept or big idea and its behavior or how it works. It also promotes deeper understanding of a concept by requiring children to explore the spatial relationships involved. In the creation of a drawing, these relationships are less important and harder to explore.",
+      "examples": "Children build a model of a simple machine such as a lever and label the parts of it (i.e., the \"what\"). Then, because it is a three-dimensional form, they can show how the lever is used to lift or pry an object (i.e., the \"how\"). Being able to show the function of the lever in addition to its structure helps children deepen their understanding of the concept that simple machines are devices that make work easier. Through trial and error they may also discover that where they put the fulcrum is crucial to getting their machine to operate.",
+      "video": {
+        "title": "The Roller Coaster 2",
+        "file": "video_2.mp4",
+        "thumbnail": "preview2.jpg",
+        "planningPoints": [
+          {
+            "cuetime": 16,
+            "text": "Planning for a project involves teachers deciding what materials will be needed to implement the children's ideas. In this example, the teacher also planned to have the students bring scrap materials in from home so that they would be available for use in building the roller coaster."
+          },
+          {
+            "cuetime": 86,
+            "text": "Students' interests, such as the need to support the ramp they are working on, can lead to effective ideas and projects that are related to the concepts. In fact, this entire roller coaster project was designed by the children to send messages between two classrooms."
+          },
+          {
+            "cuetime": 107,
+            "text": "Next you will hear the teacher struggling with the challenges inherent in planning which activities to monitor and which students to allow freedom in their work as she aims to have all of the students work productively."
+          }
+        ],
+        "setupPoints": [
+          {
+            "cuetime": 5,
+            "text": "The roller coaster has been mounted on the windows outside the classroom, making the outdoor space an extension of the learning environment. The model remains here while in progress so that the students can continually examine it and add to it as they learn more about the concepts being studied."
+          },
+          {
+            "cuetime": 75,
+            "text": "Materials consist of a variety of donated scraps such as chains, empty containers and blocks of wood. Using donated or found materials keeps project costs low and inspires ingenuity."
+          },
+          {
+            "cuetime": 100,
+            "text": "Materials for the project are readily accessible to the children so that they can easily experiment with them as they search for the best supplies to complete their model."
+          }
+        ],
+        "culturePoints": [
+          {
+            "cuetime": 5,
+            "text": "Although a teacher is present to supervise, the children are trusted to work on testing and improving the model roller coaster. They are able to work independently and productively because the teachers have set up routines to support this and children have had much practice working together."
+          },
+          {
+            "cuetime": 38,
+            "text": "Children work together, negotiating, discussing and planning. Having well-established social routines and offering frequent opportunities to collaborate help children develop and practice these skills."
+          },
+          {
+            "cuetime": 103,
+            "text": "When the children tell the teacher they need something to hold up the tubes, she doesn't solve the problem for them. She gives them encouragement to do the work on their own."
+          }
+        ],
+        "exPoints": [
+          {
+            "cuetime": 6,
+            "text": "Because this is a 3-D model, it is both conceptual and a firsthand experience where the students can see the issues involved in using simple machines such as ramps, and explore the concepts of force and motion. This experience can also lead to new conjectures about motion, such as when this student says, \"when it goes slow, it stays just fine.\""
+          },
+          {
+            "cuetime": 123,
+            "text": "Having a firsthand experience with a model leads the students to new questions such as \"Why does it [the ball] go down?\" It also gives them tools to experiment and to attempt to find the answers to their questions."
+          }
+        ],
+        "repPoints": [
+          {
+            "cuetime": 12,
+            "text": "Building a 3-D structure such as a roller coaster provides a natural way to explore the properties of force and motion and kinetic and potential energy."
+          },
+          {
+            "cuetime": 60,
+            "text": "As the children repeatedly test their roller coaster they make revisions to help the message ball roll through one section more effectively."
+          },
+          {
+            "cuetime": 108,
+            "text": "In each representation different materials are offered. Here the children choose the materials. At other times the teacher makes the choice."
+          }
+        ],
+        "description": "During their study of simple machines, force and motion, and kinetic and potential energy, students decided to build a roller coaster that sends messages from one classroom to another. In this video, two children are working on the roller coaster model.",
+        "AoS": "Physical Science",
+        "topic": "Matter and Energy",
+        "bigIdea": "Cause and Effect",
+        "concept": "Force causes motion",
+        "gradeLvl": "K-1 Science",
+        "standards": "The motion of objects can be observed and measured. As a basis for understanding this concept:<ol><li>Students know the position of an object can be described by locating it in relation to another object or to the background.</li><li>Students know an object's motion can be described by recording the change in position of the object over time.</li><li>Students know the way to change how something is moving is by giving it a push or a pull. The size of the change is related to the strength, or the amount of force, of the push or pull.</li><li>Students know tools and machines are used to apply pushes and pulls (forces) to make things move.</li><li>Students know objects fall to the ground unless something holds them up.</li>"
+      },
+      "enrich": {
+        "intro": "Before developing Thirdhand Experiences, consider that children will get the most out of this Component when it has the following properties:",
+        "list": [
+          {
+            "text": "It follows a 2-D representation",
+            "moreIntro": null,
+            "more": "Two-dimensional representations allow children to compare images side by side. Fionn's drawing represents his understanding of inclined planes and how the angle of the incline affects the speed of a marble that is rolled from one end to the other.",
+            "moreImg": "3-D_eco_1a.jpg",
+            "moreImgTwo": "3-D_eco_1c.jpg",
+            "moreTwo": "Following their two-dimensional representations, children created three-dimensional representations, which highlight the structure of the inclined plane and the behavior of the marble as it rolls down the slope. Adil creates three-dimensional representations using a piece of wood and a marble."
+          },
+          {
+            "text": "It is followed by discussion for assessment purposes",
+            "moreIntro": null,
+            "more": "Students have used their knowledge of the science concepts to build a robot that incorporates a variety of simple machines. After the initial phase of the building process, they gather on the rug for a discussion about which simple machines they used and why.",
+            "moreImg": "3-D_eco_2a.jpg",
+            "moreTwo": "Throughout the discussion the group refers to a list of key words on the board. Following their discussion they work with the teacher to make modifications to their robot model.",
+            "moreImgTwo": "3-D_eco_2b.jpg"
+          },
+          {
+            "text": "Children make revisions to their representations if needed",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Children examine and talk about each others' representations",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Children create multiple 3-D representations of a concept",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "In each representation three or four different materials are offered",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Sometimes the children choose the materials",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Students are not just copying a model",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "It is used with the other representational forms",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Assessment of the representation informs instruction",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          }
+        ]
+      },
+      "challenges": {
+        "theText": "<b>What can I do if I'm only provided with traditional instructional materials?</b>Teachers who want their students to develop skills in critical thinking and inquiry are restricted if they have only text-based materials that focus on memorizing facts and terminology. Curriculum is defined not only by the materials used but by what students are interested in, how they learn and on what they are assessed. Teachers can use the National Science Education Standards as a base to determine the concepts and big ideas they want students to know and then decide which materials they can use to help students reach those learning goals.<b>What if I don't have a background in the arts? Will I still be able to teach this way?</b>Understanding the importance of providing students with different ways to demonstrate their understanding matters far more than having a background in art. This is not to say it's not important for children to develop the art skills articulated in the National Standards, such as knowing the difference between materials, techniques and processes and using art materials and tools in a safe and responsible manner. However, it is equally important for children to be able to use the different media, techniques and processes to communicate ideas and concepts.<b>How can I come up with ideas for children to represent their understanding in a variety of ways?</b>Collaborating with colleagues who have strengths in different areas frequently promotes new ideas. In addition, students have ideas about creative ways to show what they know. The more accessible the materials are, the more eager students will be to experiment with them and the better adept they will become at choosing materials best suited to their understanding of the concepts.<b>How do I use these kinds of representations as an assessment tool?</b>Because children's representations reveal the gaps in their learning, they can help teachers know what experiences to plan based on what information is needed. Teachers can determine what knowledge children need to acquire by listening to the students talk about their representations, assessing their work and planning collaboratively to redefine the lessons to meet more specific goals."
+      }
+    },
+    {
+      "index": 18,
+      "title": "Kinesthetic Representation",
+      "colorScheme": "yellow",
+      "type": "page",
+      "definition": "Kinesthetic representations are created with body movement. They are used most often to help students learn concepts or big ideas that involve processes, movement or change, such as molecular movement in various states of matter, or the viscosities of different liquids.",
+      "benefits": "Using their bodies to demonstrate their understanding helps children make a personal connection to the concept or big idea. It also offers a way to get all children involved, including those who have a hard time sitting and those who struggle with fine motor or oral communication skills.",
+      "examples": "Children move their bodies to portray the motion of molecules in a solid, liquid and gas. Those acting like molecules in a gas bounce off of each other, dancing rapidly around the room. Children portraying molecules in a liquid glide together more slowly. Those portraying a solid huddle together, moving very little. Afterwards, teacher asks: \"When you were acting like a molecule in a gas how did it feel? How was it different from when you were acting like a molecule in a solid?\"",
+      "video": {
+        "title": "Make Your Body a Rough Piece of Wood",
+        "file": "video_3.mp4",
+        "thumbnail": "preview3.jpg",
+        "planningPoints": [
+          {
+            "cuetime": 8,
+            "text": "The teacher planned this additional experience with kinesthetic representation for children who needed reinforcement of their understanding of characteristics of solids."
+          },
+          {
+            "cuetime": 59,
+            "text": "The teacher makes decisions about which characteristics of solids she will model and which ones she will ask the children to model based on her learning goals for the children and to highlight important contrasts."
+          }
+        ],
+        "setupPoints": [
+          {
+            "cuetime": 17,
+            "text": "Ample space is provided for children to move around freely."
+          },
+          {
+            "cuetime": 36,
+            "text": "The teacher is using an empty auditorium for this lesson, but any space where children can move freely, such as part of a playground, would work."
+          },
+          {
+            "cuetime": 66,
+            "text": "The children are able to observe the teachers' representations from different angles."
+          }
+        ],
+        "culturePoints": [
+          {
+            "cuetime": 53,
+            "text": "Working with a small group of children creates a more immediate and intimate experience where all students have access to the teacher and the teacher can observe all the students."
+          },
+          {
+            "cuetime": 91,
+            "text": "When the teacher names the students and verbally acknowledges their work, she makes them feel included and encourages their participation."
+          },
+          {
+            "cuetime": 106,
+            "text": "Children are encouraged to observe each others' representations."
+          }
+        ],
+        "exPoints": [
+          {
+            "cuetime": 8,
+            "text": "Before creating kinesthetic representations, children have had experiences with the states of matter and developed a scientific lexicon to describe the properties and characteristics of solids, liquids and gases."
+          },
+          {
+            "cuetime": 30,
+            "text": "The teacher's model creates a secondhand experience for the children to see the characteristics of the solid. This could be a reminder of the expository and fictional texts containing words such as \"pointy,\" \"rough\" and \"smooth\" that the children read previously."
+          }
+        ],
+        "repPoints": [
+          {
+            "cuetime": 16,
+            "text": "The teacher uses kinesthetic representation immediately following a discussion of words that describe some physical characteristics of matter."
+          },
+          {
+            "cuetime": 99,
+            "text": "The teacher reinforces the scientific lexicon by using it to describe what she sees."
+          },
+          {
+            "cuetime": 125,
+            "text": "Children are given the opportunity to observe other students' representations and to revise their own."
+          }
+        ],
+        "description": "Children have spent time using their senses to experience the different states of matter and have developed a scientific lexicon to describe the properties and characteristics of solids, liquids, and gases. After representing each state of matter by sketching, sculpting with clay, and using the computer, the teacher asks her students to use their bodies to represent different characteristics of a solid.",
+        "AoS": "Physical Science",
+        "topic": "Matter and Energy",
+        "bigIdea": "Constancy and Change",
+        "concept": "Solids have properties and characteristics",
+        "gradeLvl": "K-1 Science",
+        "standards": "Properties of materials can be observed, measured, and predicted. As a basis for understanding this concept:<ol><li>Students know objects can be described in terms of the materials they are made of (e.g., clay, cloth, paper) and their physical properties (e.g., color, size, shape, weight, texture, flexibility, attraction to magnets, floating, sinking).</li>2. Materials come in different forms (states), including solids, liquids, and gases. As a basis for understanding this concept:<li>Students know solids, liquids, and gases have different properties.</li></ol>"
+      },
+      "enrich": {
+        "intro": "Before developing Thirdhand Experiences, consider that children will get the most out of this Component when it has the following properties:",
+        "list": [
+          {
+            "text": "It is followed by discussion for assessment purposes",
+            "moreIntro": null,
+            "more": "After each small group's kinesthetic representation of simple machines, the teacher asks the student audience, \"What did you see? Which simple machines did this group represent?\" The students representing the simple machine are asked to describe their process and talk about their machine and how it works. The discussion reveals a misunderstanding about how a spring in a wind-up toy builds up potential energy when a force is applied.",
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "The teacher comments on things she sees happening",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Children can make revisions to their representations if needed",
+            "moreIntro": null,
+            "more": "Through discussion, a child who has created a kinesthetic representation of a spring in a wind-up toy realizes his body movements did not show energy building up as the spring coils. In his next attempt he revises his original representation. To show the build-up of energy, he waits while his partner represents winding the spring. He then jumps to show the release of energy.",
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Children create representations in a variety of groupings",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Collaboration and negotiation are encouraged",
+            "moreIntro": null,
+            "more": "Children work as a group to represent a machine using their bodies. They use their skills in collaboration and negotiation as they get their machine to \"function.\"",
+            "moreImg": "kin_eco_5.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Children are given the opportunity to create AND watch",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "It is used with the other representational forms",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Assessment of the representation informs instruction",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          }
+        ]
+      },
+      "challenges": {
+        "theText": "<b>What can I do if I'm only provided with traditional instructional materials?</b>Teachers who want their students to develop skills in critical thinking and inquiry are restricted if they have only text-based materials that focus on memorizing facts and terminology. Curriculum is defined not only by the materials used but by what students are interested in, how they learn and on what they are assessed. Teachers can use the National Science Education Standards as a base to determine the concepts and big ideas they want students to know and then decide which materials they can use to help students reach those learning goals.<b>What if I don't have a background in the arts? Will I still be able to teach this way?</b>Understanding the importance of providing students with different ways to demonstrate their understanding matters far more than having a background in art. This is not to say it's not important for children to develop the art skills articulated in the National Standards, such as knowing the difference between materials, techniques and processes and using art materials and tools in a safe and responsible manner. However, it is equally important for children to be able to use the different media, techniques and processes to communicate ideas and concepts.<b>How can I come up with ideas for children to represent their understanding in a variety of ways?</b>Collaborating with colleagues who have strengths in different areas frequently promotes new ideas. In addition, students have ideas about creative ways to show what they know. The more accessible the materials are, the more eager students will be to experiment with them and the better adept they will become at choosing materials best suited to their understanding of the concepts.<b>How do I use these kinds of representations as an assessment tool?</b>Because children's representations reveal the gaps in their learning, they can help teachers know what experiences to plan based on what information is needed. Teachers can determine what knowledge children need to acquire by listening to the students talk about their representations, assessing their work and planning collaboratively to redefine the lessons to meet more specific goals."
+      }
+    },
+    {
+      "index": 19,
+      "title": "Oral-Textual Representation",
+      "colorScheme": "yellow",
+      "type": "page",
+      "definition": "Oral or textual representations include storytelling, song, creative drama or explanation.",
+      "benefits": "As children participate in discussions of concepts and big ideas they negotiate meaning and build an understanding of the curricular content. Oral explanations often lead to children building on and revising their thinking. Talking and writing about concepts offer important ways for children to increase their scientific lexicon and provide opportunities to use this lexicon in context. Also, children develop writing process skills that can be used to communicate with a variety of audiences and in all areas of the curriculum.",
+      "examples": "In writing a play about the life of a drop of water, children portray water changing from a liquid to a solid to a gas. Through the details of the story they explain why this change happens.",
+      "video": {
+        "title": "Water Wheels",
+        "file": "video_4.mp4",
+        "thumbnail": "preview4.jpg",
+        "planningPoints": [
+          {
+            "cuetime": 3,
+            "text": "Notice that the teacher's questions are planned to take advantage of what this type of representation is good at - namely, getting at why and how the water makes the water wheel move."
+          },
+          {
+            "cuetime": 35,
+            "text": "The teacher's original plan did not include focusing on water wheels. Children's interest provided an opportunity to make a meaningful connection with the concepts."
+          },
+          {
+            "cuetime": 75,
+            "text": "A strong knowledge of the content helps teachers assess students' conceptual understanding, correct their misperceptions and guide them to the learning goals."
+          }
+        ],
+        "setupPoints": [
+          {
+            "cuetime": 3,
+            "text": "Ample rug space allows the children to assemble comfortably for a discussion. By sitting low to the ground, the teacher conveys a sense of sharing rather than testing."
+          },
+          {
+            "cuetime": 23,
+            "text": "The teacher holds the book up and moves it around so that all the children can see it."
+          }
+        ],
+        "culturePoints": [
+          {
+            "cuetime": 4,
+            "text": "By posing a question and immediately saying, \"Don't call out. Raise hands,\" the teacher creates an opportunity for children to think and gives everyone a chance to answer."
+          },
+          {
+            "cuetime": 8,
+            "text": "Asking, \"What do you think?\" offers the child a platform for discussing his ideas."
+          },
+          {
+            "cuetime": 65,
+            "text": "When the teacher asks if others agree with the student's idea, she helps build consensus but also leaves open the possibility for other thoughts."
+          }
+        ],
+        "exPoints": [
+          {
+            "cuetime": 3,
+            "text": "Ample rug space allows the children to assemble comfortably for a discussion. By sitting low to the ground, the teacher conveys a sense of sharing rather than testing."
+          },
+          {
+            "cuetime": 119,
+            "text": "Discussing prior experiences with water wheels helps build children's knowledge to create new understanding of the concepts."
+          }
+        ],
+        "repPoints": [
+          {
+            "cuetime": 37,
+            "text": "Discussing text offers children the opportunity to increase their scientific lexicon and practice using it in context. The child's statement that \"water has gravity in it\" provides an assessment of the child's understanding."
+          },
+          {
+            "cuetime": 65,
+            "text": "The teacher facilitates the discussion by pointing out key ideas that the children have brought up and connecting their ideas to the concepts."
+          },
+          {
+            "cuetime": 121,
+            "text": "Children have the opportunity to create new knowledge by building on their prior knowledge and experiences."
+          }
+        ],
+        "description": "After children have had multiple opportunities to use their bodies to create force and motion on the playground, the teacher gathers her students on the rug to read a book about these concepts. A passage about water wheels prompts a discussion.",
+        "AoS": "Physical Science",
+        "topic": "Matter and Energy",
+        "bigIdea": "Cause and Effect",
+        "concept": "Force causes motion, Simple machines make work easier",
+        "gradeLvl": "K-1 Science",
+        "standards": "The motion of objects can be observed and measured. As a basis for understanding this concept:<ol><li>Students know the position of an object can be described by locating it in relation to another object or to the background.</li><li>Students know an object's motion can be described by recording the change in position of the object over time.</li><li>Students know the way to change how something is moving is by giving it a push or a pull. The size of the change is related to the strength, or the amount of force, of the push or pull.</li><li>Students know tools and machines are used to apply pushes and pulls (forces) to make things move.</li><li>Students know objects fall to the ground unless something holds them up.</li></ol>"
+      },
+      "enrich": {
+        "intro": "Before developing Thirdhand Experiences, consider that children will get the most out of this Component when it has the following properties:",
+        "list": [
+          {
+            "text": "It is used with the other representational forms",
+            "moreIntro": null,
+            "more": "Fionn has used text and drawings to represent his understanding of inclined planes and how the angle of the incline affects the speed of a marble that is rolled from one end to the other. The drawings allow him to show contrast between two scenarios involving planes with different slopes. The text provides a way to explain why the marble travels at greater speed when it is rolled down the first plane. Both representations provide the teacher with an assessment of Fionn's understanding of the concepts.",
+            "moreImg": "ora_eco_1.jpg",
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Students are given multiple opportunities to discuss their work",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "The teacher facilitates discussion and helps children connect ideas",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Discussion builds on prior experiences and knowledge",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          },
+          {
+            "text": "Assessment of the representation informs instruction",
+            "moreIntro": null,
+            "more": null,
+            "moreImg": null,
+            "moreTwo": null,
+            "moreImgTwo": null
+          }
+        ]
+      },
+      "challenges": {
+        "theText": "<b>What can I do if I'm only provided with traditional instructional materials?</b>Teachers who want their students to develop skills in critical thinking and inquiry are restricted if they have only text-based materials that focus on memorizing facts and terminology. Curriculum is defined not only by the materials used but by what students are interested in, how they learn and on what they are assessed. Teachers can use the National Science Education Standards as a base to determine the concepts and big ideas they want students to know and then decide which materials they can use to help students reach those learning goals.<b>What if I don't have a background in the arts? Will I still be able to teach this way?</b>Understanding the importance of providing students with different ways to demonstrate their understanding matters far more than having a background in art. This is not to say it's not important for children to develop the art skills articulated in the National Standards, such as knowing the difference between materials, techniques and processes and using art materials and tools in a safe and responsible manner. However, it is equally important for children to be able to use the different media, techniques and processes to communicate ideas and concepts.<b>How can I come up with ideas for children to represent their understanding in a variety of ways?</b>Collaborating with colleagues who have strengths in different areas frequently promotes new ideas. In addition, students have ideas about creative ways to show what they know. The more accessible the materials are, the more eager students will be to experiment with them and the better adept they will become at choosing materials best suited to their understanding of the concepts.<b>How do I use these kinds of representations as an assessment tool?</b>Because children's representations reveal the gaps in their learning, they can help teachers know what experiences to plan based on what information is needed. Teachers can determine what knowledge children need to acquire by listening to the students talk about their representations, assessing their work and planning collaboratively to redefine the lessons to meet more specific goals."
+      }
+    }
   ]
 }
