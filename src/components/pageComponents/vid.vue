@@ -387,9 +387,16 @@ h2
     border-spacing: 0
     max-height: 20em
     display: block
-    overflow-y: scroll
+    overflow-y: auto
     td
       padding: 0.5em
+      &:deep(ol)
+        list-style: lower-latin
+        padding: .5em 1em 0 1em
+        li
+          margin-bottom: 0.5em
+        li:last-of-type
+          margin-bottom: 0
     td:first-child
       width: 25%
       text-align: right

@@ -2,7 +2,7 @@
   <div id="enrich">
     <template v-if="!moreEnabled">
       <h2>What should I keep in mind?</h2>
-      <p class="intro">{{ json[currentIndex].enrich.intro }}</p>
+      <p class="intro">Before developing {{ json[currentIndex].title }}, consider that children will get the most out of this Component when it has the following properties:</p>
       <ul>
         <li
           v-for="i in json[currentIndex].enrich.list"
