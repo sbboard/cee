@@ -2,7 +2,11 @@
   <div id="enrich">
     <template v-if="!moreEnabled">
       <h2>What should I keep in mind?</h2>
-      <p class="intro">Before developing {{ json[currentIndex].title }}, consider that children will get the most out of this Component when it has the following properties:</p>
+      <p class="intro">
+        Before developing {{ json[currentIndex].title }}, consider that children
+        will get the most out of this Component when it has the following
+        properties:
+      </p>
       <ul>
         <li
           v-for="i in json[currentIndex].enrich.list"
@@ -10,10 +14,13 @@
           :key="i.text"
           @click="changeMore(i)"
         >
-          <template v-if="i.more != null">
+          <div class="tearPackage" v-if="i.more != null">
             <i class="fas fa-tint moreDrop"></i>
+            <p>{{ i.text }}</p>
+          </div>
+          <template v-else>
+            <p>{{ i.text }}</p>
           </template>
-          <p>{{ i.text }}</p>
           <div class="moreArrow" v-if="i.more != null">
             <span class="dash"></span>
             <i class="fas fa-angle-right"></i>
@@ -144,9 +151,9 @@ export default {
       @include mobile
         float: left
     .moreArrow
-      width: 25%
       display: inline-flex
       height: 1em
+      flex-grow: 1
       font-size: 0.5em
       line-height: 0
       position: relative
@@ -183,8 +190,12 @@ export default {
       margin-left: 2.2em
     &.more
       cursor: pointer
+      display: flex
+      align-items: baseline
+      justify-content: space-between
       p
         display: inline-block
+        padding-right: 0.5em
         @include mobile
           display: block
           margin-left: 2.2em
@@ -194,4 +205,6 @@ export default {
             width: 100%
           i
             left: calc(100% - .5em)
+.tearPackage
+  display: inline-block
 </style>

@@ -93,6 +93,7 @@ export default {
   data() {
     return {
       mobileNavOpen: false,
+      version: "0.9",
     };
   },
   methods: {
@@ -115,14 +116,13 @@ export default {
       e = e || window.event;
       if (e.keyCode == "38") {
         //up btn
-        if(this.currentIndex != 0){
-          this.changeIndex(this.currentIndex - 1)
+        if (this.currentIndex != 0) {
+          this.changeIndex(this.currentIndex - 1);
         }
       } else if (e.keyCode == "40") {
         //down btn
-        console.log("down")
-        if(this.currentIndex != this.json.length - 1){
-          this.changeIndex(this.currentIndex + 1)
+        if (this.currentIndex != this.json.length - 1) {
+          this.changeIndex(this.currentIndex + 1);
         }
       } else if (e.keyCode == "37") {
         //left btn
@@ -159,6 +159,9 @@ export default {
   beforeMount() {
     this.$store.commit("loadJson", JSON.stringify(jsonFile));
     document.onkeydown = this.checkKey;
+  },
+  mounted() {
+    console.log("version:",this.version);
   },
 };
 </script>

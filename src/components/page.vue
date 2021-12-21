@@ -168,6 +168,7 @@ export default {
       &.active
         opacity: 1
 #textWindow
+  width: 100%
   @include mobile
     margin-top: 1em
 </style>
