@@ -50,7 +50,7 @@
       </div>
     </header>
     <div id="bottomPt">
-      <nav :class="{ open: mobileNavOpen }">
+      <nav :class="[{ open: mobileNavOpen },`${json[currentIndex].colorScheme}Color`]">
         <ul>
           <template v-for="i in json" :key="i.index">
             <li
@@ -93,7 +93,7 @@ export default {
   data() {
     return {
       mobileNavOpen: false,
-      version: "0.9",
+      version: "0.91",
     };
   },
   methods: {
@@ -161,17 +161,19 @@ export default {
     document.onkeydown = this.checkKey;
   },
   mounted() {
-    console.log("version:",this.version);
+    console.log("version:", this.version);
   },
 };
 </script>
 
 <style lang="sass">
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lora&display=swap')
 @import "../src/global.sass"
 
 html
   background: #202020
   height: 100%
+  font-family: 'Lora', serif
   body
     height: 100%
     overflow-x: hidden
@@ -192,10 +194,11 @@ html
     z-index: 501
     position: relative
     box-shadow: 0px -5px 20px 0px #000000
+    font-family: 'Inter', sans-serif
     @include mobile
       position: fixed
     #logo
-      font-family: sans-serif
+      font-family: 'Inter', sans-serif
       color: white
       background-color: grey
       border-right: 2px solid black
@@ -284,9 +287,54 @@ html
       width: 10em
       border-right: 2px solid black
       display: block
+      font-family: 'Inter', sans-serif
       float: left
+      max-height: 90vh
+      min-height: 90vh
       height: 90vh
+      text-align: left
+      overflow-y: auto
+      overflow-x: hidden
+      direction: rtl
       background-color: white
+      &::-webkit-scrollbar
+        width: .5em
+        direction: rtl
+      &.redColor
+        &::-webkit-scrollbar-track
+          background: $red
+        &::-webkit-scrollbar-thumb
+          background: $darkRed
+        &::-webkit-scrollbar-thumb:hover
+          background: darken($darkRed,20)
+      &.greenColor
+        &::-webkit-scrollbar-track
+          background: $green
+        &::-webkit-scrollbar-thumb
+          background: $darkGreen
+        &::-webkit-scrollbar-thumb:hover
+          background: darken($darkGreen,20)
+      &.purpleColor
+        &::-webkit-scrollbar-track
+          background: $purple
+        &::-webkit-scrollbar-thumb
+          background: $darkPurple
+        &::-webkit-scrollbar-thumb:hover
+          background: darken($darkPurple,20)
+      &.blueColor
+        &::-webkit-scrollbar-track
+          background: $blue
+        &::-webkit-scrollbar-thumb
+          background: $darkBlue
+        &::-webkit-scrollbar-thumb:hover
+          background: darken($darkBlue,20)
+      &.yellowColor
+        &::-webkit-scrollbar-track
+          background: $yellow
+        &::-webkit-scrollbar-thumb
+          background: $darkYellow
+        &::-webkit-scrollbar-thumb:hover
+          background: darken($darkYellow,20)
       &.open
         bottom: 0vh
       @include mobile
@@ -299,7 +347,7 @@ html
       li
         cursor: pointer
         padding: .5em 0
-        padding-left: 1.5em
+        padding-left: 1em
         background-color: white
         transition: background-color 250ms
         &.redColor
@@ -330,8 +378,8 @@ html
       li.head
         font-weight: bold
         display: block
-        font-size: 1.25em
-        padding-left: 1em
+        font-size: 1.15em
+        padding-left: .5em
         &.redColor
           border-bottom: 4px solid $darkRed
         &.blueColor
@@ -390,7 +438,7 @@ html
     border-radius: 100%
     transition: all 250ms
     background-color: #de4525
-    font-family: sans-serif
+    font-family: 'Inter', sans-serif
     text-transform: lowercase
     font-style: italic
     &:hover

@@ -112,6 +112,7 @@ export default {
     width: fit-content
     display: block
     padding-right: 1em
+    font-family: 'Inter', sans-serif
     border-right: 1px solid black
     display: flex
     flex-direction: column

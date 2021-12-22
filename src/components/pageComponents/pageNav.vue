@@ -57,6 +57,7 @@ export default {
   align-items: flex-end
   padding-bottom: 0
   border-top-left-radius: 2em
+  font-family: 'Inter', sans-serif
   border-top-right-radius: 2em
   width: 80%
   background-color: rgba(0, 0, 0, 0.2)
