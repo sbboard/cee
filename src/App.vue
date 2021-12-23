@@ -93,7 +93,7 @@ export default {
   data() {
     return {
       mobileNavOpen: false,
-      version: "0.91",
+      version: "0.92",
     };
   },
   methods: {

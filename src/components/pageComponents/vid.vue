@@ -84,6 +84,15 @@
             {{ vidWindow.currentTip }}
           </p>
         </div>
+        <div id="dotMap">
+          <div
+            class="dot"
+            v-for="(item, index) in dotArray"
+            :key="index"
+            :style="{ left: `calc(${item}% - 2px)` }"
+            :class="vidWindow.currentLenseColor"
+          ></div>
+        </div>
         <video
           controls
           @playing="vidPlayed"
@@ -211,6 +220,7 @@ export default defineComponent({
         currentLenseColor: "redColor",
         showMsg: false,
       },
+      dotArray: [],
     };
   },
   methods: {
@@ -218,6 +228,16 @@ export default defineComponent({
       let eventInfo = event.target.value.split("|");
       this.vidWindow.currentLense = eventInfo[0];
       this.vidWindow.currentLenseColor = eventInfo[1];
+      this.placeDots();
+    },
+    placeDots() {
+      this.dotArray = [];
+      let totalTime = this.$refs.video.duration;
+      this.json[this.currentIndex].video[this.vidWindow.currentLense].forEach(
+        (v) => {
+          this.dotArray.push((v.cuetime / totalTime) * 100);
+        }
+      );
     },
     playCheck() {
       if (
@@ -286,6 +306,30 @@ export default defineComponent({
 <style lang="sass" scoped>
 @import "../../../src/global.sass"
 
+#dotMap
+  left: 3.4%
+  top: 83%
+  height: 4px
+  width: calc(93.4% - 4px)
+  position: absolute
+  pointer-events: none
+  z-index: 1
+  .dot
+    height: 4px
+    width: 4px
+    position: absolute
+    top: 0
+    bottom: 0
+    &.redColor
+      background-color: $darkRed
+    &.greenColor
+      background-color: $darkGreen
+    &.yellowColor
+      background-color: $darkYellow
+    &.purpleColor
+      background-color: $darkPurple
+    &.blueColor
+      background-color: $darkBlue
 #lenseBar
   color: black
   padding: 0.5em
