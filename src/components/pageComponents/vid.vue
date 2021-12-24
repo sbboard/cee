@@ -35,6 +35,7 @@
                 vidWindow.currentTip = '';
                 vidWindow.showMsg = false;
                 this.$refs.video.pause();
+                hideDots = true;
                 this.$refs.video.currentTime = 0;
               }
             "
@@ -84,7 +85,7 @@
             {{ vidWindow.currentTip }}
           </p>
         </div>
-        <div id="dotMap">
+        <div id="dotMap" :class="hideDots ? 'hidden' : ''">
           <div
             class="dot"
             v-for="(item, index) in dotArray"
@@ -96,8 +97,18 @@
         <video
           controls
           @playing="vidPlayed"
-          @play="() => (this.vidWindow.vidStarted = true)"
-          @pause="() => (this.vidWindow.vidPlaying = false)"
+          @play="
+            () => {
+              this.vidWindow.vidStarted = true;
+              hideDots = true;
+            }
+          "
+          @pause="
+            () => {
+              this.vidWindow.vidPlaying = false;
+              hideDots = false;
+            }
+          "
           @ended="vidEnded"
           @seeked="vidSeeked"
           ref="video"
@@ -221,6 +232,7 @@ export default defineComponent({
         showMsg: false,
       },
       dotArray: [],
+      hideDots: false,
     };
   },
   methods: {
@@ -245,7 +257,6 @@ export default defineComponent({
         (this.vidWindow.seenOnce || this.page == "lense") &&
         this.vidWindow.currentLense != "none"
       ) {
-        console.log(this.vidWindow.currentLense);
         let allStops = this.json[this.currentIndex].video[
           this.vidWindow.currentLense
         ].map((v) => {
@@ -267,6 +278,7 @@ export default defineComponent({
     },
     vidEnded() {
       this.vidWindow.seenOnce = true;
+      this.placeDots();
       this.vidWindow.vidPlaying = false;
       this.vidWindow.vidStarted = false;
     },
@@ -275,13 +287,15 @@ export default defineComponent({
       this.vidWindow.showMsg = false;
     },
     vidSeeked() {
-      //this.vidWindow.vidPlaying = true;
       this.vidWindow.showMsg = false;
       this.vidWindow.currentTip = "";
     },
   },
   mounted() {
     setInterval(this.playCheck, 500);
+    if (this.page == "lense") {
+      setTimeout(this.placeDots, 100);
+    }
   },
   computed: {
     json() {
@@ -314,6 +328,16 @@ export default defineComponent({
   position: absolute
   pointer-events: none
   z-index: 1
+  display: none
+  &.hidden
+    opacity: 0
+  @include mobile
+    width: calc(100% - 32px)
+    left: 0
+    right: 0
+    margin: 0 auto
+    top: calc(100% - 2em - 49px)
+    height: 5px
   .dot
     height: 4px
     width: 4px
