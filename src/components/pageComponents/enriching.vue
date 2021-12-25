@@ -130,6 +130,8 @@ export default {
   margin-top: 1em
   height: 70vh
   overflow-y: auto
+  @include mobile
+    padding: 0px 1em
   .intro
     margin: 1.25em 0
   h2
@@ -176,6 +178,7 @@ export default {
         display: block
         width: 100%
         text-align: right
+        font-size: .75em
         &::after
           content: '...'
     .dash
@@ -193,6 +196,8 @@ export default {
       display: flex
       align-items: baseline
       justify-content: space-between
+      @include mobile
+        display: block
       p
         display: inline-block
         padding-right: 0.5em

@@ -47,13 +47,20 @@ export default {
   blockquote
     font-size: 2em
     width: 75%
+    @include mobile
+      width: 90%
+      font-size: 1.75em
   figcaption
     text-align: right
     width: 75%
     margin-top: 1em
+    @include mobile
+      width: 90%
 #more
   padding: 2rem
   font-size: 1.25rem
+  @include mobile
+    padding: 1rem
   &:deep(p)
     display: block
     margin-bottom: 1em

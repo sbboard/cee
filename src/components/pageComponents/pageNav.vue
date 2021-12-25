@@ -66,6 +66,7 @@ export default {
     width: calc(100% - 2rem)
     border-radius: 0
     position: fixed
+    padding: 0 1em
   div
     display: inline-flex
     cursor: pointer
@@ -75,6 +76,8 @@ export default {
     padding: 2.5rem 0rem 1rem 0rem
     font-size: 7vmin
     transition: padding 200ms linear
+    @include mobile
+      font-size: 3em
     &:hover
       padding: 0rem 0rem 1rem 0rem
       span

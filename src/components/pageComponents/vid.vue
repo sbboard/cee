@@ -360,6 +360,8 @@ export default defineComponent({
   background-color: white
   position: inherit
   z-index: 9
+  @include mobile
+    font-size: .75rem
   select
     width: 100%
     margin-top: 0.5em
@@ -443,6 +445,8 @@ h2
     color: white
     font-size: 1.25em
     padding: .5em
+    @include mobile
+      display: none
     i
       float: right
       cursor: pointer
@@ -461,6 +465,7 @@ h2
       &:deep(ol)
         list-style: lower-latin
         padding: .5em 1em 0 1em
+        margin-left: 1em
         li
           margin-bottom: 0.5em
         li:last-of-type
