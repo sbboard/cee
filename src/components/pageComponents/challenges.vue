@@ -32,8 +32,8 @@ export default {
   &:deep(b)
     display: block
     font-weight: bold
-    margin-top: 1em
-    margin-bottom: 0.5em
+    margin-top: 3em
+    margin-bottom: 1em
     &:first-of-type
       margin-top: 0
   &:deep(a)
