@@ -85,7 +85,10 @@
             {{ vidWindow.currentTip }}
           </p>
         </div>
-        <div id="dotMap" :class="hideDots ? 'hidden' : ''">
+        <div
+          id="dotMap"
+          :class="{ hidden: hideDots, lensePage: page == 'lense' }"
+        >
           <div
             class="dot"
             v-for="(item, index) in dotArray"
@@ -100,7 +103,6 @@
           @play="
             () => {
               this.vidWindow.vidStarted = true;
-              hideDots = true;
             }
           "
           @pause="
@@ -111,6 +113,16 @@
           "
           @ended="vidEnded"
           @seeked="vidSeeked"
+          @mousemove="
+            hideDots = false;
+            if (this.vidWindow.vidPlaying) {
+              runHideout();
+            }
+          "
+          @mouseleave="
+            hideDots = this.vidWindow.vidPlaying ? true : false;
+            clearHideout();
+          "
           ref="video"
         >
           <source
@@ -190,7 +202,10 @@
     </Vue3DraggableResizable>
     <div id="stuffWrap">
       <img
-        @click="vidWindow.infoOn = true"
+        @click="
+          vidWindow.infoOn = true;
+          hideDots = false;
+        "
         :src="`/assets/img/${json[currentIndex].video.thumbnail}`"
       />
       <p>{{ json[currentIndex].video.description }}</p>
@@ -201,6 +216,8 @@
 <script>
 import { defineComponent } from "vue";
 import Vue3DraggableResizable from "vue3-draggable-resizable";
+
+let hideout;
 
 export default defineComponent({
   components: { Vue3DraggableResizable },
@@ -290,6 +307,15 @@ export default defineComponent({
       this.vidWindow.showMsg = false;
       this.vidWindow.currentTip = "";
     },
+    runHideout() {
+      this.clearHideout;
+      hideout = setTimeout(() => {
+        this.hideDots = true;
+      }, 2500);
+    },
+    clearHideout() {
+      clearTimeout(hideout);
+    },
   },
   mounted() {
     setInterval(this.playCheck, 500);
@@ -322,13 +348,18 @@ export default defineComponent({
 
 #dotMap
   left: 3.4%
-  top: 83%
+  top: 93.6%
   height: 4px
   width: calc(93.4% - 4px)
   position: absolute
   pointer-events: none
   z-index: 1
-  display: none
+  &.lensePage
+    top: 82.4%
+    @include mobile
+      top: inherit
+      bottom: 3rem
+      padding-bottom: 1.5rem
   &.hidden
     opacity: 0
   @include mobile
@@ -336,10 +367,10 @@ export default defineComponent({
     left: 0
     right: 0
     margin: 0 auto
-    top: calc(100% - 2em - 49px)
-    height: 5px
+    top: initial
+    bottom: 1.4rem
   .dot
-    height: 4px
+    height: 10px
     width: 4px
     position: absolute
     top: 0
