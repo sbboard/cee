@@ -35,8 +35,8 @@
                 vidWindow.currentTip = '';
                 vidWindow.showMsg = false;
                 this.$refs.video.pause();
-                hideDots = true;
                 this.$refs.video.currentTime = 0;
+                this.vidPercentage = '0%';
               }
             "
             class="far fa-window-close"
@@ -77,25 +77,13 @@
           "
         >
           <p>
-            This time, you will see more information at key points in the video.
+            {{ endMsg }}
           </p>
         </div>
         <div id="infoMessage" v-if="vidWindow.showMsg">
           <p>
             {{ vidWindow.currentTip }}
           </p>
-        </div>
-        <div
-          id="dotMap"
-          :class="{ hidden: hideDots, lensePage: page == 'lense' }"
-        >
-          <div
-            class="dot"
-            v-for="(item, index) in dotArray"
-            :key="index"
-            :style="{ left: `calc(${item}% - 2px)` }"
-            :class="vidWindow.currentLenseColor"
-          ></div>
         </div>
         <video
           controls
@@ -108,21 +96,10 @@
           @pause="
             () => {
               this.vidWindow.vidPlaying = false;
-              hideDots = false;
             }
           "
           @ended="vidEnded"
           @seeked="vidSeeked"
-          @mousemove="
-            hideDots = false;
-            if (this.vidWindow.vidPlaying) {
-              runHideout();
-            }
-          "
-          @mouseleave="
-            hideDots = this.vidWindow.vidPlaying ? true : false;
-            clearHideout();
-          "
           ref="video"
         >
           <source
@@ -130,6 +107,34 @@
             type="video/mp4"
           />
         </video>
+        <div
+          id="controlBar"
+          :class="vidWindow.currentLenseColor"
+          v-if="vidWindow.seenOnce == true || page == 'lense'"
+        >
+          <div
+            id="dotMap"
+            :class="{
+              lensePage: page == 'lense',
+            }"
+          >
+            <div
+              class="dot"
+              v-for="(item, index) in dotArray"
+              :key="index"
+              :style="{ left: `calc(${item}% - 2px)` }"
+              :class="vidWindow.currentLenseColor"
+            ></div>
+          </div>
+          <!-- seek bar -->
+          <div
+            class="seekbar"
+            v-if="$refs.video"
+            :style="{
+              width: vidPercentage,
+            }"
+          ></div>
+        </div>
         <div
           id="lenseBar"
           :class="vidWindow.currentLenseColor"
@@ -202,10 +207,7 @@
     </Vue3DraggableResizable>
     <div id="stuffWrap">
       <img
-        @click="
-          vidWindow.infoOn = true;
-          hideDots = false;
-        "
+        @click="vidWindow.infoOn = true"
         :src="`/assets/img/${json[currentIndex].video.thumbnail}`"
       />
       <p>{{ json[currentIndex].video.description }}</p>
@@ -216,8 +218,6 @@
 <script>
 import { defineComponent } from "vue";
 import Vue3DraggableResizable from "vue3-draggable-resizable";
-
-let hideout;
 
 export default defineComponent({
   components: { Vue3DraggableResizable },
@@ -249,7 +249,8 @@ export default defineComponent({
         showMsg: false,
       },
       dotArray: [],
-      hideDots: false,
+      vidPercentage: "0%",
+      endMsg: "This time, you will see more information at key points in the video.",
     };
   },
   methods: {
@@ -269,6 +270,10 @@ export default defineComponent({
       );
     },
     playCheck() {
+      if (this.vidWindow.vidPlaying) {
+        console.log("ok");
+        this.vidPercentage = this.checkVidPercentage();
+      }
       if (
         this.vidWindow.vidPlaying &&
         (this.vidWindow.seenOnce || this.page == "lense") &&
@@ -293,9 +298,19 @@ export default defineComponent({
         }
       }
     },
+    checkVidPercentage() {
+      return (
+        (this.$refs.video.currentTime / this.$refs.video.duration) * 100 + "%"
+      );
+    },
     vidEnded() {
-      this.vidWindow.seenOnce = true;
-      this.placeDots();
+      if (!this.vidWindow.seenOnce) {
+        this.vidWindow.seenOnce = true;
+        this.placeDots();
+      } else {
+        this.endMsg = "click to play again";
+      }
+      this.vidPercentage = "0%";
       this.vidWindow.vidPlaying = false;
       this.vidWindow.vidStarted = false;
     },
@@ -306,15 +321,6 @@ export default defineComponent({
     vidSeeked() {
       this.vidWindow.showMsg = false;
       this.vidWindow.currentTip = "";
-    },
-    runHideout() {
-      this.clearHideout;
-      hideout = setTimeout(() => {
-        this.hideDots = true;
-      }, 2500);
-    },
-    clearHideout() {
-      clearTimeout(hideout);
     },
   },
   mounted() {
@@ -346,31 +352,40 @@ export default defineComponent({
 <style lang="sass" scoped>
 @import "../../../src/global.sass"
 
+#controlBar
+  height: 1em
+  width: 100%
+  background-color: rgb(128,128,128)
+  position: relative
+  .seekbar
+    height: 1em
+    transition: width 500ms linear
+  &.redColor
+    .seekbar
+      background-color: $red
+  &.blueColor
+    .seekbar
+      background-color: $blue
+  &.yellowColor
+    .seekbar
+      background-color: $yellow
+  &.purpleColor
+    .seekbar
+      background-color: $purple
+  &.greenColor
+    .seekbar
+      background-color: $green
+
 #dotMap
-  left: 3.4%
-  top: 93.6%
-  height: 4px
-  width: calc(93.4% - 4px)
+  height: 1em
+  width: 100%
   position: absolute
   pointer-events: none
   z-index: 1
-  &.lensePage
-    top: 82.4%
-    @include mobile
-      top: inherit
-      bottom: 3rem
-      padding-bottom: 1.5rem
   &.hidden
     opacity: 0
-  @include mobile
-    width: calc(100% - 32px)
-    left: 0
-    right: 0
-    margin: 0 auto
-    top: initial
-    bottom: 1.4rem
   .dot
-    height: 10px
+    height: 1em
     width: 4px
     position: absolute
     top: 0
@@ -528,7 +543,7 @@ h2
     background-color: rgba(white,.9)
     width: calc(100% - 6rem)
     cursor: pointer
-    height: calc(100% - 6rem)
+    height: calc(100% - 6rem - 3em + 3px)
     display: flex
     justify-content: center
     pointer-events: none
