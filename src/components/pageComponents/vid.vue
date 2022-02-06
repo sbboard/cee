@@ -109,8 +109,10 @@
         </video>
         <div
           id="controlBar"
-          :class="vidWindow.currentLenseColor"
-          v-if="vidWindow.seenOnce == true || page == 'lense'"
+          :class="[
+            `${vidWindow.currentLenseColor}`,
+            { hidden: vidWindow.seenOnce == false && page != 'lense' },
+          ]"
         >
           <div
             id="dotMap"
@@ -250,7 +252,8 @@ export default defineComponent({
       },
       dotArray: [],
       vidPercentage: "0%",
-      endMsg: "This time, you will see more information at key points in the video.",
+      endMsg:
+        "This time, you will see more information at key points in the video.",
     };
   },
   methods: {
@@ -306,7 +309,6 @@ export default defineComponent({
     vidEnded() {
       if (!this.vidWindow.seenOnce) {
         this.vidWindow.seenOnce = true;
-        this.placeDots();
       } else {
         this.endMsg = "click to play again";
       }
@@ -325,9 +327,7 @@ export default defineComponent({
   },
   mounted() {
     setInterval(this.playCheck, 500);
-    if (this.page == "lense") {
-      setTimeout(this.placeDots, 100);
-    }
+    setTimeout(this.placeDots, 500);
   },
   computed: {
     json() {
@@ -383,7 +383,7 @@ export default defineComponent({
   pointer-events: none
   z-index: 1
   &.hidden
-    opacity: 0
+    display: none
   .dot
     height: 1em
     width: 4px
